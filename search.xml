@@ -1,0 +1,3031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>东北大学 SPM 笔记</title>
+    <url>/2023/02/25/SPM-Note/</url>
+    <content><![CDATA[<h1 id="软件项目管理"><a href="#软件项目管理" class="headerlink" title="软件项目管理"></a>软件项目管理</h1><h2 id="A-课程概览"><a href="#A-课程概览" class="headerlink" title="A 课程概览"></a>A 课程概览</h2><h3 id="A1-课程导学"><a href="#A1-课程导学" class="headerlink" title="A1 课程导学"></a>A1 课程导学</h3><h4 id="A11-课程安排"><a href="#A11-课程安排" class="headerlink" title="A11 课程安排"></a>A11 课程安排</h4><h4 id="A12-软件项目管理-5W"><a href="#A12-软件项目管理-5W" class="headerlink" title="A12 软件项目管理 5W"></a>A12 软件项目管理 5W</h4><ul>
+<li>Why<ul>
+<li>个人<ul>
+<li>学业：软件工程必修课程</li>
+<li>职业：项目经理核心能力</li>
+</ul>
+</li>
+<li>企业<ul>
+<li>降低风险</li>
+<li>控制成本</li>
+<li>提高质量</li>
+<li>提高效率</li>
+</ul>
+</li>
+<li>社会<ul>
+<li>节约社会资源</li>
+<li>方便社会治理</li>
+<li>促进社会发展</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>What<ul>
+<li><img src="..\..\..\..\pictures\SPM\01.What.jpg" alt="01.What" style="zoom:25%;" /></li>
+</ul>
+</li>
+<li>When<ul>
+<li>种子阶段（1900 以前）</li>
+<li>萌芽阶段（1900-1949）</li>
+<li>成长阶段（1950-1969）</li>
+<li>组合 IT（1970-1979）</li>
+<li>融合 IT（1980-1989）</li>
+<li>改进和创新（1990 至今）</li>
+<li><strong>随着技术进步和社会劳动力进步而发展</strong>。</li>
+</ul>
+</li>
+<li>Who<ul>
+<li>学生</li>
+<li>从业者</li>
+<li>授业者</li>
+<li><img src="..\..\..\..\pictures\SPM\02.Who.jpg" alt="02.Who" style="zoom: 33%;" /></li>
+</ul>
+</li>
+<li>Where<ul>
+<li>INFORMATION TECHNOLOGY PROJECT MANAGEMENT, KATHY SCHWALBE, 9^TH^ EDITION.</li>
+</ul>
+</li>
+</ul>
+<h4 id="A13-SPM-工具"><a href="#A13-SPM-工具" class="headerlink" title="A13 SPM 工具"></a>A13 SPM 工具</h4><ul>
+<li>Visual Paradigm</li>
+<li>Project (Office)</li>
+<li>TAPD</li>
+<li>PingCode</li>
+<li>Ones</li>
+<li>WBSChartPro</li>
+<li>Axure</li>
+<li>墨刀</li>
+</ul>
+<h3 id="A2-知识体系"><a href="#A2-知识体系" class="headerlink" title="A2 知识体系"></a>A2 知识体系</h3><h4 id="A21-三个基本概念"><a href="#A21-三个基本概念" class="headerlink" title="A21 三个基本概念"></a>A21 三个基本概念</h4><ul>
+<li><p>项目（Project）</p>
+<ul>
+<li><p>项目定义（Project Definition）</p>
+<ul>
+<li><p>A Project is a <strong>temporary</strong> endeavor undertaken to create a unique <strong>product</strong>, <strong>service</strong>, or <strong>result</strong>.</p>
+<ul>
+<li><p>temporary</p>
+<ul>
+<li>有明确的起点和终点<ul>
+<li>项目结束条件<ul>
+<li>达成目标</li>
+<li>无法达成目标</li>
+<li>资金短缺</li>
+<li>需求不复存在</li>
+<li>人力物力缺乏</li>
+<li>法律等原因被迫中止</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>持续时间或长或短</li>
+<li>项目临时，成果长存</li>
+</ul>
+</li>
+<li><p>product</p>
+<ul>
+<li>独特的产品，或其他产品的组成部分、某个产品的升级版和修正版。</li>
+</ul>
+</li>
+<li><p>service</p>
+<ul>
+<li>独特的服务或提供某种服务的能力。</li>
+</ul>
+</li>
+<li><p>result</p>
+<ul>
+<li>独特的成果。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>A project is a sequence of unique, complex, and connected **activities **that have one <strong>goal or purpose</strong> and that must be completed by a specific <strong>time</strong>, within <strong>budget</strong>, and according to <strong>specification</strong>.</p>
+<ul>
+<li>activities 活动序列</li>
+<li>goal or purpose 目标</li>
+<li>time 时间</li>
+<li>budget 预算</li>
+<li>specification 规约</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>项目属性（Project Attributes）</p>
+<ul>
+<li>Unique Purpose 特定目标</li>
+<li>Temporary 临时性的</li>
+<li>Drives Change and Enable Value Creation 推动变革，创造价值</li>
+<li>Progressive Elaboration 逐步精化</li>
+<li>Requires Resources 需要资源</li>
+<li>Customer or Sponser 有发起人</li>
+<li>Uncertainty 不确定性</li>
+<li>Managers 有经理人</li>
+<li><img src="..\..\..\..\pictures\SPM\03.Project Attributes.jpg" alt="03.Project Attributes" style="zoom: 33%;" /></li>
+</ul>
+</li>
+<li><p>项目管理（Project Management）</p>
+<ul>
+<li>在项目活动中运用专门的<strong>知识</strong>、<strong>技能</strong>、<strong>工具</strong>和<strong>技术</strong>，以满足项目<strong>需求</strong>。</li>
+<li>软件项目管理<ul>
+<li>为了满足软件项目需求，软件项目经理管控整个软件开发过程，最终使项目获得成功的知识、技能、工具和技术。</li>
+<li><strong>识别需求 + 管理期望 + 权衡关系 + 滚动规划</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>项目群（Programs）</p>
+<ul>
+<li>一组相互联系的项目，宜使用协同方法进行管理来获得收益和进行控制，而这种收益和控制在单独管理这些项目时是不易获得的。</li>
+</ul>
+</li>
+<li><p>项目组合（Project Portfolio）</p>
+<ul>
+<li>组织将项目以及项目群组合并进行管理，使其作为一个投资组合，从而促成整个企业的成功。</li>
+</ul>
+</li>
+<li><p>点 — 项目管理 — Tactical Goals 战术目标 -&gt; 线 — 项目群管理 — Campaign Goals 战役目标 -&gt; 面 — 项目组合管理 — Strategic Goals 战略目标</p>
+</li>
+</ul>
+<h4 id="A22-范质三角形"><a href="#A22-范质三角形" class="headerlink" title="A22 范质三角形"></a>A22 范质三角形</h4><ul>
+<li><p>三项约束</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\04.Triple Constrains.jpg" alt="04.Triple Constrains" style="zoom:25%;" /></li>
+</ul>
+</li>
+<li><p>四项约束</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\05.Four Constrains.jpg" alt="05.Four Constrains" style="zoom: 25%;" /></li>
+</ul>
+</li>
+<li><p>五项约束</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\06.Five Constrains.jpg" alt="06.Five Constrains" style="zoom: 25%;" /></li>
+</ul>
+</li>
+<li><p>六项约束</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\07.Six Constrains.jpg" alt="07.Six Constrains" style="zoom:25%;" /></li>
+</ul>
+</li>
+<li><p>约束条件优先级</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th></th>
+<th>Critical (1)</th>
+<th>(2)</th>
+<th>(3)</th>
+<th>(4)</th>
+<th>Flexible (5)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Scope</td>
+<td></td>
+<td></td>
+<td></td>
+<td>$\checkmark$</td>
+<td></td>
+</tr>
+<tr>
+<td>Quality</td>
+<td></td>
+<td></td>
+<td>$\checkmark$</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Time</td>
+<td>$\checkmark$</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Cost</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>$\checkmark$</td>
+</tr>
+<tr>
+<td>Resource<br />Avaliability</td>
+<td></td>
+<td>$\checkmark$</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>范质三角形</p>
+<ul>
+<li>![08.Scope Triangle](........\pictures\SPM\08.Scope Triangle.jpg)</li>
+</ul>
+</li>
+</ul>
+<h4 id="A23-十知识域"><a href="#A23-十知识域" class="headerlink" title="A23 十知识域"></a>A23 十知识域</h4><ul>
+<li>Project Management Framework 项目管理框架<ul>
+<li>![09.Project Management Framework](........\pictures\SPM\09.Project Management Framework.jpg)<ul>
+<li>Project Stakeholders 项目干系人<ul>
+<li>参与项目（Sponsor, Manager, Team, Suppliers）或被项目影响（Opponents）的人。</li>
+</ul>
+</li>
+<li>Project Management Knowledge Areas 项目管理知识域<ul>
+<li>范围管理</li>
+<li>时间管理</li>
+<li>成本管理</li>
+<li>质量管理</li>
+<li>人力资源管理</li>
+<li>沟通管理</li>
+<li>风险管理</li>
+<li>采购管理</li>
+<li>干系人管理</li>
+<li>综合管理</li>
+</ul>
+</li>
+<li>Project Success 项目成功<ul>
+<li>项目达到了范围、时间和成本目标。</li>
+<li>项目使客户&#x2F;项目发起人感到满意。</li>
+<li>项目的结果达到了主要目标。</li>
+</ul>
+</li>
+<li>Project Portfolio 项目组合<ul>
+<li>从企业角度出发进行协同管理。</li>
+</ul>
+</li>
+<li>Enterprise Success 企业成功<ul>
+<li>盈利能力强</li>
+<li>运营效率高</li>
+<li>社会价值好</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="A24-系统观点"><a href="#A24-系统观点" class="headerlink" title="A24 系统观点"></a>A24 系统观点</h4><ul>
+<li>孤立 vs 系统</li>
+<li>三球模型<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C10.%E4%B8%89%E7%90%83%E6%A8%A1%E5%9E%8B.png" alt="10.三球模型"></li>
+</ul>
+</li>
+</ul>
+<h2 id="B-过程"><a href="#B-过程" class="headerlink" title="B 过程"></a>B 过程</h2><h3 id="B1-过程组织"><a href="#B1-过程组织" class="headerlink" title="B1 过程组织"></a>B1 过程组织</h3><h4 id="B11-生命周期"><a href="#B11-生命周期" class="headerlink" title="B11 生命周期"></a>B11 生命周期</h4><ul>
+<li><p>定义</p>
+<ul>
+<li><p>A project life cycle is a collection of project phase. </p>
+<p>一个项目的生命周期是一系列项目阶段的集合。</p>
+<ul>
+<li>what work</li>
+<li>what deliverables</li>
+<li>when</li>
+<li>who involving</li>
+<li>how manage</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>三个阶段</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th></th>
+<th>早期阶段</th>
+<th>中期阶段</th>
+<th>后期阶段</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>资源需求</td>
+<td>最低</td>
+<td>最多</td>
+<td></td>
+</tr>
+<tr>
+<td>不确定性</td>
+<td>最高</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>确定性</td>
+<td></td>
+<td>逐渐变高</td>
+<td></td>
+</tr>
+<tr>
+<td>干系人影响</td>
+<td>最大</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>需求</td>
+<td></td>
+<td>逐渐丰富</td>
+<td></td>
+</tr>
+<tr>
+<td>修改代价</td>
+<td></td>
+<td></td>
+<td>最高</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>四个阶段</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>Concept<br />概念</th>
+<th>Development<br />开发</th>
+<th>Implementation<br />实施</th>
+<th>Close-out<br />收尾</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Business case<br />商业案例</td>
+<td>Project management plan<br />项目管理计划</td>
+<td>Execution of work packages<br />工作包执行</td>
+<td>Completed work<br />完成的工作</td>
+</tr>
+<tr>
+<td>Preliminary cost estimate<br />初步成本估算</td>
+<td>Budgetary cost estimate<br />成本预算</td>
+<td>Definitive cost estimate<br />最终成本估算</td>
+<td>Lessons learned<br />教训总结</td>
+</tr>
+<tr>
+<td>2-level WBS<br />2 层 WBS</td>
+<td>3+-level WBS<br />3 层  WBS</td>
+<td>Performance reports<br />绩效报告</td>
+<td>Customer acceptance<br />客户验收</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>模型</p>
+<ul>
+<li>线性模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\11.线性模型.jpg" alt="11.线性模型" style="zoom: 50%;" /></li>
+</ul>
+</li>
+<li>迭代模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\12.迭代模型.jpg" alt="12.迭代模型" style="zoom: 50%;" /></li>
+</ul>
+</li>
+<li>瀑布模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\13.瀑布模型.png" alt="13.瀑布模型" style="zoom:25%;" /></li>
+</ul>
+</li>
+<li>多分支模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\14.多分支模型.png" alt="14.多分支模型" style="zoom:25%;" /></li>
+</ul>
+</li>
+<li>敏捷模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\15.敏捷模型.png" alt="15.敏捷模型" style="zoom:25%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>四个象限</p>
+<ul>
+<li>分类<ul>
+<li><img src="..\..\..\..\pictures\SPM\16.分类.png" alt="16.分类" style="zoom: 50%;" /></li>
+<li>目标、方案都明确—传统项目</li>
+<li>目标明确、方案不明确—敏捷项目</li>
+<li>目标、方案都不明确—极限项目</li>
+</ul>
+</li>
+<li>类型对应的模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\17.类型对应的模型.png" alt="17.类型对应的模型" style="zoom:50%;" /></li>
+</ul>
+</li>
+<li>具体方法<ul>
+<li><img src="..\..\..\..\pictures\SPM\18.具体方法.png" alt="18.具体方法" style="zoom:50%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="B12-五过程组"><a href="#B12-五过程组" class="headerlink" title="B12 五过程组"></a>B12 五过程组</h4><ul>
+<li><p>过程组</p>
+<ul>
+<li>项目管理输入、工具与技术和输出的逻辑组合。</li>
+<li>五个过程组<ul>
+<li>Initiating 启动过程组</li>
+<li>Planning 规划过程组</li>
+<li>Executing 执行过程组</li>
+<li>Monitoring &amp; Controlling 监控过程组</li>
+<li>Closing 收尾过程组</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>组间关联</p>
+<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C19.%E7%BB%84%E9%97%B4%E5%85%B3%E8%81%94.jpg" alt="19.组间关联"></li>
+</ul>
+</li>
+<li><p>组外映射</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th>过程组</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>知识域</strong></td>
+<td>启动</td>
+<td>计划</td>
+<td>执行</td>
+<td>监控</td>
+<td>收尾</td>
+</tr>
+<tr>
+<td>综合管理</td>
+<td>制定项目章程</td>
+<td>制定项目管理计划</td>
+<td>指导和管理项目执行</td>
+<td>监控项目工作<br />执行整体变更控制</td>
+<td>项目或阶段收尾</td>
+</tr>
+<tr>
+<td>范围管理</td>
+<td></td>
+<td>范围管理计划<br />收集需求<br />范围定义<br />创建 WBS</td>
+<td></td>
+<td>范围确定<br />范围控制</td>
+<td></td>
+</tr>
+<tr>
+<td>时间管理</td>
+<td></td>
+<td>进度管理计划<br />活动定义<br />活动排序<br />活动资源估计<br />活动工期估计<br />生成进度表</td>
+<td></td>
+<td>进度控制</td>
+<td></td>
+</tr>
+<tr>
+<td>成本管理</td>
+<td></td>
+<td>成本管理计划<br />成本估计<br />确定预算</td>
+<td></td>
+<td>成本控制</td>
+<td></td>
+</tr>
+<tr>
+<td>质量管理</td>
+<td></td>
+<td>质量管理计划</td>
+<td>执行质量保证</td>
+<td>质量控制</td>
+<td></td>
+</tr>
+<tr>
+<td>人力资源管理</td>
+<td></td>
+<td>人力资源管理计划</td>
+<td>获取项目团队<br />开发项目团队<br />管理项目团队</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>沟通管理</td>
+<td></td>
+<td>沟通管理计划</td>
+<td>沟通管理</td>
+<td>沟通控制</td>
+<td></td>
+</tr>
+<tr>
+<td>风险管理</td>
+<td></td>
+<td>风险管理计划<br />风险识别<br />定性风险分析<br />定量风险分析<br />风险响应计划</td>
+<td></td>
+<td>风险控制</td>
+<td></td>
+</tr>
+<tr>
+<td>采购管理</td>
+<td></td>
+<td>采购管理计划</td>
+<td>采购实施</td>
+<td>采购控制</td>
+<td>采购收尾</td>
+</tr>
+<tr>
+<td>干系人管理</td>
+<td>识别干系人</td>
+<td>干系人管理计划</td>
+<td>干系人参与管理</td>
+<td>干系人参与控制</td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="B13-详解五过程组"><a href="#B13-详解五过程组" class="headerlink" title="B13 详解五过程组"></a>B13 详解五过程组</h4><ul>
+<li>启动<ul>
+<li>预启动（在启动之前为项目奠定基础）<ul>
+<li>确定制约因素</li>
+<li>识别发起人</li>
+<li>识别项目经理</li>
+<li>开发商业论证</li>
+<li>讨论过程成果</li>
+<li>细分子项</li>
+</ul>
+</li>
+<li>启动<ul>
+<li>识别干系人</li>
+<li>起草项目章程</li>
+<li>召开启动会议</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>计划<ul>
+<li>团队协议</li>
+<li>工作范围说明书</li>
+<li>工作分解结构</li>
+<li>项目时间表</li>
+<li>风险排序清单</li>
+</ul>
+</li>
+<li>执行<ul>
+<li>指导&#x2F;管理项目</li>
+<li>执行质量保证</li>
+<li>获取项目团队</li>
+<li>建设项目团队</li>
+<li>管理项目团队</li>
+<li>管理沟通</li>
+<li>实施采购</li>
+<li>管理干系人参与</li>
+</ul>
+</li>
+<li>监控（量化）<ul>
+<li>监控项目工作</li>
+<li>整体变更控制</li>
+<li>范围核实</li>
+<li>范围控制</li>
+<li>进度控制</li>
+<li>成本控制</li>
+<li>质量控制</li>
+<li>沟通控制</li>
+<li>风险控制</li>
+<li>采购控制</li>
+<li>干系人控制</li>
+</ul>
+</li>
+<li>收尾<ul>
+<li>项目&#x2F;阶段收尾</li>
+<li>采购终止</li>
+</ul>
+</li>
+</ul>
+<h3 id="B2-过程模型"><a href="#B2-过程模型" class="headerlink" title="B2 过程模型"></a>B2 过程模型</h3><h4 id="B21-PMLC-模型"><a href="#B21-PMLC-模型" class="headerlink" title="B21 PMLC 模型"></a>B21 PMLC 模型</h4><ul>
+<li><p>PMLC</p>
+<ul>
+<li>Project Management Life Cycle</li>
+</ul>
+</li>
+<li><p>模型分为三层五类</p>
+<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C20.%E4%B8%89%E5%B1%82%E4%BA%94%E7%B1%BB.jpg" alt="20.三层五类"></li>
+</ul>
+</li>
+<li><p>传统模型</p>
+<ul>
+<li><p>特征</p>
+<ul>
+<li>低复杂性</li>
+<li>范围变更请求很少</li>
+<li>技术架构很好理解</li>
+<li>低风险</li>
+<li>适于有经验、有能力的开发团队</li>
+<li>计划驱动的 TPM 项目</li>
+</ul>
+</li>
+<li><p>具体类型</p>
+<ul>
+<li><p>The Linear PMLC model 线性模型</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\21.线性模型详解.jpg" alt="21.线性模型详解" style="zoom: 25%;" /></li>
+<li>优点<ul>
+<li>开始时就进行进度安排，且资源已知，较程式化。</li>
+<li>不需要熟练的团队或同地协作，风险低。</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>不适应变更</li>
+<li>成本过高</li>
+<li>耗时过长</li>
+<li>需要完整、细致的计划和严格的过程组线性顺序</li>
+<li>过程中不关注客户价值</li>
+</ul>
+</li>
+<li>种类<ul>
+<li>The Standard Waterfall model 标准瀑布模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\22.标准瀑布模型.png" alt="22.标准瀑布模型" style="zoom: 80%;" /></li>
+</ul>
+</li>
+<li>Rapid Development Waterfall model 快速开发瀑布模型<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C23.%E5%BF%AB%E9%80%9F%E5%BC%80%E5%8F%91%E7%80%91%E5%B8%83%E6%A8%A1%E5%9E%8B.png" alt="23.快速开发瀑布模型"></li>
+</ul>
+</li>
+<li>Rapid Development Waterfall model Ⅱ 快速开发瀑布模型 Ⅱ<ul>
+<li>![24.快速开发瀑布模型 Ⅱ](........\pictures\SPM\24.快速开发瀑布模型 Ⅱ.png)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The Incremental PMLC model 增量模型</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\25.增量模型详解.jpg" alt="25.增量模型详解" style="zoom: 33%;" /></li>
+<li>优点<ul>
+<li>更早产生商业价值</li>
+<li>更好安排稀缺资源</li>
+<li>适应小变更</li>
+<li>产品有改良机会</li>
+<li>比线性模型更加关注客户价值</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>团队人员不稳定</li>
+<li>增量之间需要大量交接文档</li>
+<li>增量优先级需要考虑依赖性</li>
+<li>更需要客户参与</li>
+<li>比线性模型耗时更长</li>
+<li>可能有功能分割问题</li>
+</ul>
+</li>
+<li>种类<ul>
+<li>The Incremental PMLC model 增量项目管理生命周期模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\26.增量项目管理生命周期模型.png" alt="26.增量项目管理生命周期模型" style="zoom:80%;" /></li>
+</ul>
+</li>
+<li>The Incremental PMLC model Ⅱ 增量项目管理生命周期模型 Ⅱ<ul>
+<li>![27.增量项目管理生命周期模型 Ⅱ](........\pictures\SPM\27.增量项目管理生命周期模型 Ⅱ.png)</li>
+</ul>
+</li>
+<li>Staged Delivery Waterfall model 分阶段交付瀑布模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\28.分阶段交付瀑布模型.png" alt="28.分阶段交付瀑布模型" style="zoom:80%;" /></li>
+</ul>
+</li>
+<li>Feature-Driven Development model 特性驱动的开发模型<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C29.%E7%89%B9%E6%80%A7%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%BC%80%E5%8F%91%E6%A8%A1%E5%9E%8B.png" alt="29.特性驱动的开发模型"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>敏捷模型</p>
+<ul>
+<li><p>特征</p>
+<ul>
+<li>没有已知的解决方案</li>
+<li>预计会有新的商业机会</li>
+<li>变化驱动的 APM 项目</li>
+<li>化解风险非常关键</li>
+<li>客户参与其中</li>
+<li>使用小型同地协作团队</li>
+</ul>
+</li>
+<li><p>具体类型</p>
+<ul>
+<li><p>Iterative PMLC model 迭代模型</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\30.迭代模型.jpg" alt="30.迭代模型" style="zoom: 33%;" /></li>
+<li>优点<ul>
+<li>可变更范围</li>
+<li>适应变化</li>
+<li>关注形成商业价值</li>
+<li>客户可评审部分解决方案</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>团队人员不稳定</li>
+<li>需要同地协作</li>
+<li>资源需求不清晰</li>
+<li>客户参与度需求更高</li>
+<li>最终解决方案不确定</li>
+</ul>
+</li>
+<li>种类<ul>
+<li>Prototyping model 原型模型（丢弃原则，重新做原型）<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C31.%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%9E%8B.png" alt="31.原型模型"></li>
+</ul>
+</li>
+<li>Evolutionary Development Waterfall model 进化开发瀑布模型（进化原则，不断修改原型）<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C32.%E8%BF%9B%E5%8C%96%E5%BC%80%E5%8F%91%E7%80%91%E5%B8%83%E6%A8%A1%E5%9E%8B.png" alt="32.进化开发瀑布模型"></li>
+</ul>
+</li>
+<li>Dynamic Systems Development Method 动态系统设计方法<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C33.%E5%8A%A8%E6%80%81%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95.png" alt="33.动态系统设计方法"></li>
+</ul>
+</li>
+<li>Rational Unified Process model RUP 模型（统一过程模型）<ul>
+<li>![34.RUP 模型](........\pictures\SPM\34.RUP 模型.png)</li>
+</ul>
+</li>
+<li>The Scrum process flow 敏捷开发模型流程<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C35.%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E6%A8%A1%E5%9E%8B%E6%B5%81%E7%A8%8B.png" alt="35.敏捷开发模型流程"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Adaptive Software Development model 软件开发适应性模型</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\36.软件开发适应性模型.jpg" alt="36.软件开发适应性模型" style="zoom: 33%;" /></li>
+<li>优点<ul>
+<li>不断重组项目管理过程以适应变化</li>
+<li>避开变更请求中的管理工作</li>
+<li>不在不确定的规划上浪费时间</li>
+<li>以商业价值为导向的演进</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>需要客户的有效参与</li>
+<li>不能识别最终成果</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>极限模型</p>
+<ul>
+<li><p>特征</p>
+<ul>
+<li>xPM 通常是研发项目</li>
+<li>xPM 项目的风险很高</li>
+</ul>
+</li>
+<li><p>具体类型</p>
+<ul>
+<li><p>Extreme PMLC model 极限模型</p>
+<ul>
+<li><p><img src="/........%5Cpictures%5CSPM%5C37.%E6%9E%81%E9%99%90%E6%A8%A1%E5%9E%8B.png" alt="37.极限模型"></p>
+</li>
+<li><p>优点</p>
+<ul>
+<li>备选方案保持时间长</li>
+<li>能提供大量部分解决方案供早期参考</li>
+</ul>
+</li>
+<li><p>缺点</p>
+<ul>
+<li>可能在所有错误的地方寻找解决方案</li>
+<li>不能保证项目交付结果具有商业价值</li>
+</ul>
+</li>
+<li><p>种类</p>
+<ul>
+<li>The INSPIRE Extreme PMLC model INSPIRE 极限项目管理生命周期模型<ul>
+<li><img src="..\..\..\..\pictures\SPM\38.INSPIRE 极限项目管理生命周期模型.png" alt="38.INSPIRE 极限项目管理生命周期模型" style="zoom: 80%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>对比</p>
+<ul>
+<li>相同点<ul>
+<li>都包含五过程组</li>
+<li>都始于范围&#x2F;启动过程组</li>
+<li>都终于收尾过程组</li>
+</ul>
+</li>
+<li>不同点（自上而下）<ul>
+<li>不确定性越来越高</li>
+<li>风险管理越来越重要</li>
+<li>客户有效参与需求越来越高</li>
+<li>趋向生命周期的开端（反馈趋前）</li>
+<li>即时项目计划取代完整项目计划</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>模型选择流程</p>
+<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C39.%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9%E6%B5%81%E7%A8%8B.jpg" alt="39.模型选择流程"></li>
+</ul>
+</li>
+</ul>
+<h4 id="B22-UP-模型"><a href="#B22-UP-模型" class="headerlink" title="B22 UP 模型"></a>B22 UP 模型</h4><ul>
+<li><p>RUP 模型 Rational Unified Process model（统一过程模型）</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\40.RUP 模型详解.jpg" alt="40.RUP 模型详解" style="zoom:50%;" />
+</li>
+<li><p>![41.RUP 工作流](........\pictures\SPM\41.RUP 工作流.jpg)</p>
+</li>
+<li><img src="..\..\..\..\pictures\SPM\42.RUP 工作流详解.jpg" alt="42.RUP 工作流详解" style="zoom: 67%;" />
+</li>
+<li><p>产品角度工作流</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\43.产品角度工作流.jpg" alt="43.产品角度工作流" style="zoom:67%;" />
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>先启</th>
+<th>精化</th>
+<th>构建</th>
+<th>产品化</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>工作量</td>
+<td>-5%</td>
+<td>20%</td>
+<td>65%</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>进度</td>
+<td>10%</td>
+<td>30%</td>
+<td>50%</td>
+<td>10%</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>软件产品构建流程：程序—软件—产品（程序设计—软件开发—产品构建）</p>
+</li>
+</ul>
+</li>
+<li><p>![44.RUP 总览](........\pictures\SPM\44.RUP 总览.jpg)</p>
+</li>
+</ul>
+</li>
+<li><p>OpenUP 模型</p>
+</li>
+</ul>
+<h4 id="B23-敏捷模型"><a href="#B23-敏捷模型" class="headerlink" title="B23 敏捷模型"></a>B23 敏捷模型</h4><ul>
+<li>敏捷宣言<ul>
+<li>个体和互动高于流程和工具</li>
+<li>工作的软件高于详尽的文档</li>
+<li>客户合作高于合同谈判</li>
+<li>响应变化高于遵循计划</li>
+</ul>
+</li>
+<li>12 条原则<ul>
+<li>敏速<ul>
+<li>尽早交付：通过尽早和持续地交付有价值的软件来满足客户。</li>
+<li>不断交付：要不断交付可用的软件，周期从几周到几个月不等，且越短越好。</li>
+<li>以用为尺：可用的软件是衡量进度的主要指标。</li>
+</ul>
+</li>
+<li>敏变<ul>
+<li>拥抱变化：欢迎对需求提出变更，即使是在项目开发后期。要善于利用需求变更，帮助客户获得竞争优势。</li>
+<li>精益求精：对技术的精益求精以及对设计的不断完善将提升敏捷性。</li>
+<li>大道至简：要做到简洁，即尽最大可能减少不必要的工作。</li>
+</ul>
+</li>
+<li>敏合<ul>
+<li>并肩作战：项目过程中，业务人员与开发人员必须在一起工作。</li>
+<li>保持稳定：提倡可持续的开发。项目方、开发人员和用户应该能够保持恒久稳定的进展速度。</li>
+<li>对面交谈：无论是团队内还是团队间，最有效的沟通方法是面对面的交谈。</li>
+</ul>
+</li>
+<li>敏我<ul>
+<li>自我组织：最佳的架构、需求和设计出自于自组织的团队。</li>
+<li>自我改进：团队要定期反省如何能够做到更有效，并相应地调整团队的行为。</li>
+<li>善于激励：要善于激励项目人员，给他们以所需要的环境和支持，并相信他们能够完成任务。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><img src="/........%5Cpictures%5CSPM%5C45.Scrum.jpg" alt="45.Scrum"></li>
+</ul>
+<h2 id="C-知识域"><a href="#C-知识域" class="headerlink" title="C 知识域"></a>C 知识域</h2><h3 id="C1-团队管理"><a href="#C1-团队管理" class="headerlink" title="C1 团队管理"></a>C1 团队管理</h3><h4 id="C11-团队管理-IPO"><a href="#C11-团队管理-IPO" class="headerlink" title="C11 团队管理 IPO"></a>C11 团队管理 IPO</h4><ul>
+<li><p>IPO</p>
+<ul>
+<li>Input</li>
+<li>Process</li>
+<li>Output</li>
+</ul>
+</li>
+<li><p>资源管理</p>
+<ul>
+<li>包括人力资源、物力资源的管理</li>
+<li>软件项目中主要是对人力资源的管理，即团队管理</li>
+</ul>
+</li>
+<li><p>五过程组和资源管理（团队管理）知识域的映射</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>启动</th>
+<th>规划</th>
+<th>执行</th>
+<th>监控</th>
+<th>收尾</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>规划资源管理</td>
+<td>获取资源</td>
+<td>控制资源</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>估算活动资源</td>
+<td>建设团队</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>管理团队</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>规划资源管理</p>
+<ul>
+<li>输入<ul>
+<li>项目章程</li>
+<li>项目管理计划<ul>
+<li>质量管理计划</li>
+<li>范围基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>项目进度计划</li>
+<li>需求文件</li>
+<li>风险登记册</li>
+<li>相关方登记册</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>专家判断</li>
+<li>数据表现<ul>
+<li>层级型（WBS-Work Breakdown Structure、OBS-Organization Breakdown Structure、RBS-Resource Breakdown Structure）</li>
+<li>责任分配矩阵（RACI，Responsible-Accountable-Consulted-Informed）</li>
+<li>文本型</li>
+</ul>
+</li>
+<li>组织理论</li>
+<li>会议</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>资源管理计划</li>
+<li>团队章程</li>
+<li>项目文件更新<ul>
+<li>假设日志</li>
+<li>风险登记册</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>估算活动资源</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>资源管理计划</li>
+<li>范围基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>活动属性</li>
+<li>活动清单</li>
+<li>假设日志</li>
+<li>成本估算</li>
+<li>资源日历</li>
+<li>风险登记册</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>专家判断</li>
+<li>自下而上估算</li>
+<li>类比估算</li>
+<li>参数估算</li>
+<li>数据分析<ul>
+<li>备选方案分析</li>
+</ul>
+</li>
+<li>项目管理信息系统</li>
+<li>会议</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>资源需求</li>
+<li>估算依据</li>
+<li>资源分解结构</li>
+<li>项目文件更新<ul>
+<li>活动属性</li>
+<li>假设日志</li>
+<li>经验教训登记册</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>获取资源</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>资源管理计划</li>
+<li>采购管理计划</li>
+<li>成本基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>项目进度计划</li>
+<li>资源日历</li>
+<li>资源需求</li>
+<li>相关方登记册</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>决策<ul>
+<li>多标准决策分析</li>
+</ul>
+</li>
+<li>人际关系与团队技能<ul>
+<li>谈判</li>
+</ul>
+</li>
+<li>预分派</li>
+<li>虚拟团队</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>物质资源分配单</li>
+<li>项目团队派工单</li>
+<li>资源日历</li>
+<li>变更请求</li>
+<li>项目管理计划更新<ul>
+<li>资源管理计划</li>
+<li>成本基准</li>
+</ul>
+</li>
+<li>项目文件更新<ul>
+<li>经验教训登记册</li>
+<li>项目进度计划</li>
+<li>资源分解结构</li>
+<li>资源需求</li>
+<li>风险登记册</li>
+<li>相关方登记册</li>
+</ul>
+</li>
+<li>事业环境因素更新</li>
+<li>组织过程资产更新</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>建设团队</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>资源管理计划</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>经验教训登记册</li>
+<li>项目进度计划</li>
+<li>项目团队派工单</li>
+<li>资源日历</li>
+<li>团队章程</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>集中办公</li>
+<li>虚拟团队</li>
+<li>沟通技术</li>
+<li>人际关系与团队技能<ul>
+<li>冲突管理</li>
+<li>影响力</li>
+<li>激励</li>
+<li>谈判</li>
+<li>团队建设</li>
+</ul>
+</li>
+<li>认可与奖励</li>
+<li>培训</li>
+<li>个人和团队评估</li>
+<li>会议</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>团队绩效评价<ul>
+<li>塔可曼（Tuckman）阶梯理论<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C46.%E5%A1%94%E5%8F%AF%E6%9B%BC%E9%98%B6%E6%A2%AF%E7%90%86%E8%AE%BA.jpg" alt="46.塔可曼阶梯理论"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>变更请求</li>
+<li>项目管理计划更新<ul>
+<li>资源管理计划</li>
+</ul>
+</li>
+<li>项目文件更新<ul>
+<li>经验教训登记册</li>
+<li>项目进度计划</li>
+<li>项目团队派工单</li>
+<li>资源日历</li>
+<li>团队章程</li>
+</ul>
+</li>
+<li>事业环境因素更新</li>
+<li>组织过程资产更新</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>管理团队</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>资源管理计划</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>问题日志</li>
+<li>经验教训登记册</li>
+<li>项目团队派工单</li>
+<li>团队章程</li>
+</ul>
+</li>
+<li>工作绩效报告</li>
+<li>团队绩效评价</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>人际关系与团队技能<ul>
+<li>冲突管理<ul>
+<li>并不是所有冲突都是坏的。</li>
+</ul>
+</li>
+<li>制定策略</li>
+<li>情商</li>
+<li>影响力</li>
+<li>领导力</li>
+</ul>
+</li>
+<li>项目管理信息系统</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>变更请求</li>
+<li>项目管理计划更新<ul>
+<li>资源管理计划</li>
+<li>进度基准</li>
+<li>成本基准</li>
+</ul>
+</li>
+<li>项目文件更新<ul>
+<li>问题日志</li>
+<li>经验教训登记册</li>
+<li>项目团队派工单</li>
+</ul>
+</li>
+<li>事业环境因素更新</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>控制资源</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>资源管理计划</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>问题日志</li>
+<li>经验教训登记册</li>
+<li>物质资源分配单</li>
+<li>项目进度计划</li>
+<li>资源分解结构</li>
+<li>资源需求</li>
+<li>风险登记册</li>
+</ul>
+</li>
+<li>工作绩效数据</li>
+<li>协议</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>数据分析<ul>
+<li>备选方案分析</li>
+<li>成本效益分析</li>
+<li>绩效审查</li>
+<li>趋势分析</li>
+</ul>
+</li>
+<li>问题解决</li>
+<li>人际关系与团队技能<ul>
+<li>谈判</li>
+<li>影响力</li>
+</ul>
+</li>
+<li>项目管理信息系统</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>工作绩效信息</li>
+<li>变更请求</li>
+<li>项目管理计划更新<ul>
+<li>资源管理计划</li>
+<li>进度基准</li>
+<li>成本基准</li>
+</ul>
+</li>
+<li>项目文件更新<ul>
+<li>假设日志</li>
+<li>问题日志</li>
+<li>经验教训登记册</li>
+<li>物质资源分配单</li>
+<li>资源分解结构</li>
+<li>风险登记册</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="C12-心理学因素"><a href="#C12-心理学因素" class="headerlink" title="C12 心理学因素"></a>C12 心理学因素</h4><ul>
+<li><p>影响人们如何工作以及如何更好工作的心理学因素</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>激励理论</th>
+<th>影响力和权力</th>
+<th>效率</th>
+<th>情商</th>
+<th>领导力</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内在激励<br />外在激励</td>
+<td>9 种影响力</td>
+<td>科维<br />七种习惯</td>
+<td>Howard Gardner<br />多元智能理论</td>
+<td>Peter Northouse<br />领导力：理论与实践</td>
+</tr>
+<tr>
+<td>马斯洛<br />需求层次理论</td>
+<td>5 种权力</td>
+<td>移情倾听<br />和友好关系</td>
+<td>Daniel Goleman<br />高情商</td>
+<td>Daniel Goleman<br />原始领导力</td>
+</tr>
+<tr>
+<td>赫兹伯格<br />“激励·保健”理论</td>
+<td></td>
+<td>镜像法</td>
+<td>Anthony C.Mersino<br />项目经理情商管理</td>
+<td></td>
+</tr>
+<tr>
+<td>麦克力兰<br />”获取·需求“理论</td>
+<td></td>
+<td></td>
+<td>CareerBuilder.com<br />智商情商调查报告</td>
+<td></td>
+</tr>
+<tr>
+<td>麦格雷戈<br />X 理论和 Y 理论</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+<li><p>激励理论</p>
+<ul>
+<li><p>种类</p>
+<ul>
+<li>内在激励<ul>
+<li>使人们根据自己的个人兴趣爱好而参与的某一活动。</li>
+</ul>
+</li>
+<li>外在激励<ul>
+<li>使人们为了获得报酬或避免处罚而去做某些事情。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>马斯洛需求层次理论</p>
+<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C47.%E9%A9%AC%E6%96%AF%E6%B4%9B%E9%9C%80%E6%B1%82%E5%B1%82%E6%AC%A1%E7%90%86%E8%AE%BA.png" alt="47.马斯洛需求层次理论"></li>
+</ul>
+</li>
+<li><p>赫兹伯格“激励·保健”理论</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>保健因素</th>
+<th>激励因素</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>更高的工资</td>
+<td>成就</td>
+</tr>
+<tr>
+<td>更多的监督</td>
+<td>赏识</td>
+</tr>
+<tr>
+<td>更吸引人的工作环境</td>
+<td>工作本身</td>
+</tr>
+<tr>
+<td>计算机或其它需要的设备</td>
+<td>责任</td>
+</tr>
+<tr>
+<td>健康福利</td>
+<td>晋升</td>
+</tr>
+<tr>
+<td>培训</td>
+<td>成长</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>麦克力兰”获取·需求“理论</p>
+<ul>
+<li>人的特殊需求是通过后天培养或长期学习、由生活经验形成的。</li>
+<li>分类<ul>
+<li>成就需求</li>
+<li>亲和需求</li>
+<li>权力需求</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>麦格雷戈 X 理论、Y 理论、Z 理论</p>
+<ul>
+<li>X 理论<ul>
+<li>员工不喜欢工作，并且只要可能就会逃避工作，因此管理者必须采取强迫、威胁以及各种控制方案才能使员工付出足够的努力。</li>
+</ul>
+</li>
+<li>Y 理论<ul>
+<li>人们不是天生就不喜欢工作，而是把工作当成很自然的事情，就像玩耍和休息一样。最有效<br>的奖励就是满足尊重需求和自我实现需求。</li>
+</ul>
+</li>
+<li>Z 理论<ul>
+<li>强调信任、品质、集体决策和文化价值。员工只要相信管理者能支持他们并为他们谋福利，他们便会尽最大努力工作。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>影响力和权力</p>
+<ul>
+<li>9 种影响力<ul>
+<li>权力</li>
+<li>指派</li>
+<li>预算</li>
+<li>升迁</li>
+<li>金钱</li>
+<li>惩罚</li>
+<li>工作挑战</li>
+<li>专业知识</li>
+<li>友谊</li>
+</ul>
+</li>
+<li>5 种权力<ul>
+<li>强制权力</li>
+<li>法定权利</li>
+<li>专家权力</li>
+<li>奖励权力</li>
+<li>感召权力</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>效率</p>
+<ul>
+<li>科维七种习惯<ul>
+<li>积极主动</li>
+<li>以终为始</li>
+<li>要事第一</li>
+<li>双赢思维</li>
+<li>移情倾听</li>
+<li>合作协同</li>
+<li>不断更新</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="C13-组织架构"><a href="#C13-组织架构" class="headerlink" title="C13 组织架构"></a>C13 组织架构</h4><ul>
+<li><p>组织架构</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>组建团队</th>
+<th>内部结构</th>
+<th>外部结构</th>
+<th>云化组织</th>
+<th>组织演进</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>角色任务</td>
+<td>民主分权制</td>
+<td>职能式</td>
+<td>时代背景</td>
+<td>研发演进</td>
+</tr>
+<tr>
+<td>角色依赖</td>
+<td>控制分权制</td>
+<td>项目式</td>
+<td>平台企业</td>
+<td>华为变革</td>
+</tr>
+<tr>
+<td>选择成员</td>
+<td>控制集权制</td>
+<td>矩阵式</td>
+<td>企业云台</td>
+<td>未来变革</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>组建团队</p>
+<ul>
+<li>角色与员工<ul>
+<li>角色<ul>
+<li>一组既定职责，可以赋予一个或多个员工。</li>
+</ul>
+</li>
+<li>员工<ul>
+<li>为组织的劳动力管理活动负责。</li>
+</ul>
+</li>
+<li>两者之间可以一对一、一对多、多对一。</li>
+</ul>
+</li>
+<li><img src="..\..\..\..\pictures\SPM\48.组建团队.jpg" alt="48.组建团队" style="zoom: 80%;" /></li>
+</ul>
+</li>
+<li><p>内部结构</p>
+<ul>
+<li>民主分权制（Democratic Decentralized, DD）<ul>
+<li><img src="..\..\..\..\pictures\SPM\49.民主分权制.png" alt="49.民主分权制" style="zoom: 80%;" /></li>
+</ul>
+</li>
+<li>控制分权制（Controlled Decentralized, CD）<ul>
+<li><img src="..\..\..\..\pictures\SPM\50.控制分权制.png" alt="50.控制分权制" style="zoom:80%;" /></li>
+</ul>
+</li>
+<li>控制集权制（Controlled Centralized, CC）<ul>
+<li><img src="..\..\..\..\pictures\SPM\51.控制集权制.png" alt="51.控制集权制" style="zoom:80%;" /></li>
+</ul>
+</li>
+<li>团队内部结构的选择<ul>
+<li>待解决问题的困难程度。</li>
+<li>要产生的程序的规模，以代码行或者功能点来衡量。</li>
+<li>小组成员需要待在一起的时间（小组生命周期）。</li>
+<li>问题能够被模块化的程度。</li>
+<li>待建造系统所要求的质量和可靠性。</li>
+<li>交付日期的严格程度。</li>
+<li>项目所需要的社交性（通信）的程度。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>外部结构</p>
+<ul>
+<li><p>职能式组织形式</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\52.职能式.png" alt="52.职能式" style="zoom:80%;" /></li>
+</ul>
+</li>
+<li><p>项目式组织形式</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\53.项目式.png" alt="53.项目式" style="zoom:80%;" /></li>
+</ul>
+</li>
+<li><p>矩阵式组织形式</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\54.矩阵式.png" alt="54.矩阵式" style="zoom:80%;" /></li>
+</ul>
+</li>
+<li><table>
+<thead>
+<tr>
+<th>组织结构</th>
+<th>优点</th>
+<th>缺点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>职能式</td>
+<td>人员使用灵活<br/>易于知识共性、技术攻关<br/>保持业务、技术连续性</td>
+<td>客户利益得不到优先考虑<br/>狭隘，不全面<br/>反应缓慢</td>
+</tr>
+<tr>
+<td>项目式</td>
+<td>能控制资源<br/>沟通、决策速度快<br/>向客户负责</td>
+<td>重复成本较高（人员、技术、设备）<br/>各行其政，不一致<br/>内部强依赖，外部弱沟通<br/>项目间缺乏知识信息交流</td>
+</tr>
+<tr>
+<td>矩阵式</td>
+<td>有效利用资源<br/>职能部门所有专业知识可供所有项目使用<br/>促进学习、交流知识<br/>沟通良好<br/>注重客户</td>
+<td>双层汇报关系，抢功逃责<br/>需要平衡权利</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>团队外部结构的选择</p>
+<ul>
+<li>职能式结构<ul>
+<li>规模较小</li>
+<li>偏重于技术</li>
+<li>环境变化较小</li>
+</ul>
+</li>
+<li>项目式结构<ul>
+<li>项目较多、规模较大</li>
+<li>技术复杂</li>
+<li>环境变化较大</li>
+</ul>
+</li>
+<li>矩阵式结构<ul>
+<li>优缺点都折中</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>云化组织</p>
+<ul>
+<li><p>时代特性</p>
+<ul>
+<li>工业经济时代<ul>
+<li>基于资源做产品，之后满足需求</li>
+</ul>
+</li>
+<li>互联网经济时代<ul>
+<li>基于需求做产品，之后反推资源</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>组织转型</p>
+<ul>
+<li><p>进程</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\55.组织转型进程.png" alt="55.组织转型进程" style="zoom: 80%;" /></li>
+</ul>
+</li>
+<li><p>特点</p>
+<ul>
+<li>用户中心主义</li>
+<li>企业平台化</li>
+<li>员工创客化</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>企业云台</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\56.企业云台.jpg" alt="56.企业云台" style="zoom: 33%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>组织演进</p>
+<ul>
+<li>从小到大研发体系的演进<ul>
+<li><img src="/........%5Cpictures%5CSPM%5C57.%E4%BB%8E%E5%B0%8F%E5%88%B0%E5%A4%A7%E7%A0%94%E5%8F%91%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BC%94%E8%BF%9B.png" alt="57.从小到大研发体系的演进"></li>
+</ul>
+</li>
+<li>华为组织架构的演进<ul>
+<li><img src="..\..\..\..\pictures\SPM\58.华为组织架构的演进.png" alt="58.华为组织架构的演进" style="zoom: 80%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="C2-范围管理"><a href="#C2-范围管理" class="headerlink" title="C2 范围管理"></a>C2 范围管理</h3><h4 id="C21-范围管理-IPO"><a href="#C21-范围管理-IPO" class="headerlink" title="C21 范围管理 IPO"></a>C21 范围管理 IPO</h4><ul>
+<li><p>定义</p>
+<ul>
+<li>项目范围管理是指界定和控制项目中应包括什么和不包括什么所涉及的过程。</li>
+<li>该过程确保了项目团队和干系人对项目的可交付成果以及生产这些可交付成果所进行的工作达成共识。</li>
+</ul>
+</li>
+<li><p>五过程组和范围管理知识域的映射</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>启动</th>
+<th>规划</th>
+<th>执行</th>
+<th>监控</th>
+<th>收尾</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>规划范围管理</td>
+<td></td>
+<td>确认范围</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>收集需求</td>
+<td></td>
+<td>控制范围</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>定义范围</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>创建 WBS</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>规划范围管理</p>
+<ul>
+<li>输入<ul>
+<li>项目章程</li>
+<li>项目管理计划<ul>
+<li>质量管理计划</li>
+<li>项目生命周期描述</li>
+<li>开发方法</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>专家判断</li>
+<li>数据分析<ul>
+<li>备选方案分析</li>
+</ul>
+</li>
+<li>会议</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>范围管理计划</li>
+<li>需求管理计划</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>收集需求</p>
+<ul>
+<li>输入<ul>
+<li>项目章程</li>
+<li>项目管理计划<ul>
+<li>范围管理计划</li>
+<li>需求管理计划</li>
+<li>相关方参与计划</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>假设日志</li>
+<li>经验教训登记册</li>
+<li>相关方登记册</li>
+</ul>
+</li>
+<li>商业文件<ul>
+<li>商业论证</li>
+</ul>
+</li>
+<li>协议</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>专家判断</li>
+<li>数据收集<ul>
+<li>头脑风暴</li>
+<li>访谈</li>
+<li>焦点小组</li>
+<li>问卷调查</li>
+<li>标杆对照</li>
+</ul>
+</li>
+<li>数据分析<ul>
+<li>文件分析</li>
+</ul>
+</li>
+<li>决策<ul>
+<li>投票</li>
+<li>多标准决策分析</li>
+</ul>
+</li>
+<li>数据表现<ul>
+<li>亲和图</li>
+<li>思维导图</li>
+</ul>
+</li>
+<li>人际关系与团队技能<ul>
+<li>名义小组技术</li>
+<li>观察&#x2F;交谈</li>
+<li>引导</li>
+</ul>
+</li>
+<li>系统交互图</li>
+<li>原型法</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>需求文件</li>
+<li>需求跟踪矩阵</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>定义范围</p>
+<ul>
+<li>输入<ul>
+<li>项目章程</li>
+<li>项目管理计划<ul>
+<li>范围管理计划</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>假设日志</li>
+<li>需求文件</li>
+<li>风险登记册</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>专家判断</li>
+<li>数据分析<ul>
+<li>备选方案分析</li>
+</ul>
+</li>
+<li>决策<ul>
+<li>多标准决策分析</li>
+</ul>
+</li>
+<li>人际关系与团队技能<ul>
+<li>引导</li>
+</ul>
+</li>
+<li>产品分析</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>项目范围说明书</li>
+<li>项目文件更新<ul>
+<li>假设日志</li>
+<li>需求文件</li>
+<li>需求跟踪矩阵</li>
+<li>相关方登记册</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>创建 WBS</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>范围管理计划</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>项目范围说明书</li>
+<li>需求文件</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程生产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>专家判断</li>
+<li>分解</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>范围基准</li>
+<li>项目文件更新<ul>
+<li>假设日志</li>
+<li>需求文件</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>确认范围</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>范围管理计划</li>
+<li>需求管理计划</li>
+<li>范围基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>经验教训登记册</li>
+<li>质量报告</li>
+<li>需求文件</li>
+<li>需求跟踪矩阵</li>
+</ul>
+</li>
+<li>核实的可交付成果</li>
+<li>工作绩效数据</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>检查</li>
+<li>决策<ul>
+<li>投票</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>验收的可交付成果</li>
+<li>工作绩效信息</li>
+<li>变更请求</li>
+<li>项目文件更新<ul>
+<li>经验教训登记册</li>
+<li>需求文件</li>
+<li>需求跟踪矩阵</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>控制范围</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>范围管理计划</li>
+<li>需求管理计划</li>
+<li>变更管理计划</li>
+<li>配置管理计划</li>
+<li>范围基准</li>
+<li>绩效测量基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>经验教训登记册</li>
+<li>需求文件</li>
+<li>需求跟踪矩阵</li>
+</ul>
+</li>
+<li>工作绩效数据</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>数据分析<ul>
+<li>偏差分析</li>
+<li>趋势分析</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>工作绩效信息</li>
+<li>变更请求</li>
+<li>项目管理计划更新<ul>
+<li>范围管理计划</li>
+<li>范围基准</li>
+<li>进度基准</li>
+<li>成本基准</li>
+<li>绩效测量基准</li>
+</ul>
+</li>
+<li>项目文件更新<ul>
+<li>经验教训登记册</li>
+<li>需求文件</li>
+<li>需求跟踪矩阵</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="C22-WBS"><a href="#C22-WBS" class="headerlink" title="C22 WBS"></a>C22 WBS</h4><ul>
+<li><p>基本概念</p>
+<ul>
+<li>通过 WBS 工作分解结构加强项目范围管理。</li>
+<li>定义<ul>
+<li>WBS是把项目细分为更小的、更易于管理的组成部分的一个层级结构。每向下一个层级，就是对项目工作的更详细的定义。</li>
+<li>WBS是对项目团队为实现项目目标、创建可交付成果而需要实施的全部工作范围的层级分解。WBS组织并定义了项目的总范围。</li>
+</ul>
+</li>
+<li>概念辨析<ul>
+<li>WBS 是对项目工作的分解或划分，以便更好的界定、沟通和管理项目工作范围。</li>
+<li>WBS 向干系人展示了即将开展的项目工作的全景图。</li>
+<li>WBS 是一种分而治之的方法。</li>
+<li>WBS 不是我们必须做什么任务，而是我们必须交付什么。</li>
+<li>WBS 不是该怎样或何时交付，而是要交付什么。</li>
+<li>WBS 不是活动清单，不是进度安排，而是范围工具。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>优点</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>开发者</th>
+<th>产品经理</th>
+<th>项目经理</th>
+<th>干系人</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>尽早理解范围</td>
+<td>防止变更失控</td>
+<td>分配解释工作</td>
+<td>改善沟通环境</td>
+</tr>
+<tr>
+<td>交付期望成果</td>
+<td>提供变更基准</td>
+<td>打下采购基础</td>
+<td>促进共识达成</td>
+</tr>
+<tr>
+<td>理解陌生领域</td>
+<td>促进产品规划</td>
+<td>提高汇报水平</td>
+<td>获得涉众认同</td>
+</tr>
+<tr>
+<td>区分内外工作</td>
+<td>尽早发现问题</td>
+<td>监控项目工作</td>
+<td>建立信赖基础</td>
+</tr>
+<tr>
+<td>明确项目边界</td>
+<td>发现重叠工作</td>
+<td>提高管理水平</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>整合时间成本</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>结构要素</p>
+<ul>
+<li><p>层级</p>
+<ul>
+<li>从第一层级开始</li>
+</ul>
+</li>
+<li><p>标志及编码</p>
+</li>
+<li><p>组件和要素</p>
+<ul>
+<li>WBS 组件<ul>
+<li>是 WBS 中任何层级上的条目。</li>
+<li>所有组件联合决定了项目的总范围。</li>
+</ul>
+</li>
+<li>WBS要素<ul>
+<li>WBS 中任一 WBS 组件及其 WBS 属性的综合。</li>
+<li>WBS 要素 &#x3D; WBS 组件 + 属性。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>WBS 组件类型</p>
+<ul>
+<li>Discrete 离散的<ul>
+<li>分立型</li>
+</ul>
+</li>
+<li>Level of Effort 努力程度<ul>
+<li>人力投入型</li>
+<li>支持型（活动）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>工作包</p>
+<ul>
+<li>位于 WBS 层级结构底层的 WBS 组件。</li>
+</ul>
+</li>
+<li><p>100% 规则</p>
+<ul>
+<li>WBS 涵盖了项目范围中的 100% 的工作（包括项目管理），列出了将要完成的全部可交付成果。</li>
+<li>上层的某个组件必须正好等于下层所有组件的工作之和。</li>
+</ul>
+</li>
+<li><p>命名</p>
+<ul>
+<li>名词和形容词，不能用动词。</li>
+<li>清晰的反映工作范围。</li>
+<li>可以有相同的名称。</li>
+</ul>
+</li>
+<li><p>分解粒度</p>
+</li>
+<li><p>常用的 WBS 编排方法</p>
+<ul>
+<li>按主要交付成果</li>
+<li>按项目阶段</li>
+<li>按子项目</li>
+<li>按地理位置</li>
+<li>按部门</li>
+<li>其他方法</li>
+</ul>
+</li>
+<li><p>形式</p>
+<ul>
+<li><p>分类</p>
+<ul>
+<li>树形图</li>
+<li>大纲式</li>
+<li>表格式</li>
+</ul>
+</li>
+<li><p>比较</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th></th>
+<th>树形图</th>
+<th>大纲式</th>
+<th>表格式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>编制速度</td>
+<td>取决于工具</td>
+<td>快</td>
+<td>非常快</td>
+</tr>
+<tr>
+<td>适合演示</td>
+<td>很适合</td>
+<td>正常</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>创建和维护</td>
+<td>取决于工具</td>
+<td>正常</td>
+<td>最方便</td>
+</tr>
+<tr>
+<td>可扩展性</td>
+<td>取决于工具</td>
+<td>有限</td>
+<td>很大</td>
+</tr>
+<tr>
+<td>组件名称长度</td>
+<td>短名称</td>
+<td>允许很长名称</td>
+<td>允许很长名称</td>
+</tr>
+<tr>
+<td>适合沟通</td>
+<td>很适合</td>
+<td>正常</td>
+<td>正常至很好，取决于格式</td>
+</tr>
+<tr>
+<td>适合打印</td>
+<td>取决于工具</td>
+<td>适合</td>
+<td>适合</td>
+</tr>
+<tr>
+<td>使用颜色</td>
+<td>最适合</td>
+<td>不好</td>
+<td>正常</td>
+</tr>
+<tr>
+<td>使用缩排</td>
+<td>不适用</td>
+<td>缩进或不缩进</td>
+<td>缩进</td>
+</tr>
+<tr>
+<td>WBS 词典</td>
+<td>独立文件</td>
+<td>可以，每行增加额外文本</td>
+<td>可以，通过增加额外的列</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>工具</p>
+<ul>
+<li>WBS Chart Pro</li>
+<li>思维导图<ul>
+<li>MindView</li>
+<li>MindManager</li>
+<li>幕布</li>
+</ul>
+</li>
+<li>办公软件<ul>
+<li>WPS</li>
+<li>Visio</li>
+<li>Project</li>
+<li>Excel</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="C3-进度管理"><a href="#C3-进度管理" class="headerlink" title="C3 进度管理"></a>C3 进度管理</h3><h4 id="C31-进度管理-IPO"><a href="#C31-进度管理-IPO" class="headerlink" title="C31 进度管理 IPO"></a>C31 进度管理 IPO</h4><ul>
+<li><p>基本概念</p>
+<ul>
+<li>项目进度管理包括为管理项目按时完成所需的各个过程。</li>
+<li>项目过程中使用一些基本的项目管理工具和技术，就能够改善项目的进度管理。</li>
+<li>通过制定详尽计划，说明项目如何及何时交付项目范围中定义的产品、服务和成果，并作为一种用于沟通和管理相关方期望的工具，以及报告绩效的基础。</li>
+</ul>
+</li>
+<li><p>进度管理步骤</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\59.进度管理步骤.jpg" alt="59.进度管理步骤" style="zoom: 50%;" />
+- 团队选择进度计划方法
+- 将项目特定数据输入工具
+- 创建进度模型
+- 输出项目进度计划</li>
+</ul>
+</li>
+<li><p>五过程组和进度管理知识域的映射</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>启动</th>
+<th>规划</th>
+<th>执行</th>
+<th>监控</th>
+<th>收尾</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td>规划进度管理</td>
+<td></td>
+<td>控制进度</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>定义活动</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>排列活动顺序</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>估算活动持续时间</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>制定进度计划</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>规划进度管理</p>
+<ul>
+<li>输入<ul>
+<li>项目章程</li>
+<li>项目管理计划<ul>
+<li>范围管理计划</li>
+<li>开发方法</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>专家判断</li>
+<li>数据分析</li>
+<li>会议</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>进度管理计划</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>定义活动</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>进度管理计划</li>
+<li>范围基准</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>专家判断</li>
+<li>分解</li>
+<li>滚动式规划</li>
+<li>会议</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>活动清单</li>
+<li>活动属性</li>
+<li>里程碑清单</li>
+<li>变更请求</li>
+<li>项目管理计划更新<ul>
+<li>进度基准</li>
+<li>成本基准</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>排列活动顺序</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>进度管理计划</li>
+<li>范围基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>活动属性</li>
+<li>活动清单</li>
+<li>假设日志</li>
+<li>里程碑清单</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>紧前关系绘图法</li>
+<li>确定和整合依赖关系<ul>
+<li>依赖种类<ul>
+<li>强制依赖 Mandatory dependencies</li>
+<li>自由依赖 Discretionary dependencies</li>
+<li>外部依赖 External dependencies</li>
+<li>内部依赖 Internal dependencies</li>
+</ul>
+</li>
+<li>依赖关系<ul>
+<li>完成到开始（FS Finish-to-start）<ul>
+<li>只有紧前活动完成，紧后活动才能开始的逻辑关系。</li>
+</ul>
+</li>
+<li>完成到完成（FF Finish-to-finish）<ul>
+<li>只有紧前活动完成，紧后活动才能完成的逻辑关系。</li>
+</ul>
+</li>
+<li>开始到开始（SS Start-to-start）<ul>
+<li>只有紧前活动开始，紧后活动才能开始的逻辑关系。</li>
+</ul>
+</li>
+<li>开始到完成（SF Start-to-finish）<ul>
+<li>只有紧前活动开始，紧后活动才能完成的逻辑关系。</li>
+</ul>
+</li>
+<li>箭线图只能表示 FS 关系，可以转换为前导图法，反之不一定。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>提前量和滞后量<ul>
+<li>提前量<ul>
+<li>相对于紧前活动，紧后活动可以提前的时间量。</li>
+</ul>
+</li>
+<li>滞后量<ul>
+<li>相对于紧前活动，紧后活动需要推迟的时间量。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>项目管理信息系统</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>项目进度网络图<ul>
+<li>Network diagrams<ul>
+<li>网络图是表示活动排序的首选技术。</li>
+<li>一个网络图是项目活动之间的逻辑关系或者顺序的示意性的表示。</li>
+<li>主要形式<ul>
+<li>The arrow method 箭线图法<ul>
+<li>AOA: Activity-on-arrow (AOA) approach</li>
+<li>ADM: The arrow diagramming method</li>
+</ul>
+</li>
+<li>Precedence diagramming method 前导图法 PDM</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>项目文件更新<ul>
+<li>活动属性</li>
+<li>活动清单</li>
+<li>假设日志</li>
+<li>里程碑清单</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>估算活动持续时间</p>
+<ul>
+<li><p>输入</p>
+<ul>
+<li>项目管理计划<ul>
+<li>进度管理计划</li>
+<li>范围基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>活动属性</li>
+<li>活动清单</li>
+<li>假设日志</li>
+<li>经验教训登记册</li>
+<li>里程碑清单</li>
+<li>项目团队派工单</li>
+<li>资源分解结构</li>
+<li>资源日历</li>
+<li>资源需求</li>
+<li>风险登记册</li>
+</ul>
+</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li><p>工具与技术</p>
+<ul>
+<li><p>专家判断</p>
+</li>
+<li><p>类比估算</p>
+</li>
+<li><p>参数估算</p>
+</li>
+<li><p>三点估算</p>
+<ul>
+<li><p>Most likely (t<del>M</del>) 最可能时间</p>
+</li>
+<li><p>Optimistic () 最乐观时间</p>
+</li>
+<li><p>Pessimistic (t<del>P</del>) 最悲观时间</p>
+</li>
+<li><p>$$<br>PERT weight average &#x3D; \frac{t_O + 4 * t_M + t_P}{6}<br>$$</p>
+</li>
+</ul>
+</li>
+<li><p>自下而上估算</p>
+</li>
+<li><p>数据分析</p>
+<ul>
+<li>备选方案分析</li>
+<li>储备分析</li>
+</ul>
+</li>
+<li><p>决策</p>
+</li>
+<li><p>会议</p>
+</li>
+</ul>
+</li>
+<li><p>输出</p>
+<ul>
+<li>持续时间估算<ul>
+<li>Duration<ul>
+<li>Actual amount of time 活动时间</li>
+<li>Elapsed time 占用时间</li>
+</ul>
+</li>
+<li>Effort<ul>
+<li>The number of workdays or work hours required to complete a task and does not normally equal duration.</li>
+<li>比 Duration 长</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>估算依据</li>
+<li>项目文件更新<ul>
+<li>活动属性</li>
+<li>假设日志</li>
+<li>经验教训登记册</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>制定进度计划</p>
+<ul>
+<li><p>输入</p>
+<ul>
+<li>项目管理计划<ul>
+<li>进度管理计划</li>
+<li>范围基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>活动属性</li>
+<li>活动清单</li>
+<li>假设日志</li>
+<li>估算依据</li>
+<li>持续时间估算</li>
+<li>经验教训登记册</li>
+<li>里程碑清单</li>
+<li>项目进度网络图</li>
+<li>项目团队派工单</li>
+<li>资源日历</li>
+<li>资源需求</li>
+<li>风险登记册</li>
+</ul>
+</li>
+<li>协议</li>
+<li>事业环境因素</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li><p>工具与技术</p>
+<ul>
+<li><p>进度网络分析</p>
+<ul>
+<li>Gantt charts 甘特图</li>
+<li>Critical path analysis 关键路径分析</li>
+<li>Critical chain scheduling 关键链调度</li>
+<li>PERT analysis</li>
+</ul>
+</li>
+<li><p>关键路径法</p>
+<ul>
+<li>用于在进度模型中估算项目最短工期，确定逻辑网络路径的进度灵活性大小。</li>
+<li>这种进度网络分析技术在不考虑任何资源限制的情况下，沿进度网络路径使用顺推与逆推法，计算出所有活动的最早开始、最早结束、最晚开始和最晚法完成日期。</li>
+<li><img src="..\..\..\..\pictures\SPM\60.关键路径法.png" alt="60.关键路径法" style="zoom: 33%;" /></li>
+</ul>
+</li>
+<li><p>资源优化</p>
+<ul>
+<li><p>资源平衡</p>
+<ul>
+<li>定义<ul>
+<li>为了在资源需求与资源供给之间取得平衡，根据资源制约因素对开始日期和完成日期进行调整的一种技术。</li>
+</ul>
+</li>
+<li>场景<ul>
+<li>共享资源或关键资源只在特定时间可用，数量有限。</li>
+<li>被过度分配，如一个资源在同一时段内被分配至多个活动。</li>
+<li>为保持资源使用量处于均衡水平。</li>
+</ul>
+</li>
+<li>后果<ul>
+<li>资源平衡往往导致关键路径改变。</li>
+</ul>
+</li>
+<li>方法<ul>
+<li>可以用浮动时间平衡资源。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>进度压缩技术</p>
+<ul>
+<li>定义<ul>
+<li>在不缩减项目范围的前提下，缩短或加快进度工期，以满足进度制约因素、强制日期或其他进度目标。</li>
+</ul>
+</li>
+<li>方法 1 — 赶工<ul>
+<li>通过增加资源，以最小的成本代价来压缩进度工期的一种技术。例如批准加班、增加资源、支付加急费用等。</li>
+</ul>
+</li>
+<li>方法 2 — 快速跟进<ul>
+<li>一种进度压缩技术，将正常情况下按顺序进行的活动或阶段改为至少是部分并行开展。例如，在大楼的建筑图纸尚未全部完成前就开始建地基。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>数据分析</p>
+<ul>
+<li>假设情景分析</li>
+<li>模拟</li>
+</ul>
+</li>
+<li><p>提前量和滞后量</p>
+</li>
+<li><p>进度压缩</p>
+</li>
+<li><p>资源管理信息系统</p>
+</li>
+<li><p>敏捷发布规划</p>
+<ul>
+<li>基于项目路线图和产品发展愿景，提供了高度概括的<strong>发布进度时间轴</strong>（通常是3到6个月），确定了发布的<strong>迭代或冲刺次数</strong>，使产品负责人和团队能够<strong>决定需要开发的内容</strong>，并基于业务目标、依赖关系和障碍因素确定达到产发布所需的时间。</li>
+<li><img src="..\..\..\..\pictures\SPM\61.敏捷发布计划.jpg" alt="61.敏捷发布计划" style="zoom: 33%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>输出</p>
+<ul>
+<li>进度基准</li>
+<li>项目进度计划<ul>
+<li>横道图 Bar charts</li>
+<li>里程碑图 Milestone charts</li>
+<li>项目进度网络图 Project schedule network diagrams</li>
+</ul>
+</li>
+<li>进度数据</li>
+<li>项目日历</li>
+<li>变更请求</li>
+<li>项目管理计划更新<ul>
+<li>进度管理计划</li>
+<li>成本基准</li>
+</ul>
+</li>
+<li>项目文件更新<ul>
+<li>活动属性</li>
+<li>假设日志</li>
+<li>持续时间估算</li>
+<li>经验教训登记册</li>
+<li>资源需求</li>
+<li>风险登记册</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>控制进度</p>
+<ul>
+<li>输入<ul>
+<li>项目管理计划<ul>
+<li>进度管理计划</li>
+<li>进度基准</li>
+<li>范围基准</li>
+<li>绩效测量基准</li>
+</ul>
+</li>
+<li>项目文件<ul>
+<li>经验教训登记册</li>
+<li>项目日历</li>
+<li>项目进度计划</li>
+<li>资源日历</li>
+<li>进度数据</li>
+</ul>
+</li>
+<li>工作绩效数据</li>
+<li>组织过程资产</li>
+</ul>
+</li>
+<li>工具与技术<ul>
+<li>数据分析<ul>
+<li>挣值分析</li>
+<li>迭代燃尽图<ul>
+<li>功能<ul>
+<li>用于追踪迭代未完项中尚待完成的工作。它基于迭代规划中确定的工作，分析与理想燃尽图的偏差。可使用预测趋势线来预测迭代结束时可能出现的偏差，以及在迭代期间<br>应该采取的合理行动。</li>
+</ul>
+</li>
+<li>方法<ul>
+<li>在燃尽图中，先用对角线表示理想的燃尽情况，再每天画出实际剩余工作，最后基于剩余工作计算出趋势线以预测完成情况。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>绩效审查</li>
+<li>趋势分析</li>
+<li>偏差分析</li>
+<li>假设情景分析</li>
+</ul>
+</li>
+<li>关键路径法</li>
+<li>项目管理信息系统</li>
+<li>资源优化</li>
+<li>提前量和滞后量</li>
+<li>进度压缩</li>
+</ul>
+</li>
+<li>输出<ul>
+<li>工作绩效信息</li>
+<li>进度预测</li>
+<li>变更请求</li>
+<li>项目管理计划更新<ul>
+<li>进度管理计划</li>
+<li>进度基准</li>
+<li>成本基准</li>
+<li>绩效测量基准</li>
+</ul>
+</li>
+<li>项目文件更新<ul>
+<li>假设日志</li>
+<li>估算依据</li>
+<li>经验教训登记册</li>
+<li>项目进度计划</li>
+<li>资源日历</li>
+<li>风险登记册</li>
+<li>进度数据</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="C32-关键路径"><a href="#C32-关键路径" class="headerlink" title="C32 关键路径"></a>C32 关键路径</h4><ul>
+<li><p>基本概念</p>
+<ul>
+<li>关键路径法 Critical Path Method, CPM</li>
+<li>是一种网络图技术，用来预测整个工期。</li>
+<li>是决定项目最早完成时间的活动序列。</li>
+<li>是网络图的最长路径，其时差或者浮动时间最少。</li>
+<li>The fact that its name includes the word critical does not mean that it includes all critical activities. 关键路径仅仅与项目的时间维有关，它的名字中包含”关键”并不意味着它包含所有的关键活动。</li>
+<li>There can be more than one critical path if the lengths of two or more paths are<br>the same. 一个项目可以有多条关键路径。（最少一条）</li>
+</ul>
+</li>
+<li><p>关键路径图</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\62.关键路径详解.jpg" alt="62.关键路径详解" style="zoom: 67%;" /></li>
+<li><img src="..\..\..\..\pictures\SPM\63.关键路径表示.png" alt="63.关键路径表示" style="zoom: 25%;" /></li>
+<li>最早开始时间 ES Early Start<ul>
+<li>一个活动的最早开始时间是基于项目网络逻辑可以开始的最早的可能时间。</li>
+<li>等于前置活动最早结束时间中的最晚时间。</li>
+</ul>
+</li>
+<li>最早完成时间 EF Early Finish<ul>
+<li>一个活动的最早完成时间是基于项目网络逻辑最早可能完成的时间。</li>
+<li>等于最早开始时间加当前活动持续时间（Duration）。</li>
+</ul>
+</li>
+<li>最晚开始时间 LS Late Start<ul>
+<li>一个活动的最晚开始时间是一个项目在不延迟项目完成时间的最晚可能开始的时间。</li>
+<li>对于关键路径，最早开始时间和最晚开始时间相同；对于非关键路径，二者不相同。</li>
+<li>等于最晚完成时间减当前活动持续时间。</li>
+</ul>
+</li>
+<li>最晚完成时间 LF Late Finish<ul>
+<li>一个活动的最晚完成时间是一个活动在不延迟项目完成时间的最晚可能完成的时间。</li>
+<li>等于最晚开始时间加当前活动持续时间。</li>
+<li>等于后置活动最早开始时间中的最早时间。</li>
+</ul>
+</li>
+<li>时差&#x2F;浮动时间<ul>
+<li>在不延迟后续活动或项目完成日期的情况下，活动可以延迟的时间量。</li>
+<li>总时差&#x2F;总浮动时间 TS Total Slack&#x2F;Total Slack<ul>
+<li>一个活动从它最早开始时间起，在没有拖延计划项目完成日期的情况下可以被耽搁的时间。</li>
+<li>等于最晚开始&#x2F;结束时间减最早开始&#x2F;结束时间。</li>
+<li>关键路径上的总时差都为零。</li>
+</ul>
+</li>
+<li>自由时差&#x2F;自由浮动时间 FS Free Slack&#x2F;Free Float<ul>
+<li>一个活动在不延误紧接活动的最早开始时间的情况下可以被延误的时间。</li>
+<li>等于紧后活动的最早开始时间减当前活动的最早结束时间。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>推导方法<ul>
+<li>Forward pass（正推法）<ul>
+<li>Determines the early start and finish dates. 推导最早开始时间和最早结束时间。</li>
+</ul>
+</li>
+<li>Backward pass（逆推法）<ul>
+<li>Determines the late start and finish dates. 推导最晚开始时间和最晚结束时间。</li>
+</ul>
+</li>
+<li>特例<ul>
+<li>一般情况下，最后一个结点的最早开始时间和最晚开始时间相同。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="C4-成本管理"><a href="#C4-成本管理" class="headerlink" title="C4 成本管理"></a>C4 成本管理</h3><h4 id="C42-功能点评估"><a href="#C42-功能点评估" class="headerlink" title="C42 功能点评估"></a>C42 功能点评估</h4><ul>
+<li><p>功能点评估</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\64.功能点评估.jpg" alt="64.功能点评估"  />
+</li>
+<li><p>评估标准</p>
+<ul>
+<li><table>
+<thead>
+<tr>
+<th>标准</th>
+<th>功能点类型</th>
+<th>应用范围</th>
+<th>操作难度</th>
+<th>现状</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>IFPUG 标准</td>
+<td>五种功能点：ILF、EIF、EI、EO、EQ。</td>
+<td>适用于所有项目，尤其适用于 MIS 类项目。</td>
+<td>适中。<br />IFPUG 功能点标准基于明确的规则约束，因而能保证软件规模评估结果的客观性和一致性。因为 IFPUG 是目前应用最普遍的功能点度量方法，因而有较多的资源可以借鉴和参考，例如 IFPUG 功能点相关的书籍、标准、文章、论坛、从业人员等资源都可以方便地得到。</td>
+<td>应用最广泛的一种标准。</td>
+</tr>
+<tr>
+<td>MarkII 标准</td>
+<td>一种功能点：逻辑事务。</td>
+<td>适用于所有项目，尤其适用于 MIS 类项目。</td>
+<td>简单。<br />MarkII 功能点标准操作简单，只需进行简单的加权计算即可。但标准缺乏对基本元素的识别规则，例如对数据元素、逻辑事务仅采用举例的方式加以说明，实际操作过程中可能会出现歧义，度量结果的一致性不强。</td>
+<td>主要在英国使用。</td>
+</tr>
+<tr>
+<td>NESMA 标准</td>
+<td>五种功能<br/>点：ILF、<br/>EIF、EI、<br/>EO、EQ。</td>
+<td>适用于所有项目，尤其适用于 MIS 类项目。</td>
+<td>适中。<br />NESMA 标准对 IFPUG 标准作了最“忠实”的借鉴，但也作了一些有别于 IFPUG 的规定，例如对代码数据进行度量、对隐含查询不予考虑，这些规定尽管在实际操作中有其合理的一面，但是却破坏了 IPFUG 规则的完整性和一致性。</td>
+<td>主要在荷兰使用。</td>
+</tr>
+<tr>
+<td>COSMIC 标准</td>
+<td>四种功能类型：进入、离开、读、写。</td>
+<td>适用于所有项目，尤其适用于实时类应用。</td>
+<td>较高。<br />COSMIC 借鉴了 IFPUG 功能点标准中基于规则约束的实践，但引入了分层（Layer）概念，在评估功能规模时需要考虑软件的技术因素，从而减弱了软件功能点对业务人员透明的优势。</td>
+<td>主要在加和欧部分国家使用。</td>
+</tr>
+<tr>
+<td>FISMA 标准</td>
+<td>七种功能类型</td>
+<td>适用于所有项目，要求了解被度量应用的技术实现方式。</td>
+<td>很高。<br />FISMA 强调采用“服务”替代“功能”，因而更能反映软件的特性。但其功能分类的数量繁多，并且每种服务都采用不同数值的加权系数，因而操作很困难。</td>
+<td>主要在芬兰使用。</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+</li>
+<li><p>IFPUG</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\65.IFPUG.png" alt="65.IFPUG" style="zoom: 80%;" /></li>
+<li>五类功能点<ul>
+<li>内部逻辑文件 ILF Internal Logical Files<ul>
+<li>内部逻辑文件是一组可由用户识别确认的、在应用系统边界内维护的、逻辑上相关的数据或控制信息。</li>
+<li>ILF 的主要意图是通过被测应用程序的一个或多个基本处理来保存维护数据。</li>
+</ul>
+</li>
+<li>外部接口文件 EIF External Interface Files<ul>
+<li>外部接口文件是一组可由用户识别确认的、由被测应用系统引用，但是在其它应用系统边界内维护的、逻辑上相关的数据或控制信息。</li>
+<li>EIF 的主要意图是存放被测应用程序中的一个或多个基本处理所引用的数据。也就是说，一个应用程序的 EIF 必定是另一个应用程序的 ILF。</li>
+</ul>
+</li>
+<li>外部输入 EI External Inputs<ul>
+<li>外部输入是处理来自应用程序边界外的数据或者控制信息的一个基本处理，如用户通过增、删、改来维护内部逻辑文件。经过处理的数据维护一个或多个 ILF，经过处理的控制信息则可能维护一个 ILF 或不维护它。</li>
+<li>EI 的主要意图是维护一个或多个 ILF，以及（或者）通过其处理逻辑来改变应用程序的行为。</li>
+</ul>
+</li>
+<li>外部输出 EO External Outputs<ul>
+<li>外部输出是一个向应用程序边界外提供数据或控制信息的基本处理。</li>
+<li>EO 的主要意图是向用户提供经过处理逻辑加工的、除了检索数据或控制信息之外的信息或附加信息。处理逻辑必须包含至少一个数学公式或计算、创建导出数据、维护一个或多个 ILF，并且／或者改变系统的行为。</li>
+</ul>
+</li>
+<li>外部查询 EQ External Inquiries<ul>
+<li>外部查询是应用程序向其边界之外提供数据或控制信息的基本处理。</li>
+<li>EQ 的主要意图是向用户展示未经处理、直接查询的一些数据或控制信息。处理逻辑不包含数<br>学公式或计算，也不产生派生的数据。处理过程中外部查询既不维护 ILF，也不改变系统的行为。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="C43-造价评估"><a href="#C43-造价评估" class="headerlink" title="C43 造价评估"></a>C43 造价评估</h4><ul>
+<li><p>基本概念</p>
+<ul>
+<li><p>造价成本</p>
+<ul>
+<li>人力成本<ul>
+<li>直接人力成本</li>
+<li>间接人力成本</li>
+</ul>
+</li>
+<li>非人力成本<ul>
+<li>直接非人力成本</li>
+<li>间接非人力成本</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>规模度量标准</p>
+<ul>
+<li>IFPUG</li>
+</ul>
+</li>
+<li><p>评估步骤</p>
+<ul>
+<li>评估背景调研</li>
+<li>评估方案设计</li>
+<li>评估实施<ul>
+<li>预算评估实施</li>
+<li>结算评估实施</li>
+</ul>
+</li>
+<li>报告评估编制</li>
+<li>评估数据分析</li>
+</ul>
+</li>
+<li><p>评估实施流程</p>
+<ul>
+<li><p>软件开发规模评估</p>
+<ul>
+<li>功能点评估</li>
+<li>非功能点评估</li>
+<li>无规模评估</li>
+</ul>
+</li>
+<li><p>软件研发工作量评估</p>
+<ul>
+<li>方程法</li>
+<li>类比法</li>
+<li>经验法</li>
+</ul>
+</li>
+<li><p>软件人员成本评估</p>
+<ul>
+<li>单一人员成本标准</li>
+<li>分岗位人员成本评估</li>
+<li>行业区域人员成本评估</li>
+</ul>
+</li>
+<li><p>软件研发风险评估</p>
+<p>软件研发质量评估</p>
+<ul>
+<li>预算：软件研发风险评估</li>
+<li>预算：软件研发质量评估</li>
+</ul>
+</li>
+<li><p>软件研发成本综评</p>
+<ul>
+<li>整合：综合评估法</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>工作量评估</p>
+<ul>
+<li><img src="..\..\..\..\pictures\SPM\65.工作量评估.jpg" alt="65.工作量评估" style="zoom: 50%;" /></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Note</category>
+      </categories>
+      <tags>
+        <tag>SPM</tag>
+      </tags>
+  </entry>
+</search>

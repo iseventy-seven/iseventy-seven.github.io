@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Think And Write</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-02-25T15:45:32.949Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>i seventy-seven</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>东北大学 SPM 笔记</title>
+    <link href="http://example.com/2023/02/25/SPM-Note/"/>
+    <id>http://example.com/2023/02/25/SPM-Note/</id>
+    <published>2023-02-25T15:39:15.000Z</published>
+    <updated>2023-02-25T15:45:32.949Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;软件项目管理&quot;&gt;&lt;a href=&quot;#软件项目管理&quot; class=&quot;headerlink&quot; title=&quot;软件项目管理&quot;&gt;&lt;/a&gt;软件项目管理&lt;/h1&gt;&lt;h2 id=&quot;A-课程概览&quot;&gt;&lt;a href=&quot;#A-课程概览&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Note" scheme="http://example.com/categories/Note/"/>
+    
+    
+    <category term="SPM" scheme="http://example.com/tags/SPM/"/>
+    
+  </entry>
+  
+</feed>
