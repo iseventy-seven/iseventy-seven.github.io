@@ -86,7 +86,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">4.7k</span>
+            <span class="post-count">5.5k</span>
         </span>
     </span>
 
@@ -95,7 +95,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">21 分钟</span>
+            <span class="post-count">26 分钟</span>
         </span>
     </span>
 </div>
@@ -312,14 +312,62 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 \lvert ~ y_n ~ \rvert > \frac{\lvert ~ B ~ \rvert}{2} > 0, ~ y_n \neq 0</script><blockquote>
 <p><strong>注</strong>    这里的 $y<em>n \neq 0$ 是在 $n &gt; N, \lim\limits</em>{n \to \infty} y<em>n \neq 0$ 条件下的取值，也可以说当 $n \to \infty$ 时，$y_n \neq 0$。同时也要注意，趋于无穷大时的取值和极限值是不同的，将取值比作一条线，那么极限值可以看作它的渐近线（并不是，因为有重合的情况），但是可以将其视为一样的，由此可以推断 $\lim\limits</em>{n \to \infty} y_n \neq 0 \Rightarrow y_n \neq 0 ~ (n &gt; N)$。</p>
 </blockquote>
+<p>这时，有<br>于是</p>
+<script type="math/tex; mode=display">
+\lim\limits_{n \to \infty} \frac{x_n}{y_n} = \frac{A}{B}.</script><blockquote>
+<p><strong>注</strong>    因为 ${y_n}$ 有极限的充分条件是 $\varepsilon$ 可取任意值，因此 $y_n$ 的取值应该满足各种 $\varepsilon$ 情况下的取值集合，即对所有取值集合求并集，所以可以确定 $y_n \neq 0$。</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="1-4-2-函数极限的运算法则"><a href="#1-4-2-函数极限的运算法则" class="headerlink" title="1.4.2 函数极限的运算法则"></a>1.4.2 函数极限的运算法则</h4><blockquote>
+<p><strong>注</strong>    数列收敛，函数有极限。</p>
+</blockquote>
+<ul>
+<li><p><strong>定理 1.9</strong> — 函数极限的运算法则</p>
+<p>​        设 $\lim\limits<em>{x \to x_0} f(x)$ 和 $\lim\limits</em>{x \to x_0} g(x)$ 存在，则</p>
+<p>（1）$\lim\limits<em>{x \to x_0} (f(x) \pm g(x))$ 存在，且 $\lim\limits</em>{x \to x<em>0} (f(x) \pm g(x)) = \lim\limits</em>{x \to x<em>0} f(x) \pm \lim\limits</em>{x \to x_0} g(x)$；</p>
+<p>（2）$\lim\limits<em>{x \to x_0} (f(x) g(x))$ 存在，且 $\lim\limits</em>{x \to x<em>0} (f(x) g(x)) = \lim\limits</em>{x \to x<em>0} f(x) \cdot \lim\limits</em>{x \to x<em>0} g(x)$，特别地，$\lim\limits</em>{x \to x<em>0} (f(x))^2 = (\lim\limits</em>{x \to x_0} f(x))^2$；</p>
+<p>（3）若 $\lim\limits<em>{x \to x_0} g(x) \neq 0$，则 $\lim\limits</em>{x \to x<em>0} \dfrac{f(x)}{g(x)}$ 存在，且 $\lim\limits</em>{x \to x<em>0} \dfrac{f(x)}{g(x)} = \dfrac{\lim\limits</em>{x \to x<em>0} f(x)}{\lim\limits</em>{x \to x_0} g(x)}$。</p>
+<p><strong>证</strong>    （1）设 $\lim\limits<em>{x \to x_0} f(x) = A, \lim\limits</em>{x \to x_0} g(x) = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在 $0 &lt; \delta \leqslant \delta_0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon, \lvert ~ g(x) - B ~ \rvert &lt; \varepsilon$。这时，有</p>
+<script type="math/tex; mode=display">
+\begin{equation*}
+    \begin{split}
+        \lvert ~ f(x) + g(x) - (A + B) ~ \rvert
+            & = \lvert ~ f(x) - A + g(x) - B ~ \rvert \\
+            & \leqslant \lvert ~ f(x) - A ~ \rvert + \lvert ~ g(x) - B ~ \rvert < 2 \varepsilon.
+    \end{split}
+\end{equation*}</script><p>于是</p>
+<script type="math/tex; mode=display">
+\lim\limits_{x \to x_0} (f(x) + g(x)) = A + B.</script><p>​        （2）设 $\lim\limits<em>{x \to x_0} f(x) = A, \lim\limits</em>{x \to x_0} g(x) = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在 $0 &lt; \delta \leqslant \delta_0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon, \lvert ~ g(x) - B ~ \rvert &lt; \varepsilon$。再由函数极限的局部有界性，存在 $\delta &gt; 0$ 且 $M &gt; 0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) ~ \rvert \leqslant M$。这时，有</p>
+<script type="math/tex; mode=display">
+\begin{equation*}
+    \begin{split}
+        \lvert ~ f(x) g(x) - A B ~ \rvert
+            & = \lvert ~ f(x) g(x) - f(x) B + f(x) B - A B ~ \rvert \\
+            & \leqslant \lvert ~ f(x) g(x) - f(x) B ~ \rvert + \lvert ~ f(x) B - A B ~ \rvert < \varepsilon (M + \lvert ~ B ~ \rvert).
+    \end{split}
+\end{equation*}</script><p>于是</p>
+<script type="math/tex; mode=display">
+\lim\limits_{x \to x_0} f(x) g(x) = AB.</script><blockquote>
+<p><strong>注</strong>    由于自变量趋于有限值的极限原本就是在某个去心邻域 $\mathring{U} (x, \delta_0)$ 内定义的，因此局部有界性也适用于整个区间。</p>
+</blockquote>
+<p>（3）设 $\lim\limits<em>{x \to x_0} f(x) = A, \lim\limits</em>{x \to x_0} g(x) = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在 $0 &lt; \delta \leqslant \delta_0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon, \lvert ~ g(x) - B ~ \rvert &lt; \varepsilon$。再由函数极限的局部有界性，存在 $\delta &gt; 0$ 且 $M &gt; 0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) ~ \rvert \leqslant M$。对于 $\lvert ~ g(x) - B ~ \rvert &lt; \varepsilon$，由绝对值不等式可知</p>
+<script type="math/tex; mode=display">
+\lvert ~ B ~ \rvert - \lvert ~ g(x) ~ \rvert \leqslant \lvert ~ g(x) - B ~ \rvert < \varepsilon,</script><p>则</p>
+<script type="math/tex; mode=display">
+\lvert ~ g(x) ~ \rvert > \lvert ~ B ~ \rvert - \varepsilon,</script><p>因为 $\lim\limits_{x \to x_0} g(x) = B \neq 0$，取 $\varepsilon = \dfrac{\lvert ~ B ~ \rvert}{2} &gt; 0$，即</p>
+<script type="math/tex; mode=display">
+\lvert ~ g(x) ~ \rvert > \frac{\lvert ~ B ~ \rvert}{2} > 0, ~ g(x) \neq 0</script><blockquote>
+<p><strong>注</strong>    这里的 $g(x) \neq 0$，是在 $0 &lt; \lvert ~ x - x<em>0 ~ \rvert &lt; \delta, \lim\limits</em>{x \to x<em>0} g(x) \neq 0$ 条件下的取值，也可以说当 $x \to x_0$ 时，$g(x) \neq 0$。同前述观点可以推断 $\lim\limits</em>{x \to x_0} g(x) \neq 0 \Rightarrow g(x) \neq 0 ~ (0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta)$。</p>
+</blockquote>
 <p>这时，有<br>$$<br>\begin{equation*}</p>
 <pre><code>\begin&#123;split&#125;
-    \lvert ~ \frac&#123;x_n&#125;&#123;y_n&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert
-        &amp; = \lvert ~ \frac&#123;x_n&#125;&#123;y_n&#125; - \frac&#123;x_n&#125;&#123;B&#125; + \frac&#123;x_n&#125;&#123;B&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert \\
-        &amp; \leqslant \lvert ~ \frac&#123;x_n&#125;&#123;y_n&#125; - \frac&#123;x_n&#125;&#123;B&#125; ~ \rvert + \lvert ~ \frac&#123;x_n&#125;&#123;B&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert \\
-        &amp; = \lvert ~ x_n ~ \rvert \lvert ~ \frac&#123;1&#125;&#123;y_n&#125; - \frac&#123;1&#125;&#123;B&#125; ~ \rvert + \lvert ~ \frac&#123;1&#125;&#123;B&#125; ~ \rvert \lvert ~ x_n - A ~ \rvert \\
-        &amp; = \lvert ~ x_n ~ \rvert \frac&#123;\lvert ~ y_n - B ~ \rvert&#125;&#123;\lvert ~ y_n ~ \rvert \lvert ~ B ~ \rvert&#125; + \frac&#123;1&#125;&#123;\lvert ~ B ~ \rvert&#125; \lvert ~ x_n - A ~ \rvert \\
-        &amp; &lt; M \frac&#123;\varepsilon&#125;&#123;\lvert ~ y_n ~ \rvert \lvert ~ B ~ \rvert&#125; + \frac&#123;\varepsilon&#125;&#123;\lvert ~ B ~ \rvert&#125; \\
+    \lvert ~ \frac&#123;f(x)&#125;&#123;g(x)&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert
+        &amp; = \lvert ~ \frac&#123;f(x)&#125;&#123;g(x)&#125; - \frac&#123;f(x)&#125;&#123;B&#125; + \frac&#123;f(x)&#125;&#123;B&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert \\
+        &amp; \leqslant \lvert ~ \frac&#123;f(x)&#125;&#123;g(x)&#125; - \frac&#123;f(x)&#125;&#123;B&#125; ~ \rvert + \lvert ~ \frac&#123;f(x)&#125;&#123;B&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert \\
+        &amp; = \lvert ~ f(x) ~ \rvert \lvert ~ \frac&#123;1&#125;&#123;g(x)&#125; - \frac&#123;1&#125;&#123;B&#125; ~ \rvert + \lvert ~ \frac&#123;1&#125;&#123;B&#125; ~ \rvert \lvert ~ f(x) - A ~ \rvert \\
+        &amp; = \lvert ~ f(x) ~ \rvert \frac&#123;\lvert ~ g(x) - B ~ \rvert&#125;&#123;\lvert ~ g(x) ~ \rvert \lvert ~ B ~ \rvert&#125; + \frac&#123;1&#125;&#123;\lvert ~ B ~ \rvert&#125; \lvert ~ f(x) - A ~ \rvert \\
+        &amp; &lt; M \frac&#123;\varepsilon&#125;&#123;\lvert ~ g(x) ~ \rvert \lvert ~ B ~ \rvert&#125; + \frac&#123;\varepsilon&#125;&#123;\lvert ~ B ~ \rvert&#125; \\
         &amp; &lt; M \frac&#123;2 \varepsilon&#125;
 </code></pre></li>
 </ul>
