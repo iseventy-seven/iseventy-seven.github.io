@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+  
+
+    <head>
+      <meta charset="utf-8" />
+        
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>te |  Think And Write</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/jl.svg" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      
+<link rel="stylesheet" href="/css/fonts/remixicon.css">
+
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
+       
+ 
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+
+      <!-- mermaid -->
+      
+      <script src="https://cdn.staticfile.org/mermaid/8.14.0/mermaid.min.js"></script>
+      
+      <style>
+        .swal2-styled.swal2-confirm {
+          font-size: 1.6rem;
+        }
+      </style>
+    <link rel="alternate" href="/atom.xml" title="Think And Write" type="application/atom+xml">
+</head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-te"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  te
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2023/03/03/te/" class="article-date">
+  <time datetime="2023-03-03T15:53:16.000Z" itemprop="datePublished">2023-03-03</time>
+</a>   
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">4.7k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">22 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="高等数学"><a href="#高等数学" class="headerlink" title="高等数学"></a>高等数学</h1><h2 id="第-1-章-极限与连续"><a href="#第-1-章-极限与连续" class="headerlink" title="第 1 章 极限与连续"></a>第 1 章 极限与连续</h2><h3 id="1-1-函数"><a href="#1-1-函数" class="headerlink" title="1.1 函数"></a>1.1 函数</h3><h4 id="1-1-1-集合"><a href="#1-1-1-集合" class="headerlink" title="1.1.1 集合"></a>1.1.1 集合</h4><ul>
+<li><p><strong>定义 1.1</strong></p>
+<p>​		设 $x_0$ 为一实数，$\delta$ 是某一正数，称开区间 $(x_0 - \delta, x_0 + \delta)$ 为 $x_0$ 的 $\delta$ <strong>邻域</strong>，记为 $U(x_0, \delta)$，点 $x_0$ 称为邻域的<strong>中心</strong>，$\delta$ 称为邻域的<strong>半径</strong>。开区间 $(x_0 - \delta, x_0)$ 称为 $x_0$ 的<strong>左侧</strong> $\delta$ <strong>邻域</strong>，开区间 $(x_0, x_0 + \delta)$ 称为 $x_0$ 的<strong>右侧</strong> $\delta$ <strong>邻域</strong>。</p>
+<p>​		如果把邻域的中心去掉，得到的集合 $(x_0 - \delta, x_0) \cup (x_0, x_0 + \delta)$ 称为 $x_0$ 的<strong>去心</strong> $\delta$ <strong>邻域</strong>，记为 $\mathring{U}(x_0, \delta)$。不需要强调邻域的半径 $\delta$ 时，则用 $U(x_0)$ 表示点 $x_0$ 的某个邻域，$\mathring{U}(x_0)$ 表示点 $x_0$ 的某个去心邻域。</p>
+</li>
+<li><p><strong>定义 1.2</strong></p>
+<p>​		设 $E$ 是一个集合。如果存在 $M &gt; 0$，对于任意给定的 $x \in E$，都有 $\lvert ~ x ~ \rvert \leqslant M$，则称 $E$ 是<strong>有界集合</strong>。 如果这样的 $M &gt; 0$ 不存在，则称 $E$ 是<strong>无界集合</strong>。如果存在 $M$，对于任意给定的 $x \in E$，有 $x \leqslant M$，则称 $E$ 是<strong>上方有界集合</strong>。如果存在 $M$，对于任意给定的 $x \in E$，有 $x \geqslant M$，则称 $E$ 是<strong>下方有界集合</strong>。</p>
+</li>
+</ul>
+<h4 id="1-1-2-函数的定义"><a href="#1-1-2-函数的定义" class="headerlink" title="1.1.2 函数的定义"></a>1.1.2 函数的定义</h4><ul>
+<li><p><strong>定义 1.3</strong></p>
+<p>​		设 $D$ 是一个数集，$f$ 是一个对应关系。如果对于任意给定的 $x \in D$，由关系 $f$ 可以唯一确定一个实数 $y$ 与 $x$ 对应，则称 $f$ 确定了 $D$ 上的一个<strong>函数</strong>，用 $y &#x3D; f(x)$ 表示，其中 $x$ 称为<strong>自变量</strong>，$y$ 称为<strong>因变量</strong>，$D$ 称为<strong>定义域</strong>，$f(x)$ 的全体函数值所构成的集合称为函数的<strong>值域</strong>，用 $R(f)$ 表示。</p>
+</li>
+</ul>
+<h4 id="1-1-3-函数的表达方式"><a href="#1-1-3-函数的表达方式" class="headerlink" title="1.1.3 函数的表达方式"></a>1.1.3 函数的表达方式</h4><h4 id="1-1-4-函数的基本特性"><a href="#1-1-4-函数的基本特性" class="headerlink" title="1.1.4 函数的基本特性"></a>1.1.4 函数的基本特性</h4><ul>
+<li><p><strong>定义 1.4</strong> — 有界性</p>
+<p>​		设函数 $f(x)$ 的定义域为 $I$，若存在数 $M$，对于任意的 $x \in I$，$f(x) \leqslant M$ 总成立，则称函数 $f(x)$ 在 $I$ 上有<strong>上界</strong>，$M$ 为 $f(x)$ 在 $I$ 上的一个上界。若存在数 $m$，对于任意 $x \in I$，$f(x) \geqslant m$ 总成立，则称函数 $f(x)$ 在 $I$ 上有<strong>下界</strong>，$m$ 为 $f(x)$ 在 $I$ 上的一个下界。</p>
+<p>​		若存在 $M &gt; 0$，对于任意的 $x \in I$，$\lvert ~ f(x) ~ \rvert \leqslant M$ 总成立，则称函数 $f(x)$ 在 $I$ 上<strong>有界</strong>。如果这样的数 $M$ 不存在，则称函数 $f(x)$ 在 $I$ 上<strong>无界</strong>。这就是说如果对于任何正数 $M$，总存在 $x_0 \in I$，使得 $\lvert ~ f(x_0) ~ \rvert &gt; M$，那么函数 $f(x)$ 在 $I$ 上无界。</p>
+</li>
+<li><p><strong>定义 1.5</strong> — 奇偶性</p>
+<p>​		设函数 $f(x)$ 在关于原点对称的数集 $I$ 上有定义。若对于任意的 $x \in I$，$f(x) &#x3D; f(-x)$ 成立，称 $f(x)$ 为<strong>偶函数</strong>，若 $f(x) &#x3D; - f(-x)$ 成立，称 $f(x)$ 为奇函数。</p>
+</li>
+<li><p><strong>定义 1.6</strong> — 单调性</p>
+<p>​		设函数 $f(x)$ 的定义域为 $I$，如果对于任意的 $x_1, x_2 \in I, x_1 &lt; x_2$，都有 $f(x_1) \leqslant f(x_2)$，称 $f(x)$ 是 $I$ 上的<strong>单调不减函数**。如果对于任意的 $x_1, x_2 \in I, x_1 &lt; x_2$，都有 $f(x_1) \leqslant f(x_2)$，则称 $f(x)$ 是 $I$ 上的**单调递增函数**。若对于任意的 $x_1, x_2 \in I, x_1 &lt; x_2$，都有 $f(x_1) \geqslant f(x_2)$，称 $f(x)$ 为 $I$ 上的**单调不增函数**。如果对于任意的 $x_1, x_2 \in I, x_1 &lt; x_2$，都有 $f(x_1) &gt; f(x_2)$，则称 $f(x)$ 是 $I$ 上的</strong>单调递减函数**。</p>
+</li>
+<li><p><strong>定义 1.7</strong> — 周期性</p>
+<p>​		设函数 $f(x)$ 在 $I$ 上有定义，$T$ 是一正数。如果对于任意的 $x \in I$ 都有 $x + T \in I$ 且 $f(x + T) &#x3D; f(x)$ 成立，则称 $f(x)$ 是以 $T$ 为周期的<strong>周期函数</strong>。如果存在 $T_0 &gt; 0$ 是使 $f(x + T) &#x3D; f(x)$ 成立的最小正数，则称 $T_0$ 为 $f(x)$ 的<strong>最小正周期</strong>。</p>
+</li>
+</ul>
+<h4 id="1-1-5-函数的运算"><a href="#1-1-5-函数的运算" class="headerlink" title="1.1.5 函数的运算"></a>1.1.5 函数的运算</h4><ul>
+<li><p><strong>定义 1.8</strong></p>
+<p>​		设函数 $f(x), g(x)$ 在 $I$ 上有定义，称 $f(x) + g(x)$ 为函数 $f(x)$ 与 $g(x)$ 的<strong>和函数</strong>，称 $f(x) - g(x)$ 为函数 $f(x)$ 与 $g(x)$ 的<strong>差函数</strong>。 </p>
+</li>
+<li><p><strong>定义 1.9</strong></p>
+<p>​		设函数 $f(x), g(x)$ 在 $I$ 上有定义，称 $f(x)g(x)$ 为函数 $f(x)$ 与 $g(x)$ 的<strong>积函数</strong>。</p>
+</li>
+<li><p><strong>定义 1.10</strong></p>
+<p>​		设函数 $f(x), g(x)$ 在 $I$ 上有定义，称<br>$$<br>\frac{f(x)}{g(x)} ~ (其中 ~ g(x) \neq 0)<br>$$<br>为函数 $f(x)$ 与 $g(x)$ 的<strong>商函数</strong>。</p>
+</li>
+<li><p><strong>定义 1.11</strong></p>
+<p>​		设函数 $f(x)$ 在 $I_1$ 上有定义，函数 $x &#x3D; g(t)$ 在 $I_2$ 上有定义，且对于任意给定的 $t \in I_2, g(t) \in I_1$。$f \circ g$ 定义如下：对于任意的 $t \in I_2$，$f \circ g(t) &#x3D; f(g(t))$，则称 $f \circ g(t)$ 为函数 $f(x)$ 与 $g(t)$ 的<strong>复合函数</strong>，通常将 $f \circ g(t)$ 用 $f(g(t))$ 表示。</p>
+</li>
+</ul>
+<h4 id="1-16-初等函数"><a href="#1-16-初等函数" class="headerlink" title="1.16 初等函数"></a>1.16 初等函数</h4><ul>
+<li><p><strong>定义 1.12</strong></p>
+<p>​		由常数和基本初等函数经过有限次的四则运算及复合过程所得到的可以用一个式子表示的函数称为<strong>初等函数</strong>。</p>
+</li>
+</ul>
+<h3 id="1-2-数列的极限"><a href="#1-2-数列的极限" class="headerlink" title="1.2 数列的极限"></a>1.2 数列的极限</h3><h4 id="1-2-1-数列"><a href="#1-2-1-数列" class="headerlink" title="1.2.1 数列"></a>1.2.1 数列</h4><ul>
+<li><p><strong>定义 1.13</strong></p>
+<p>​		若函数 $y &#x3D; f(x)$ 在正整数集 $N_+$ 上有定义，记 $x_n &#x3D; f(n), n \in N_+$，称 $x_1, x_2, \cdots, x_n, \cdots$ 为<strong>数列</strong>，记为 ${x_n}$，其中 $x_n$ 称为数列的<strong>通项</strong>或<strong>一般项</strong>。</p>
+</li>
+<li><p><strong>定义 1.14</strong></p>
+<p>​		对于数列 $x_n$，如果存在 $M &gt; 0$，对于任意正整数 $n$，有 $\lvert ~ x_n ~ \rvert \leqslant M$，则称数列 ${x_n}$ 为<strong>有界数列</strong>。如果这样的 $M$ 不存在，则称数列 ${x_n}$ 为<strong>无界数列</strong>。如果存在实数 $M$，对于任意正整数 $n$，$x_n \leqslant M$ 成立，则称数列 ${x_n}$ <strong>上方有界</strong>，否则，称 ${x_n}$ 上方无界。如果存在实数 $m$，对于任意正整数 $n$，$x_n \geqslant m$ 成立，则称数列 ${x_n}$ <strong>下方有界</strong>，否则，称 ${x_n}$ 下方无界。</p>
+</li>
+<li><p><strong>定义 1.15</strong></p>
+<p>​		设 ${x_n}$ 是一个数列，如果对于任意的 $n$，都有 $x_{n + 1} &gt; x_n$，则称 ${x_n}$ 是单调递增的数列。反之，如果对于任意的 $n$，都有 $x_{n + 1} &lt; x_n$，则称 ${x_n}$ 是单调递减的数列。</p>
+</li>
+</ul>
+<h4 id="1-2-2-数列的极限"><a href="#1-2-2-数列的极限" class="headerlink" title="1.2.2 数列的极限"></a>1.2.2 数列的极限</h4><ul>
+<li><p><strong>定义 1.16</strong></p>
+<p>​		设 ${x_n}$ 是一个数列，$a$ 为一个常数。如果对于任意给定的 $\varepsilon &gt; 0$，总存在正整数 $N$，使得对于 $n &gt; N$ 时的一切 $x_n$，不等式<br>$$<br>\lvert ~ x_n - a ~ \rvert &lt; \varepsilon<br>$$<br>都成立，那么就称常数 $a$ 是数列 ${x_n}$ 的<strong>极限</strong>，或者称数列 ${x_n}$ <strong>收敛于</strong> $a$，记为<br>$$<br>\lim_{n \to \infty} x_n &#x3D; a ~ 或 ~ x_n \to a ~ (n \to \infty).<br>$$<br>​		如果数列没有极限，就说数列是<strong>发散</strong>的。</p>
+<blockquote>
+<p><strong>注</strong>	数列本质上是一系列离散的点的集合，因此不存在趋于某一点的说法。另一方面来说，极限和“趋于”这两个词，都是隐含连续意味的。</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="1-2-3-收敛数列的性质"><a href="#1-2-3-收敛数列的性质" class="headerlink" title="1.2.3 收敛数列的性质"></a>1.2.3 收敛数列的性质</h4><ul>
+<li><p><strong>定理 1.1</strong> — 极限的唯一性</p>
+<p>​		收敛数列的极限是唯一的。</p>
+<p><strong>证</strong>	用反证法，设 $\lim\limits_{n \to \infty} x_n &#x3D; a, \lim\limits_{n \to \infty} x_n &#x3D; b$。若结论不真，即 $a \neq b$，不妨设 $a &lt; b$，于是 $b - a &gt; 0$。取 $\varepsilon &#x3D; \dfrac{b - a}{2} &gt; 0$，对于 $\lim\limits_{n \to \infty} x_n &#x3D; a$，由数列极限定义知，存在正整数 $N_1$，当 $n &gt; N_1$ 时，有<br>$$<br>\lvert ~ x_n - a ~ \rvert &lt; \varepsilon &#x3D; \frac{b - a}{2},<br>$$<br>即<br>$$<br>\frac{3a - b}{2} &lt; x_n &lt; \frac{a + b}{2}. ~ (1)<br>$$</p>
+<p>​		同理，对于 $\lim\limits_{n \to \infty} x_n &#x3D; b$，存在正整数 $N_2$，当 $n &gt; N_2$ 时，有<br>$$<br>\lvert ~ x_n - b ~ \rvert &lt; \varepsilon &#x3D; \frac{b - a}{2},<br>$$<br>即<br>$$<br>\frac{a + b}{2} &lt; x_n &lt; \frac{3b - a}{2}. ~ (2)<br>$$<br>​		取 $N &#x3D; \max{N_1, N_2}$，当 $n &gt; N$ 时，式 $(1)$ 和 $(2)$ 同时成立，由式 $(1)$ 有 $x_n &lt; \dfrac{a + b}{2}$，由式 $(2)$ 有 $x_n &gt; \dfrac{a + b}{2}$，矛盾。所以极限唯一。</p>
+</li>
+<li><p><strong>定理 1.2</strong> — 收敛数列的有界性</p>
+<p>​		设 $\lim\limits_{n \to \infty} x_n &#x3D; a$，则 ${x_n}$ 有界，即存在 $M &gt; 0$，对任意的 $n$，有 $\lvert ~ x_n ~ \rvert \leqslant M$。</p>
+<p><strong>证</strong>	由 $\lim\limits_{n \to \infty} x_n &#x3D; a$ 知，对任意 $\varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - a ~ \rvert &lt; \varepsilon$。特别地，取 $\varepsilon_0 &#x3D; 1$，存在正整数 $N_0$，当 $n &gt; N_0$ 时，有 $\lvert ~ x_n - a ~ \rvert &lt; 1$。于是当 $n &gt; N_0$ 时，$\lvert ~ x_n ~ \rvert \leqslant \lvert ~ x_n - a ~ \rvert + \lvert ~ a ~ \rvert &lt; \lvert ~ a ~ \rvert + 1$。取 $M &#x3D; \max{\lvert ~ x_1 ~ \rvert, \lvert ~ x_2 ~ \rvert, \cdots, \lvert ~ x_{N_0} ~ \rvert, \lvert ~ a ~ \rvert + 1}$，那么，对任意的 $n$ 有 $\lvert ~ x_n ~ \rvert \leqslant M$。这说明 ${x_n}$ 有界。</p>
+<blockquote>
+<p><strong>注</strong>	对于一个收敛数列，取特定 $\varepsilon$ 值时，其某项之后都小于 $\varepsilon$，而其前 $n$ 项无论多大，都会是一个具体的、可描述的数值，因此它一定有界，即使这个“界”大的无法想象。另一方面来说， $\infty$ 是抽象的、不可描述的、不单单表示非常大或非常小的概念。</p>
+</blockquote>
+</li>
+<li><p><strong>定义 1.17</strong></p>
+<p>​		设 ${x_n}$ 是一个数列，$n_1, n_2, n_3, \cdots$ 是单调递增的正整数数列，称数列 $x_{n_1}, x_{n_2}, x_{n_3}, \cdots$ 为 ${x_n}$ 的一个<strong>子列</strong>。</p>
+</li>
+<li><p><strong>定理 1.3</strong> — 数列收敛和其子列收敛的关系（一）</p>
+<p>​		设 $\lim\limits_{n \to \infty} x_n &#x3D; a$，${x_{n_k}}$ 为 ${x_n}$ 的子列，则 $\lim\limits_{k \to \infty} x_{n_k} &#x3D; a$。</p>
+<p><strong>证</strong>	由 $\lim\limits_{n \to \infty} x_n &#x3D; a$，对于任意给定的 $\varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - a ~ \rvert &lt; \varepsilon$。当 $k &gt; N$ 时，有 $n_k \geqslant k &gt; N$，则 $\lvert ~ x_{n_k} - a ~ \rvert &lt; \varepsilon$，这说明 $\lim\limits_{k \to \infty} x_{n_k} &#x3D; a$。</p>
+<blockquote>
+<p><strong>注</strong>	因为由条件可知 $n &gt; N$ 时都有 $\lvert ~ x_n - a ~ \rvert &lt; \varepsilon$。另由 ${x_{n_k}}$ 为 ${x_n}$ 的子列，且下标数列 $n_k$ 单调递增，则子列第 $k$ 项的下标 $n_k &gt;&#x3D; k$，当取 $k &gt; N$ 时，推出 $n_k &gt; N$，此时再由前述可知 $\lvert ~ x_{n_k} - a ~ \rvert &lt; \varepsilon$。证明过程本质是将原式的 $n$ 换成 $n_k$ 并进行反推。</p>
+</blockquote>
+</li>
+<li><p><strong>定理 1.4</strong> — 数列收敛和其子列收敛的关系（二）</p>
+<p>​		对于数列 ${x_n}$，如果 $\lim\limits_{k \to \infty} x_{2k - 1} &#x3D; \lim\limits_{k \to \infty} x_{2k} &#x3D; a$，则 $\lim\limits_{n \to \infty} x_n &#x3D; a$。</p>
+<p><strong>证</strong>	由 $\lim\limits_{k \to \infty} x_{2k - 1} &#x3D; a$，对于任意给定的 $\varepsilon &gt; 0$，存在正整数 $K_1$，当 $k &gt; K_1$ 时，有 $\lvert ~ x_{2k - 1} - a ~ \rvert &lt; \varepsilon$。同理，由 $\lim\limits_{k \to \infty} x_{2k} &#x3D; a$，对于任意给定的 $\varepsilon &gt; 0$，存在正整数 $K_2$，当 $k &gt; K_2$ 时，有 $\lvert ~ x_{2k} - a ~ \rvert &lt; \varepsilon$。取 $n &gt; N &#x3D; \max{2K_1 - 1, 2K_2}$，则有 $\lvert ~ x_n - a ~ \rvert &lt; \varepsilon$，即得 $\lim\limits_{n \to \infty} x_n &#x3D; a$。</p>
+<blockquote>
+<p><strong>注</strong>	当取 $n &gt; N &#x3D; \max{2K_1 - 1, 2K_2}$ 时，$n$ 的值同时满足上述两个不等式，将 ${x_{2k - 1}}$ 和 ${x_{2k}}$ 求并集得到 ${x_n}$，因此 ${x_n}$ 满足 $\lvert ~ x_n - a ~ \rvert &lt; \varepsilon$。</p>
+</blockquote>
+</li>
+<li><p><strong>定理 1.5</strong> — 收敛数列的保号性</p>
+<p>​		设 $\lim\limits_{n \to \infty} x_n &#x3D; a &gt; 0$（或 $a &lt; 0$），则存在正整数 $N_0$，当 $n &gt; N_0$ 时，有 $x_n &gt; 0$（或 $x_n &lt; 0$）。</p>
+<p><strong>证</strong>	由 $\lim\limits_{n \to \infty} x_n &#x3D; a &gt; 0$，则对任意的 $\varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - a ~ \rvert &lt; \varepsilon$。特别地，若取 $\varepsilon &#x3D; a$，存在正整数 $N_0$，当 $n &gt; N_0$ 时，$\lvert ~ x_n - a ~ \rvert &lt; a$。这样便有 $x_n &gt; 0$ 成立。同理可证 $a &lt; 0$ 的情况。</p>
+<blockquote>
+<p><strong>注</strong>	取 $\varepsilon &#x3D; a$，得到 $\lvert ~ x_n - a ~ \rvert &lt; a$，又得 $-a &lt; x_n - a &lt; a$，即 $0 &lt; x_n &lt; 2a$。</p>
+</blockquote>
+<ul>
+<li><p><strong>推论 1</strong></p>
+<p>​		设 $\lim\limits_{n \to \infty} x_n &#x3D; a$，则对于任意 $b &lt; a$，存在正整数 $N_0$，当 $n &gt; N_0$ 时，$x_n &gt; b$。</p>
+<p><strong>证</strong>	由 $\lim\limits_{n \to \infty} x_n &#x3D; a &gt; b$，则对任意的 $\varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - a ~ \rvert &lt; \varepsilon$。若取 $\varepsilon &#x3D; a - b$，存在正整数 $N_0$，当 $n &gt; N_0$ 时，$\lvert ~ x_n - a ~ \rvert &lt; a - b$。解得 $b &lt; x &lt; 2a - b$。</p>
+</li>
+<li><p><strong>推论 2</strong></p>
+<p>​		设 $\lim\limits_{n \to \infty} x_n &#x3D; a$，则对于任意 $b &gt; a$，存在正整数 $N_0$，当 $n &gt; N_0$ 时，$x_n &lt; b$。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>定理 1.6</strong> — 收敛数列的保序性</p>
+<p>​		设 $x_n \leqslant y_n$，如果 $\lim\limits_{n \to \infty} x_n &#x3D; a, \lim\limits_{n \to \infty} y_n &#x3D; b$，则有 $a \leqslant b$。</p>
+<p><strong>证</strong>	反证法，若结论不真，则 $a &gt; b$，有 $a - b &gt; 0$，取 $\varepsilon &#x3D; \dfrac{a - b}{2} &gt; 0$ 。由 $\lim\limits_{n \to \infty} x_n &#x3D; a$，存在正整数 $N_1$，当 $n &gt; N_1$ 时，有<br>$$<br>\lvert ~ x_n - a ~ \rvert &lt; \varepsilon &#x3D; \dfrac{a - b}{2},<br>$$<br>即<br>$$<br>\frac{a + b}{2} &lt; x_n &lt; \frac{3a - b}{2}. ~(1)<br>$$<br>​		同理，由 $\lim\limits_{n \to \infty} y_n &#x3D; b$，存在正整数 $N_2$，当 $n &gt; N_2$ 时，有<br>$$<br>\lvert ~ y_n - b ~ \rvert &lt; \varepsilon &#x3D; \frac{a - b}{2},<br>$$<br>即<br>$$<br>\frac{3b - a}{2} &lt; y_n &lt; \frac{a + b}{2}. ~ (2)<br>$$<br>​		取 $n &gt; N &#x3D; \max {N1, N2}$，则式 $(1)$ 和式 $(2)$ 同时成立，有 $y_n &lt; \dfrac{a + b}{2} &lt; x_n$，与题设 $x_n \leqslant y_n$ 矛盾，所以 $a \leqslant b$。</p>
+</li>
+<li><p><strong>定理 1.7</strong> — 极限的夹逼定理</p>
+<p>​		设数列 ${x_n}, {z_n}, {y_n}$ 满足：$(1) ~ x_n \leqslant z_n \leqslant y_n; (2) ~ \lim\limits_{n \to \infty} x_n &#x3D; \lim\limits_{n \to \infty} y_n &#x3D; a$。则 $\lim\limits_{n \to \infty} z_n$ 存在，且 $\lim\limits_{n \to \infty} z_n &#x3D; a$。</p>
+<p><strong>证</strong>	因 $\lim\limits_{n \to \infty} x_n &#x3D; a$，则 $\forall ~ \varepsilon &gt; 0$，$\exists ~ N_1 \in N_+$，当 $n &gt; N_1$ 时，有 $\lvert ~ x_n - a ~ \rvert &lt; \varepsilon$，即<br>$$<br>a - \varepsilon &lt; x_n &lt; a + \varepsilon. ~ (1)<br>$$<br>又 $\lim\limits_{n \to \infty} y_n &#x3D; a$，对上述 $\varepsilon$，$\exists ~ N_2 \in N_+$，当 $n &gt; N_2$ 时，有 $\lvert ~ y_n - a ~ \rvert &lt; \varepsilon$，即<br>$$<br>a - \varepsilon &lt; y_n &lt; a + \varepsilon. ~ (2)<br>$$<br>​		取 $N &#x3D; \max{N_1, N_2}$，当 $n &gt; N$ 时，式 $(1)$ 与 $(2)$ 同时成立。又 $x_n \leqslant z_n \leqslant y_n$，于是当 $n &gt; N$ 时，<br>$$<br>a - \varepsilon &lt; x_n \leqslant z_n \leqslant y_n &lt; a + \varepsilon,<br>$$<br>即<br>$$<br>\lvert ~ z_n - a ~ \rvert &lt; \varepsilon.<br>$$<br>从而 $\lim\limits_{n \to \infty} z_n &#x3D; a$。</p>
+</li>
+</ul>
+<h3 id="1-3-函数的极限"><a href="#1-3-函数的极限" class="headerlink" title="1.3 函数的极限"></a>1.3 函数的极限</h3><h4 id="1-3-1-自变量趋于有限值时函数的极限"><a href="#1-3-1-自变量趋于有限值时函数的极限" class="headerlink" title="1.3.1 自变量趋于有限值时函数的极限"></a>1.3.1 自变量趋于有限值时函数的极限</h4><ul>
+<li><p><strong>定义 1.18</strong></p>
+<p>​		设函数 $f(x)$ 在 $x_0$ 的某个去心邻域 $\mathring{U}(x, \delta_0)$ 内有定义，$A$ 为一常数，如果对于任意给定的 $\varepsilon &gt; 0$，总存在 $0 &lt; \delta \leqslant \delta_0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon$ 总成立，则称函数 $f(x)$ 当 $x$ 趋于 $x_0$ 时以 $A$ 为极限，记为 $\lim\limits_{x \to x_0} f(x) &#x3D; A$ 或 $f(x) \to A(x - x_0)$。</p>
+</li>
+<li><p><strong>定义 1.19</strong></p>
+<p>​		设函数 $f(x)$ 在 $(x_0 - \delta_0, x_0) ~ (\delta_0 &gt; 0)$ 内有定义，如果对于任意给定的 $\varepsilon &gt; 0$，存在 $\delta &gt; 0 ~ (\delta \leqslant \delta_0)$，当 $x_0 - \delta &lt; x &lt; x_0$ 时，有 $\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon$，则称函数 $f(x)$ 当 $x$ 趋于 $x_0$ 时以 $A$ 为<strong>左极限</strong>，记为 $\lim\limits_{x \to x_0^-} f(x) &#x3D; A$，也记为 $f(x_0 - 0) &#x3D; A$。同理，定义 $f(x)$ 的右极限 $A$，记为 $\lim\limits_{x \to x_0^+} f(x) &#x3D; A$，也记为 $f(x_0 + 0) &#x3D; A$。</p>
+</li>
+</ul>
+<h4 id="1-3-2-自变量趋于无穷大时函数的极限"><a href="#1-3-2-自变量趋于无穷大时函数的极限" class="headerlink" title="1.3.2 自变量趋于无穷大时函数的极限"></a>1.3.2 自变量趋于无穷大时函数的极限</h4><ul>
+<li><p><strong>定义 1.20</strong></p>
+<p>​		设存在 $m &gt; 0$，当 $\lvert ~ x ~ \rvert &gt; m$ 时，函数 $f(x)$ 有定义，$A$ 为常数。如果对于任意给定的 $\varepsilon &gt; 0$，总存在 $X &gt; m$，当 $\lvert ~ x ~ \rvert &gt; X$ 时，有 $\lvert ~ f(x) - a ~ \rvert &lt; \varepsilon$，则称函数 $f(x)$ 当 $x$ 趋于无穷大时以 $A$ 为极限，记为 $\lim\limits_{x \to \infty} f(x) &#x3D; A$ 或 $f(x) \to A (x \to \infty)$。</p>
+</li>
+<li><p><strong>定义 1.21</strong></p>
+<p>​		设存在 $m &gt; 0$，当 $x &gt; m$ 时，函数 $f(x)$ 有定义，$A$ 为常数。如果对于任意给定的 $\varepsilon &gt; 0$，总存在 $X &gt; m$，当 $x &gt; X$ 时，有 $\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon$，则称函数 $f(x)$ 当 $x$ 趋于正无穷大时以 $A$ 为极限，记为 $\lim\limits_{x \to +\infty} f(x) &#x3D; A$。</p>
+</li>
+<li><p><strong>定义 1.22</strong></p>
+<p>​		设存在 $m &gt; 0$，当 $x &lt; -m$ 时，函数 $f(x)$ 有定义，$A$ 为常数。如果对于任意给定的 $\varepsilon &gt; 0$，总存在 $X &lt; -m$，当 $x &lt; X$ 时，有 $\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon$，则称函数 $f(x)$ 当 $x$ 趋于负无穷大时以 $A$ 为极限，记为 $\lim\limits_{x \to -\infty} f(x) &#x3D; A$。</p>
+</li>
+</ul>
+<h4 id="1-3-3-函数极限的性质"><a href="#1-3-3-函数极限的性质" class="headerlink" title="1.3.3 函数极限的性质"></a>1.3.3 函数极限的性质</h4><h3 id="1-4-极限的运算法则"><a href="#1-4-极限的运算法则" class="headerlink" title="1.4 极限的运算法则"></a>1.4 极限的运算法则</h3><h4 id="1-4-1-数列极限的运算法则"><a href="#1-4-1-数列极限的运算法则" class="headerlink" title="1.4.1 数列极限的运算法则"></a>1.4.1 数列极限的运算法则</h4><ul>
+<li><p><strong>定理 1.8</strong> — 数列极限的运算法则</p>
+<p>​		如果 $\lim\limits_{n \to \infty} x_n$ 和 $\lim\limits_{n \to \infty} y_n$ 存在，则（1）$\lim\limits_{n \to \infty} (x_n \pm y_n)$ 存在，且 $\lim\limits_{n \to \infty} (x_n \pm y_n) &#x3D; \lim\limits_{n \to \infty} x_n + \lim\limits_{n \to \infty} y_n$；（2）$\lim\limits_{n \to \infty} (x_n y_n)$ 存在，且 $\lim\limits_{n \to \infty} (x_n y_n) &#x3D; \lim\limits_{n \to \infty} x_n \cdot \lim\limits_{n \to \infty} y_n$；（3）如果 $\lim\limits_{n \to \infty} y_n \neq 0$，则 $\lim\limits_{n \to \infty} \dfrac{x_n}{y_n}$ 存在，且 $\lim\limits_{n \to \infty} \dfrac{x_n}{y_n} &#x3D; \dfrac{\lim\limits_{n \to \infty} x_n}{\lim\limits_{n \to \infty} y_n}$。</p>
+<p><strong>证</strong>	（1）设 $\lim\limits_{n \to \infty} x_n &#x3D; A, \lim\limits_{n \to \infty} y_n &#x3D; B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - A ~ \rvert &lt; \varepsilon, \lvert ~ y_n - B ~ \rvert &lt; \varepsilon$。这时，有<br>$$<br>\begin{equation*}<br>\begin{split}<br>    \lvert ~ x_n + y_n - (A + B) ~ \rvert<br>        &amp; &#x3D; \lvert ~ x_n - A + y_n - B ~ \rvert \<br>        &amp; \leqslant \lvert ~ x_n - A ~ \rvert + \lvert ~ y_n - B ~ \rvert &lt; 2 \varepsilon.<br>\end{split}<br>\end{equation*}<br>$$<br>于是<br>$$<br>\lim\limits_{n \to \infty} (x_n + y_n) &#x3D; A + B.<br>$$<br>​		（2）设 $\lim\limits_{n \to \infty} x_n &#x3D; A, \lim\limits_{n \to \infty} y_n &#x3D; B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - A ~ \rvert &lt; \varepsilon, \lvert ~ y_n - B ~ \rvert &lt; \varepsilon$。再由收敛数列的有界性，对于任意的 $n$，存在 $M &gt; 0$，使得 $\lvert ~ x_n ~ \rvert &lt; M$。这时，有<br>$$<br>\begin{equation*}<br>\begin{split}<br>    \lvert ~ x_n y_n - A B ~ \rvert<br>        &amp; &#x3D; \lvert ~ x_n y_n - x_n B + x_n B - A B ~ \rvert \<br>        &amp; \leqslant \lvert ~ x_n y_n - x_n B ~ \rvert + \lvert ~ x_n B - A B ~ \rvert &lt; \varepsilon (M + \lvert ~ B ~ \rvert).<br>\end{split}<br>\end{equation*}<br>$$<br>于是<br>$$<br>\lim\limits_{n \to \infty} x_n y_n &#x3D; AB.<br>$$<br>​		（3）设 $\lim\limits_{n \to \infty} x_n &#x3D; A, \lim\limits_{n \to \infty} y_n &#x3D; B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - A ~ \rvert &lt; \varepsilon, \lvert ~ y_n - B ~ \rvert &lt; \varepsilon$。再由收敛数列的有界性，对于任意的 $n$，存在 $M &gt; 0$，使得 $\lvert ~ x_n ~ \rvert &lt; M$。对于 $\lvert ~ y_n - B ~ \rvert &lt; \varepsilon$，由绝对值不等式可知<br>$$<br>\lvert ~ B ~ \rvert - \lvert ~ y_n ~ \rvert \leqslant \lvert ~ y_n - B ~ \rvert &lt; \varepsilon,<br>$$<br>则<br>$$<br>\lvert ~ y_n ~ \rvert &gt; \lvert ~ B ~ \rvert - \varepsilon,<br>$$<br>因为 $\lim\limits_{n \to \infty} y_n &#x3D; B \neq 0$，取 $\varepsilon &#x3D; \dfrac{\lvert ~ B ~ \rvert}{2} &gt; 0$，即<br>$$<br>\lvert ~ y_n ~ \rvert &gt; \frac{\lvert ~ B ~ \rvert}{2} &gt; 0, ~ y_n \neq 0<br>$$</p>
+<blockquote>
+<p><strong>注</strong>	这里的 $y_n \neq 0$ 是在 $n &gt; N, \lim\limits_{n \to \infty} y_n \neq 0$ 条件下的取值，也可以说当 $n \to \infty$ 时，$y_n \neq 0$。同时也要注意，趋于无穷大时的取值和极限值是不同的，将取值比作一条线，那么极限值可以看作它的渐近线（并不是，因为有重合的情况），但是可以将其视为一样的，由此可以推断 $\lim\limits_{n \to \infty} y_n \neq 0 \Rightarrow y_n \neq 0 ~ (n &gt; N)$。</p>
+</blockquote>
+<p>这时，有<br>$$<br>\begin{equation*}<br>\begin{split}<br>    \lvert ~ \frac{x_n}{y_n} - \frac{A}{B} ~ \rvert<br>        &amp; &#x3D; \lvert ~ \frac{x_n}{y_n} - \frac{x_n}{B} + \frac{x_n}{B} - \frac{A}{B} ~ \rvert \<br>        &amp; \leqslant \lvert ~ \frac{x_n}{y_n} - \frac{x_n}{B} ~ \rvert + \lvert ~ \frac{x_n}{B} - \frac{A}{B} ~ \rvert \<br>        &amp; &#x3D; \lvert ~ x_n ~ \rvert \lvert ~ \frac{1}{y_n} - \frac{1}{B} ~ \rvert + \lvert ~ \frac{1}{B} ~ \rvert \lvert ~ x_n - A ~ \rvert \<br>        &amp; &#x3D; \lvert ~ x_n ~ \rvert \frac{\lvert ~ y_n - B ~ \rvert}{\lvert ~ y_n ~ \rvert \lvert ~ B ~ \rvert} + \frac{1}{\lvert ~ B ~ \rvert} \lvert ~ x_n - A ~ \rvert \<br>        &amp; &lt; M \frac{\varepsilon}{\lvert ~ y_n ~ \rvert \lvert ~ B ~ \rvert} + \frac{\varepsilon}{\lvert ~ B ~ \rvert} \<br>        &amp; &lt; M \frac{2 \varepsilon}</p>
+</li>
+</ul>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2023/03/03/te/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2023/02/25/SPM-Note/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">东北大学 SPM 笔记</div>
+      </a>
+    
+  </nav>
+
+  
+   
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.css">
+
+
+<script src="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.js"></script>
+
+
+<script src="https://cdn.staticfile.org/blueimp-md5/2.19.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: 'a7ac41f6d4e6def7061a',
+    clientSecret: 'b69502ba84f117e64c4cf12953cb6e0d7a46310a',
+    repo: 'iseventy-seven.github.io',
+    owner: 'iseventy-seven',
+    admin: ['iseventy-seven'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+  
+   
+    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
+    <div id="twikoo" class="twikoo"></div>
+    <script>
+        twikoo.init({
+            envId: ""
+        })
+    </script>
+ 
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2023
+        <i class="ri-heart-fill heart_icon"></i> i seventy-seven
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>    
+    </main>
+    <div class="float_btns">
+      <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+    </div>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/zz.svg" alt="Think And Write"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-3.6.0.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js"></script>
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/config/TeX-AMS-MML_HTMLorMML-full.js"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
+ 
+<script src="/js/clickBoom2.js"></script>
+ 
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+ 
+<script src="/js/dz.js"></script>
+ 
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    
+
+  </div>
+</body>
+
+</html>
