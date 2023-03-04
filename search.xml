@@ -631,19 +631,17 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <li>独特的产品，或其他产品的组成部分、某个产品的升级版和修正版。</li>
 </ul>
 </li>
-<li><p>service</p>
-<ul>
+<li>service<ul>
 <li>独特的服务或提供某种服务的能力。</li>
 </ul>
 </li>
-<li><p>result</p>
-<ul>
+<li>result<ul>
 <li>独特的成果。</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><p>A project is a sequence of unique, complex, and connected **activities **that have one <strong>goal or purpose</strong> and that must be completed by a specific <strong>time</strong>, within <strong>budget</strong>, and according to <strong>specification</strong>.</p>
+<li><p>A project is a sequence of unique, complex, and connected <strong>activities </strong>that have one <strong>goal or purpose</strong> and that must be completed by a specific <strong>time</strong>, within <strong>budget</strong>, and according to <strong>specification</strong>.</p>
 <ul>
 <li>activities 活动序列</li>
 <li>goal or purpose 目标</li>
@@ -715,70 +713,18 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>约束条件优先级</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th></th>
-<th>Critical (1)</th>
-<th>(2)</th>
-<th>(3)</th>
-<th>(4)</th>
-<th>Flexible (5)</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Scope</td>
-<td></td>
-<td></td>
-<td></td>
-<td>$\checkmark$</td>
-<td></td>
-</tr>
-<tr>
-<td>Quality</td>
-<td></td>
-<td></td>
-<td>$\checkmark$</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Time</td>
-<td>$\checkmark$</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Cost</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>$\checkmark$</td>
-</tr>
-<tr>
-<td>Resource<br />Avaliability</td>
-<td></td>
-<td>$\checkmark$</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
+<li>|                            | Critical (1) | (2)          | (3)          | (4)          | Flexible (5) |<br>| ————————————— | —————— | —————— | —————— | —————— | —————— |<br>| Scope                      |              |              |              | $\checkmark$ |              |<br>| Quality                    |              |              | $\checkmark$ |              |              |<br>| Time                       | $\checkmark$ |              |              |              |              |<br>| Cost                       |              |              |              |              | $\checkmark$ |<br>| Resource<br />Avaliability |              | $\checkmark$ |              |              |              |</li>
 </ul>
 </li>
 <li><p>范质三角形</p>
 <ul>
-<li>![08.Scope Triangle](........\pictures\SPM\08.Scope Triangle.jpg)</li>
+<li><img src="..\..\..\..\pictures\SPM\08.Scope Triangle.jpg" alt="08.Scope Triangle"></li>
 </ul>
 </li>
 </ul>
 <h4 id="A23-十知识域"><a href="#A23-十知识域" class="headerlink" title="A23 十知识域"></a>A23 十知识域</h4><ul>
 <li>Project Management Framework 项目管理框架<ul>
-<li>![09.Project Management Framework](........\pictures\SPM\09.Project Management Framework.jpg)<ul>
+<li><img src="..\..\..\..\pictures\SPM\09.Project Management Framework.jpg" alt="09.Project Management Framework"><ul>
 <li>Project Stakeholders 项目干系人<ul>
 <li>参与项目（Sponsor, Manager, Team, Suppliers）或被项目影响（Opponents）的人。</li>
 </ul>
@@ -798,7 +744,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li>Project Success 项目成功<ul>
 <li>项目达到了范围、时间和成本目标。</li>
-<li>项目使客户&#x2F;项目发起人感到满意。</li>
+<li>项目使客户/项目发起人感到满意。</li>
 <li>项目的结果达到了主要目标。</li>
 </ul>
 </li>
@@ -820,7 +766,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <h4 id="A24-系统观点"><a href="#A24-系统观点" class="headerlink" title="A24 系统观点"></a>A24 系统观点</h4><ul>
 <li>孤立 vs 系统</li>
 <li>三球模型<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C10.%E4%B8%89%E7%90%83%E6%A8%A1%E5%9E%8B.png" alt="10.三球模型"></li>
+<li><img src="..\..\..\..\pictures\SPM\10.三球模型.png" alt="10.三球模型"></li>
 </ul>
 </li>
 </ul>
@@ -841,86 +787,12 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>三个阶段</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th></th>
-<th>早期阶段</th>
-<th>中期阶段</th>
-<th>后期阶段</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>资源需求</td>
-<td>最低</td>
-<td>最多</td>
-<td></td>
-</tr>
-<tr>
-<td>不确定性</td>
-<td>最高</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>确定性</td>
-<td></td>
-<td>逐渐变高</td>
-<td></td>
-</tr>
-<tr>
-<td>干系人影响</td>
-<td>最大</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>需求</td>
-<td></td>
-<td>逐渐丰富</td>
-<td></td>
-</tr>
-<tr>
-<td>修改代价</td>
-<td></td>
-<td></td>
-<td>最高</td>
-</tr>
-</tbody></table>
-</li>
+<li>|            | 早期阶段 | 中期阶段 | 后期阶段 |<br>| ————— | ———— | ———— | ———— |<br>| 资源需求   | 最低     | 最多     |          |<br>| 不确定性   | 最高     |          |          |<br>| 确定性     |          | 逐渐变高 |          |<br>| 干系人影响 | 最大     |          |          |<br>| 需求       |          | 逐渐丰富 |          |<br>| 修改代价   |          |          | 最高     |</li>
 </ul>
 </li>
 <li><p>四个阶段</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>Concept<br />概念</th>
-<th>Development<br />开发</th>
-<th>Implementation<br />实施</th>
-<th>Close-out<br />收尾</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Business case<br />商业案例</td>
-<td>Project management plan<br />项目管理计划</td>
-<td>Execution of work packages<br />工作包执行</td>
-<td>Completed work<br />完成的工作</td>
-</tr>
-<tr>
-<td>Preliminary cost estimate<br />初步成本估算</td>
-<td>Budgetary cost estimate<br />成本预算</td>
-<td>Definitive cost estimate<br />最终成本估算</td>
-<td>Lessons learned<br />教训总结</td>
-</tr>
-<tr>
-<td>2-level WBS<br />2 层 WBS</td>
-<td>3+-level WBS<br />3 层  WBS</td>
-<td>Performance reports<br />绩效报告</td>
-<td>Customer acceptance<br />客户验收</td>
-</tr>
-</tbody></table>
-</li>
+<li>| Concept<br />概念                           | Development<br />开发                     | Implementation<br />实施                   | Close-out<br />收尾               |<br>| —————————————————————- | ————————————————————- | ————————————————————— | ————————————————- |<br>| Business case<br />商业案例                 | Project management plan<br />项目管理计划 | Execution of work packages<br />工作包执行 | Completed work<br />完成的工作    |<br>| Preliminary cost estimate<br />初步成本估算 | Budgetary cost estimate<br />成本预算     | Definitive cost estimate<br />最终成本估算 | Lessons learned<br />教训总结     |<br>| 2-level WBS<br />2 层 WBS                   | 3+-level WBS<br />3 层  WBS               | Performance reports<br />绩效报告          | Customer acceptance<br />客户验收 |</li>
 </ul>
 </li>
 <li><p>模型</p>
@@ -983,112 +855,12 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>组间关联</p>
 <ul>
-<li><img src="/........%5Cpictures%5CSPM%5C19.%E7%BB%84%E9%97%B4%E5%85%B3%E8%81%94.jpg" alt="19.组间关联"></li>
+<li><img src="..\..\..\..\pictures\SPM\19.组间关联.jpg" alt="19.组间关联"></li>
 </ul>
 </li>
 <li><p>组外映射</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-<th>过程组</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>知识域</strong></td>
-<td>启动</td>
-<td>计划</td>
-<td>执行</td>
-<td>监控</td>
-<td>收尾</td>
-</tr>
-<tr>
-<td>综合管理</td>
-<td>制定项目章程</td>
-<td>制定项目管理计划</td>
-<td>指导和管理项目执行</td>
-<td>监控项目工作<br />执行整体变更控制</td>
-<td>项目或阶段收尾</td>
-</tr>
-<tr>
-<td>范围管理</td>
-<td></td>
-<td>范围管理计划<br />收集需求<br />范围定义<br />创建 WBS</td>
-<td></td>
-<td>范围确定<br />范围控制</td>
-<td></td>
-</tr>
-<tr>
-<td>时间管理</td>
-<td></td>
-<td>进度管理计划<br />活动定义<br />活动排序<br />活动资源估计<br />活动工期估计<br />生成进度表</td>
-<td></td>
-<td>进度控制</td>
-<td></td>
-</tr>
-<tr>
-<td>成本管理</td>
-<td></td>
-<td>成本管理计划<br />成本估计<br />确定预算</td>
-<td></td>
-<td>成本控制</td>
-<td></td>
-</tr>
-<tr>
-<td>质量管理</td>
-<td></td>
-<td>质量管理计划</td>
-<td>执行质量保证</td>
-<td>质量控制</td>
-<td></td>
-</tr>
-<tr>
-<td>人力资源管理</td>
-<td></td>
-<td>人力资源管理计划</td>
-<td>获取项目团队<br />开发项目团队<br />管理项目团队</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>沟通管理</td>
-<td></td>
-<td>沟通管理计划</td>
-<td>沟通管理</td>
-<td>沟通控制</td>
-<td></td>
-</tr>
-<tr>
-<td>风险管理</td>
-<td></td>
-<td>风险管理计划<br />风险识别<br />定性风险分析<br />定量风险分析<br />风险响应计划</td>
-<td></td>
-<td>风险控制</td>
-<td></td>
-</tr>
-<tr>
-<td>采购管理</td>
-<td></td>
-<td>采购管理计划</td>
-<td>采购实施</td>
-<td>采购控制</td>
-<td>采购收尾</td>
-</tr>
-<tr>
-<td>干系人管理</td>
-<td>识别干系人</td>
-<td>干系人管理计划</td>
-<td>干系人参与管理</td>
-<td>干系人参与控制</td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
+<li>|              |              |                                                              | 过程组                                           |                                    |                |<br>| —————— | —————— | —————————————————————————————— | ———————————————————————— | ————————————————— | ——————— |<br>| <strong>知识域</strong>   | 启动         | 计划                                                         | 执行                                             | 监控                               | 收尾           |<br>| 综合管理     | 制定项目章程 | 制定项目管理计划                                             | 指导和管理项目执行                               | 监控项目工作<br />执行整体变更控制 | 项目或阶段收尾 |<br>| 范围管理     |              | 范围管理计划<br />收集需求<br />范围定义<br />创建 WBS       |                                                  | 范围确定<br />范围控制             |                |<br>| 时间管理     |              | 进度管理计划<br />活动定义<br />活动排序<br />活动资源估计<br />活动工期估计<br />生成进度表 |                                                  | 进度控制                           |                |<br>| 成本管理     |              | 成本管理计划<br />成本估计<br />确定预算                     |                                                  | 成本控制                           |                |<br>| 质量管理     |              | 质量管理计划                                                 | 执行质量保证                                     | 质量控制                           |                |<br>| 人力资源管理 |              | 人力资源管理计划                                             | 获取项目团队<br />开发项目团队<br />管理项目团队 |                                    |                |<br>| 沟通管理     |              | 沟通管理计划                                                 | 沟通管理                                         | 沟通控制                           |                |<br>| 风险管理     |              | 风险管理计划<br />风险识别<br />定性风险分析<br />定量风险分析<br />风险响应计划 |                                                  | 风险控制                           |                |<br>| 采购管理     |              | 采购管理计划                                                 | 采购实施                                         | 采购控制                           | 采购收尾       |<br>| 干系人管理   | 识别干系人   | 干系人管理计划                                               | 干系人参与管理                                   | 干系人参与控制                     |                |</li>
 </ul>
 </li>
 </ul>
@@ -1120,7 +892,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </ul>
 </li>
 <li>执行<ul>
-<li>指导&#x2F;管理项目</li>
+<li>指导/管理项目</li>
 <li>执行质量保证</li>
 <li>获取项目团队</li>
 <li>建设项目团队</li>
@@ -1145,7 +917,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </ul>
 </li>
 <li>收尾<ul>
-<li>项目&#x2F;阶段收尾</li>
+<li>项目/阶段收尾</li>
 <li>采购终止</li>
 </ul>
 </li>
@@ -1158,7 +930,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>模型分为三层五类</p>
 <ul>
-<li><img src="/........%5Cpictures%5CSPM%5C20.%E4%B8%89%E5%B1%82%E4%BA%94%E7%B1%BB.jpg" alt="20.三层五类"></li>
+<li><img src="..\..\..\..\pictures\SPM\20.三层五类.jpg" alt="20.三层五类"></li>
 </ul>
 </li>
 <li><p>传统模型</p>
@@ -1197,11 +969,11 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </ul>
 </li>
 <li>Rapid Development Waterfall model 快速开发瀑布模型<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C23.%E5%BF%AB%E9%80%9F%E5%BC%80%E5%8F%91%E7%80%91%E5%B8%83%E6%A8%A1%E5%9E%8B.png" alt="23.快速开发瀑布模型"></li>
+<li><img src="..\..\..\..\pictures\SPM\23.快速开发瀑布模型.png" alt="23.快速开发瀑布模型"></li>
 </ul>
 </li>
 <li>Rapid Development Waterfall model Ⅱ 快速开发瀑布模型 Ⅱ<ul>
-<li>![24.快速开发瀑布模型 Ⅱ](........\pictures\SPM\24.快速开发瀑布模型 Ⅱ.png)</li>
+<li><img src="..\..\..\..\pictures\SPM\24.快速开发瀑布模型 Ⅱ.png" alt="24.快速开发瀑布模型 Ⅱ"></li>
 </ul>
 </li>
 </ul>
@@ -1234,7 +1006,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </ul>
 </li>
 <li>The Incremental PMLC model Ⅱ 增量项目管理生命周期模型 Ⅱ<ul>
-<li>![27.增量项目管理生命周期模型 Ⅱ](........\pictures\SPM\27.增量项目管理生命周期模型 Ⅱ.png)</li>
+<li><img src="..\..\..\..\pictures\SPM\27.增量项目管理生命周期模型 Ⅱ.png" alt="27.增量项目管理生命周期模型 Ⅱ"></li>
 </ul>
 </li>
 <li>Staged Delivery Waterfall model 分阶段交付瀑布模型<ul>
@@ -1242,7 +1014,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </ul>
 </li>
 <li>Feature-Driven Development model 特性驱动的开发模型<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C29.%E7%89%B9%E6%80%A7%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%BC%80%E5%8F%91%E6%A8%A1%E5%9E%8B.png" alt="29.特性驱动的开发模型"></li>
+<li><img src="..\..\..\..\pictures\SPM\29.特性驱动的开发模型.png" alt="29.特性驱动的开发模型"></li>
 </ul>
 </li>
 </ul>
@@ -1287,23 +1059,23 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li>种类<ul>
 <li>Prototyping model 原型模型（丢弃原则，重新做原型）<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C31.%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%9E%8B.png" alt="31.原型模型"></li>
+<li><img src="..\..\..\..\pictures\SPM\31.原型模型.png" alt="31.原型模型"></li>
 </ul>
 </li>
 <li>Evolutionary Development Waterfall model 进化开发瀑布模型（进化原则，不断修改原型）<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C32.%E8%BF%9B%E5%8C%96%E5%BC%80%E5%8F%91%E7%80%91%E5%B8%83%E6%A8%A1%E5%9E%8B.png" alt="32.进化开发瀑布模型"></li>
+<li><img src="..\..\..\..\pictures\SPM\32.进化开发瀑布模型.png" alt="32.进化开发瀑布模型"></li>
 </ul>
 </li>
 <li>Dynamic Systems Development Method 动态系统设计方法<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C33.%E5%8A%A8%E6%80%81%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95.png" alt="33.动态系统设计方法"></li>
+<li><img src="..\..\..\..\pictures\SPM\33.动态系统设计方法.png" alt="33.动态系统设计方法"></li>
 </ul>
 </li>
 <li>Rational Unified Process model RUP 模型（统一过程模型）<ul>
-<li>![34.RUP 模型](........\pictures\SPM\34.RUP 模型.png)</li>
+<li><img src="..\..\..\..\pictures\SPM\34.RUP 模型.png" alt="34.RUP 模型"></li>
 </ul>
 </li>
 <li>The Scrum process flow 敏捷开发模型流程<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C35.%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E6%A8%A1%E5%9E%8B%E6%B5%81%E7%A8%8B.png" alt="35.敏捷开发模型流程"></li>
+<li><img src="..\..\..\..\pictures\SPM\35.敏捷开发模型流程.png" alt="35.敏捷开发模型流程"></li>
 </ul>
 </li>
 </ul>
@@ -1343,7 +1115,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <ul>
 <li><p>Extreme PMLC model 极限模型</p>
 <ul>
-<li><p><img src="/........%5Cpictures%5CSPM%5C37.%E6%9E%81%E9%99%90%E6%A8%A1%E5%9E%8B.png" alt="37.极限模型"></p>
+<li><p><img src="..\..\..\..\pictures\SPM\37.极限模型.png" alt="37.极限模型"></p>
 </li>
 <li><p>优点</p>
 <ul>
@@ -1351,14 +1123,12 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <li>能提供大量部分解决方案供早期参考</li>
 </ul>
 </li>
-<li><p>缺点</p>
-<ul>
+<li>缺点<ul>
 <li>可能在所有错误的地方寻找解决方案</li>
 <li>不能保证项目交付结果具有商业价值</li>
 </ul>
 </li>
-<li><p>种类</p>
-<ul>
+<li>种类<ul>
 <li>The INSPIRE Extreme PMLC model INSPIRE 极限项目管理生命周期模型<ul>
 <li><img src="..\..\..\..\pictures\SPM\38.INSPIRE 极限项目管理生命周期模型.png" alt="38.INSPIRE 极限项目管理生命周期模型" style="zoom: 80%;" /></li>
 </ul>
@@ -1375,7 +1145,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <ul>
 <li>相同点<ul>
 <li>都包含五过程组</li>
-<li>都始于范围&#x2F;启动过程组</li>
+<li>都始于范围/启动过程组</li>
 <li>都终于收尾过程组</li>
 </ul>
 </li>
@@ -1391,54 +1161,29 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>模型选择流程</p>
 <ul>
-<li><img src="/........%5Cpictures%5CSPM%5C39.%E6%A8%A1%E5%9E%8B%E9%80%89%E6%8B%A9%E6%B5%81%E7%A8%8B.jpg" alt="39.模型选择流程"></li>
+<li><img src="..\..\..\..\pictures\SPM\39.模型选择流程.jpg" alt="39.模型选择流程"></li>
 </ul>
 </li>
 </ul>
 <h4 id="B22-UP-模型"><a href="#B22-UP-模型" class="headerlink" title="B22 UP 模型"></a>B22 UP 模型</h4><ul>
 <li><p>RUP 模型 Rational Unified Process model（统一过程模型）</p>
 <ul>
-<li><img src="..\..\..\..\pictures\SPM\40.RUP 模型详解.jpg" alt="40.RUP 模型详解" style="zoom:50%;" />
+<li><p><img src="..\..\..\..\pictures\SPM\40.RUP 模型详解.jpg" alt="40.RUP 模型详解" style="zoom:50%;" /></p>
 </li>
-<li><p>![41.RUP 工作流](........\pictures\SPM\41.RUP 工作流.jpg)</p>
+<li><p><img src="..\..\..\..\pictures\SPM\41.RUP 工作流.jpg" alt="41.RUP 工作流"></p>
 </li>
-<li><img src="..\..\..\..\pictures\SPM\42.RUP 工作流详解.jpg" alt="42.RUP 工作流详解" style="zoom: 67%;" />
+<li><p><img src="..\..\..\..\pictures\SPM\42.RUP 工作流详解.jpg" alt="42.RUP 工作流详解" style="zoom: 67%;" /></p>
 </li>
 <li><p>产品角度工作流</p>
 <ul>
-<li><img src="..\..\..\..\pictures\SPM\43.产品角度工作流.jpg" alt="43.产品角度工作流" style="zoom:67%;" />
-
-<table>
-<thead>
-<tr>
-<th></th>
-<th>先启</th>
-<th>精化</th>
-<th>构建</th>
-<th>产品化</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>工作量</td>
-<td>-5%</td>
-<td>20%</td>
-<td>65%</td>
-<td>10%</td>
-</tr>
-<tr>
-<td>进度</td>
-<td>10%</td>
-<td>30%</td>
-<td>50%</td>
-<td>10%</td>
-</tr>
-</tbody></table>
+<li><p><img src="..\..\..\..\pictures\SPM\43.产品角度工作流.jpg" alt="43.产品角度工作流" style="zoom:67%;" /></p>
+<p>|        | 先启 | 精化 | 构建 | 产品化 |<br>| ——— | —— | —— | —— | ——— |<br>| 工作量 | -5%  | 20%  | 65%  | 10%    |<br>| 进度   | 10%  | 30%  | 50%  | 10%    |</p>
 </li>
 <li><p>软件产品构建流程：程序—软件—产品（程序设计—软件开发—产品构建）</p>
 </li>
 </ul>
 </li>
-<li><p>![44.RUP 总览](........\pictures\SPM\44.RUP 总览.jpg)</p>
+<li><p><img src="..\..\..\..\pictures\SPM\44.RUP 总览.jpg" alt="44.RUP 总览"></p>
 </li>
 </ul>
 </li>
@@ -1480,7 +1225,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 </ul>
 </li>
-<li><img src="/........%5Cpictures%5CSPM%5C45.Scrum.jpg" alt="45.Scrum"></li>
+<li><img src="..\..\..\..\pictures\SPM\45.Scrum.jpg" alt="45.Scrum"></li>
 </ul>
 <h2 id="C-知识域"><a href="#C-知识域" class="headerlink" title="C 知识域"></a>C 知识域</h2><h3 id="C1-团队管理"><a href="#C1-团队管理" class="headerlink" title="C1 团队管理"></a>C1 团队管理</h3><h4 id="C11-团队管理-IPO"><a href="#C11-团队管理-IPO" class="headerlink" title="C11 团队管理 IPO"></a>C11 团队管理 IPO</h4><ul>
 <li><p>IPO</p>
@@ -1498,39 +1243,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>五过程组和资源管理（团队管理）知识域的映射</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>启动</th>
-<th>规划</th>
-<th>执行</th>
-<th>监控</th>
-<th>收尾</th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td>规划资源管理</td>
-<td>获取资源</td>
-<td>控制资源</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>估算活动资源</td>
-<td>建设团队</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>管理团队</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
+<li>| 启动 | 规划         | 执行     | 监控     | 收尾 |<br>| —— | —————— | ———— | ———— | —— |<br>|      | 规划资源管理 | 获取资源 | 控制资源 |      |<br>|      | 估算活动资源 | 建设团队 |          |      |<br>|      |              | 管理团队 |          |      |</li>
 </ul>
 </li>
 <li><p>规划资源管理</p>
@@ -1723,7 +1436,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <li>输出<ul>
 <li>团队绩效评价<ul>
 <li>塔可曼（Tuckman）阶梯理论<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C46.%E5%A1%94%E5%8F%AF%E6%9B%BC%E9%98%B6%E6%A2%AF%E7%90%86%E8%AE%BA.jpg" alt="46.塔可曼阶梯理论"></li>
+<li><img src="..\..\..\..\pictures\SPM\46.塔可曼阶梯理论.jpg" alt="46.塔可曼阶梯理论"></li>
 </ul>
 </li>
 </ul>
@@ -1866,52 +1579,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <h4 id="C12-心理学因素"><a href="#C12-心理学因素" class="headerlink" title="C12 心理学因素"></a>C12 心理学因素</h4><ul>
 <li><p>影响人们如何工作以及如何更好工作的心理学因素</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>激励理论</th>
-<th>影响力和权力</th>
-<th>效率</th>
-<th>情商</th>
-<th>领导力</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>内在激励<br />外在激励</td>
-<td>9 种影响力</td>
-<td>科维<br />七种习惯</td>
-<td>Howard Gardner<br />多元智能理论</td>
-<td>Peter Northouse<br />领导力：理论与实践</td>
-</tr>
-<tr>
-<td>马斯洛<br />需求层次理论</td>
-<td>5 种权力</td>
-<td>移情倾听<br />和友好关系</td>
-<td>Daniel Goleman<br />高情商</td>
-<td>Daniel Goleman<br />原始领导力</td>
-</tr>
-<tr>
-<td>赫兹伯格<br />“激励·保健”理论</td>
-<td></td>
-<td>镜像法</td>
-<td>Anthony C.Mersino<br />项目经理情商管理</td>
-<td></td>
-</tr>
-<tr>
-<td>麦克力兰<br />”获取·需求“理论</td>
-<td></td>
-<td></td>
-<td>CareerBuilder.com<br />智商情商调查报告</td>
-<td></td>
-</tr>
-<tr>
-<td>麦格雷戈<br />X 理论和 Y 理论</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
+<li><p>| 激励理论                      | 影响力和权力 | 效率                     | 情商                                    | 领导力                                  |<br>| ——————————————- | —————— | ———————————— | ———————————————————- | ———————————————————- |<br>| 内在激励<br />外在激励        | 9 种影响力   | 科维<br />七种习惯       | Howard Gardner<br />多元智能理论        | Peter Northouse<br />领导力：理论与实践 |<br>| 马斯洛<br />需求层次理论      | 5 种权力     | 移情倾听<br />和友好关系 | Daniel Goleman<br />高情商              | Daniel Goleman<br />原始领导力          |<br>| 赫兹伯格<br />“激励·保健”理论 |              | 镜像法                   | Anthony C.Mersino<br />项目经理情商管理 |                                         |<br>| 麦克力兰<br />”获取·需求“理论 |              |                          | CareerBuilder.com<br />智商情商调查报告 |                                         |<br>| 麦格雷戈<br />X 理论和 Y 理论 |              |                          |                                         |                                         |</p>
 </li>
 <li><p>激励理论</p>
 <ul>
@@ -1929,44 +1597,12 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>马斯洛需求层次理论</p>
 <ul>
-<li><img src="/........%5Cpictures%5CSPM%5C47.%E9%A9%AC%E6%96%AF%E6%B4%9B%E9%9C%80%E6%B1%82%E5%B1%82%E6%AC%A1%E7%90%86%E8%AE%BA.png" alt="47.马斯洛需求层次理论"></li>
+<li><img src="..\..\..\..\pictures\SPM\47.马斯洛需求层次理论.png" alt="47.马斯洛需求层次理论"></li>
 </ul>
 </li>
 <li><p>赫兹伯格“激励·保健”理论</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>保健因素</th>
-<th>激励因素</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>更高的工资</td>
-<td>成就</td>
-</tr>
-<tr>
-<td>更多的监督</td>
-<td>赏识</td>
-</tr>
-<tr>
-<td>更吸引人的工作环境</td>
-<td>工作本身</td>
-</tr>
-<tr>
-<td>计算机或其它需要的设备</td>
-<td>责任</td>
-</tr>
-<tr>
-<td>健康福利</td>
-<td>晋升</td>
-</tr>
-<tr>
-<td>培训</td>
-<td>成长</td>
-</tr>
-</tbody></table>
-</li>
+<li>| 保健因素               | 激励因素 |<br>| ——————————— | ———— |<br>| 更高的工资             | 成就     |<br>| 更多的监督             | 赏识     |<br>| 更吸引人的工作环境     | 工作本身 |<br>| 计算机或其它需要的设备 | 责任     |<br>| 健康福利               | 晋升     |<br>| 培训                   | 成长     |</li>
 </ul>
 </li>
 <li><p>麦克力兰”获取·需求“理论</p>
@@ -2042,39 +1678,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <h4 id="C13-组织架构"><a href="#C13-组织架构" class="headerlink" title="C13 组织架构"></a>C13 组织架构</h4><ul>
 <li><p>组织架构</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>组建团队</th>
-<th>内部结构</th>
-<th>外部结构</th>
-<th>云化组织</th>
-<th>组织演进</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>角色任务</td>
-<td>民主分权制</td>
-<td>职能式</td>
-<td>时代背景</td>
-<td>研发演进</td>
-</tr>
-<tr>
-<td>角色依赖</td>
-<td>控制分权制</td>
-<td>项目式</td>
-<td>平台企业</td>
-<td>华为变革</td>
-</tr>
-<tr>
-<td>选择成员</td>
-<td>控制集权制</td>
-<td>矩阵式</td>
-<td>企业云台</td>
-<td>未来变革</td>
-</tr>
-</tbody></table>
-</li>
+<li>| 组建团队 | 内部结构   | 外部结构 | 云化组织 | 组织演进 |<br>| ———— | ————— | ———— | ———— | ———— |<br>| 角色任务 | 民主分权制 | 职能式   | 时代背景 | 研发演进 |<br>| 角色依赖 | 控制分权制 | 项目式   | 平台企业 | 华为变革 |<br>| 选择成员 | 控制集权制 | 矩阵式   | 企业云台 | 未来变革 |</li>
 </ul>
 </li>
 <li><p>组建团队</p>
@@ -2137,30 +1741,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <li><img src="..\..\..\..\pictures\SPM\54.矩阵式.png" alt="54.矩阵式" style="zoom:80%;" /></li>
 </ul>
 </li>
-<li><table>
-<thead>
-<tr>
-<th>组织结构</th>
-<th>优点</th>
-<th>缺点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>职能式</td>
-<td>人员使用灵活<br/>易于知识共性、技术攻关<br/>保持业务、技术连续性</td>
-<td>客户利益得不到优先考虑<br/>狭隘，不全面<br/>反应缓慢</td>
-</tr>
-<tr>
-<td>项目式</td>
-<td>能控制资源<br/>沟通、决策速度快<br/>向客户负责</td>
-<td>重复成本较高（人员、技术、设备）<br/>各行其政，不一致<br/>内部强依赖，外部弱沟通<br/>项目间缺乏知识信息交流</td>
-</tr>
-<tr>
-<td>矩阵式</td>
-<td>有效利用资源<br/>职能部门所有专业知识可供所有项目使用<br/>促进学习、交流知识<br/>沟通良好<br/>注重客户</td>
-<td>双层汇报关系，抢功逃责<br/>需要平衡权利</td>
-</tr>
-</tbody></table>
+<li><p>| 组织结构 | 优点                                                         | 缺点                                                         |<br>| ———— | —————————————————————————————— | —————————————————————————————— |<br>| 职能式   | 人员使用灵活<br/>易于知识共性、技术攻关<br/>保持业务、技术连续性 | 客户利益得不到优先考虑<br/>狭隘，不全面<br/>反应缓慢         |<br>| 项目式   | 能控制资源<br/>沟通、决策速度快<br/>向客户负责               | 重复成本较高（人员、技术、设备）<br/>各行其政，不一致<br/>内部强依赖，外部弱沟通<br/>项目间缺乏知识信息交流 |<br>| 矩阵式   | 有效利用资源<br/>职能部门所有专业知识可供所有项目使用<br/>促进学习、交流知识<br/>沟通良好<br/>注重客户 | 双层汇报关系，抢功逃责<br/>需要平衡权利                      |</p>
 </li>
 <li><p>团队外部结构的选择</p>
 <ul>
@@ -2224,7 +1805,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <li><p>组织演进</p>
 <ul>
 <li>从小到大研发体系的演进<ul>
-<li><img src="/........%5Cpictures%5CSPM%5C57.%E4%BB%8E%E5%B0%8F%E5%88%B0%E5%A4%A7%E7%A0%94%E5%8F%91%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BC%94%E8%BF%9B.png" alt="57.从小到大研发体系的演进"></li>
+<li><img src="..\..\..\..\pictures\SPM\57.从小到大研发体系的演进.png" alt="57.从小到大研发体系的演进"></li>
 </ul>
 </li>
 <li>华为组织架构的演进<ul>
@@ -2243,46 +1824,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>五过程组和范围管理知识域的映射</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>启动</th>
-<th>规划</th>
-<th>执行</th>
-<th>监控</th>
-<th>收尾</th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td>规划范围管理</td>
-<td></td>
-<td>确认范围</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>收集需求</td>
-<td></td>
-<td>控制范围</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>定义范围</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>创建 WBS</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
+<li>| 启动 | 规划         | 执行 | 监控     | 收尾 |<br>| —— | —————— | —— | ———— | —— |<br>|      | 规划范围管理 |      | 确认范围 |      |<br>|      | 收集需求     |      | 控制范围 |      |<br>|      | 定义范围     |      |          |      |<br>|      | 创建 WBS     |      |          |      |</li>
 </ul>
 </li>
 <li><p>规划范围管理</p>
@@ -2366,7 +1908,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li>人际关系与团队技能<ul>
 <li>名义小组技术</li>
-<li>观察&#x2F;交谈</li>
+<li>观察/交谈</li>
 <li>引导</li>
 </ul>
 </li>
@@ -2577,53 +2119,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>优点</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>开发者</th>
-<th>产品经理</th>
-<th>项目经理</th>
-<th>干系人</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>尽早理解范围</td>
-<td>防止变更失控</td>
-<td>分配解释工作</td>
-<td>改善沟通环境</td>
-</tr>
-<tr>
-<td>交付期望成果</td>
-<td>提供变更基准</td>
-<td>打下采购基础</td>
-<td>促进共识达成</td>
-</tr>
-<tr>
-<td>理解陌生领域</td>
-<td>促进产品规划</td>
-<td>提高汇报水平</td>
-<td>获得涉众认同</td>
-</tr>
-<tr>
-<td>区分内外工作</td>
-<td>尽早发现问题</td>
-<td>监控项目工作</td>
-<td>建立信赖基础</td>
-</tr>
-<tr>
-<td>明确项目边界</td>
-<td>发现重叠工作</td>
-<td>提高管理水平</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>整合时间成本</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
+<li>| 开发者       | 产品经理     | 项目经理     | 干系人       |<br>| —————— | —————— | —————— | —————— |<br>| 尽早理解范围 | 防止变更失控 | 分配解释工作 | 改善沟通环境 |<br>| 交付期望成果 | 提供变更基准 | 打下采购基础 | 促进共识达成 |<br>| 理解陌生领域 | 促进产品规划 | 提高汇报水平 | 获得涉众认同 |<br>| 区分内外工作 | 尽早发现问题 | 监控项目工作 | 建立信赖基础 |<br>| 明确项目边界 | 发现重叠工作 | 提高管理水平 |              |<br>|              | 整合时间成本 |              |              |</li>
 </ul>
 </li>
 <li><p>结构要素</p>
@@ -2644,7 +2140,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li>WBS要素<ul>
 <li>WBS 中任一 WBS 组件及其 WBS 属性的综合。</li>
-<li>WBS 要素 &#x3D; WBS 组件 + 属性。</li>
+<li>WBS 要素 = WBS 组件 + 属性。</li>
 </ul>
 </li>
 </ul>
@@ -2703,77 +2199,7 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>比较</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th></th>
-<th>树形图</th>
-<th>大纲式</th>
-<th>表格式</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>编制速度</td>
-<td>取决于工具</td>
-<td>快</td>
-<td>非常快</td>
-</tr>
-<tr>
-<td>适合演示</td>
-<td>很适合</td>
-<td>正常</td>
-<td>正常</td>
-</tr>
-<tr>
-<td>创建和维护</td>
-<td>取决于工具</td>
-<td>正常</td>
-<td>最方便</td>
-</tr>
-<tr>
-<td>可扩展性</td>
-<td>取决于工具</td>
-<td>有限</td>
-<td>很大</td>
-</tr>
-<tr>
-<td>组件名称长度</td>
-<td>短名称</td>
-<td>允许很长名称</td>
-<td>允许很长名称</td>
-</tr>
-<tr>
-<td>适合沟通</td>
-<td>很适合</td>
-<td>正常</td>
-<td>正常至很好，取决于格式</td>
-</tr>
-<tr>
-<td>适合打印</td>
-<td>取决于工具</td>
-<td>适合</td>
-<td>适合</td>
-</tr>
-<tr>
-<td>使用颜色</td>
-<td>最适合</td>
-<td>不好</td>
-<td>正常</td>
-</tr>
-<tr>
-<td>使用缩排</td>
-<td>不适用</td>
-<td>缩进或不缩进</td>
-<td>缩进</td>
-</tr>
-<tr>
-<td>WBS 词典</td>
-<td>独立文件</td>
-<td>可以，每行增加额外文本</td>
-<td>可以，通过增加额外的列</td>
-</tr>
-</tbody></table>
-</li>
+<li>|              | 树形图     | 大纲式                 | 表格式                 |<br>| —————— | ————— | ——————————— | ——————————— |<br>| 编制速度     | 取决于工具 | 快                     | 非常快                 |<br>| 适合演示     | 很适合     | 正常                   | 正常                   |<br>| 创建和维护   | 取决于工具 | 正常                   | 最方便                 |<br>| 可扩展性     | 取决于工具 | 有限                   | 很大                   |<br>| 组件名称长度 | 短名称     | 允许很长名称           | 允许很长名称           |<br>| 适合沟通     | 很适合     | 正常                   | 正常至很好，取决于格式 |<br>| 适合打印     | 取决于工具 | 适合                   | 适合                   |<br>| 使用颜色     | 最适合     | 不好                   | 正常                   |<br>| 使用缩排     | 不适用     | 缩进或不缩进           | 缩进                   |<br>| WBS 词典     | 独立文件   | 可以，每行增加额外文本 | 可以，通过增加额外的列 |</li>
 </ul>
 </li>
 <li><p>工具</p>
@@ -2809,62 +2235,18 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>进度管理步骤</p>
 <ul>
-<li><img src="..\..\..\..\pictures\SPM\59.进度管理步骤.jpg" alt="59.进度管理步骤" style="zoom: 50%;" />
-- 团队选择进度计划方法
-- 将项目特定数据输入工具
-- 创建进度模型
-- 输出项目进度计划</li>
+<li><img src="..\..\..\..\pictures\SPM\59.进度管理步骤.jpg" alt="59.进度管理步骤" style="zoom: 50%;" /><ul>
+<li>团队选择进度计划方法</li>
+<li>将项目特定数据输入工具</li>
+<li>创建进度模型</li>
+<li>输出项目进度计划</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p>五过程组和进度管理知识域的映射</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>启动</th>
-<th>规划</th>
-<th>执行</th>
-<th>监控</th>
-<th>收尾</th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td>规划进度管理</td>
-<td></td>
-<td>控制进度</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>定义活动</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>排列活动顺序</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>估算活动持续时间</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>制定进度计划</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
-</li>
+<li>| 启动 | 规划             | 执行 | 监控     | 收尾 |<br>| —— | ———————— | —— | ———— | —— |<br>|      | 规划进度管理     |      | 控制进度 |      |<br>|      | 定义活动         |      |          |      |<br>|      | 排列活动顺序     |      |          |      |<br>|      | 估算活动持续时间 |      |          |      |<br>|      | 制定进度计划     |      |          |      |</li>
 </ul>
 </li>
 <li><p>规划进度管理</p>
@@ -3055,14 +2437,14 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 </li>
 <li><p>三点估算</p>
 <ul>
-<li><p>Most likely (t<del>M</del>) 最可能时间</p>
+<li><p>Most likely (t~M~) 最可能时间</p>
 </li>
 <li><p>Optimistic () 最乐观时间</p>
 </li>
-<li><p>Pessimistic (t<del>P</del>) 最悲观时间</p>
+<li><p>Pessimistic (t~P~) 最悲观时间</p>
 </li>
-<li><p>$$<br>PERT weight average &#x3D; \frac{t_O + 4 * t_M + t_P}{6}<br>$$</p>
-</li>
+<li><script type="math/tex; mode=display">
+PERT weight average = \frac{t_O + 4 * t_M + t_P}{6}</script></li>
 </ul>
 </li>
 <li><p>自下而上估算</p>
@@ -3355,15 +2737,15 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <li>等于后置活动最早开始时间中的最早时间。</li>
 </ul>
 </li>
-<li>时差&#x2F;浮动时间<ul>
+<li>时差/浮动时间<ul>
 <li>在不延迟后续活动或项目完成日期的情况下，活动可以延迟的时间量。</li>
-<li>总时差&#x2F;总浮动时间 TS Total Slack&#x2F;Total Slack<ul>
+<li>总时差/总浮动时间 TS Total Slack/Total Slack<ul>
 <li>一个活动从它最早开始时间起，在没有拖延计划项目完成日期的情况下可以被耽搁的时间。</li>
-<li>等于最晚开始&#x2F;结束时间减最早开始&#x2F;结束时间。</li>
+<li>等于最晚开始/结束时间减最早开始/结束时间。</li>
 <li>关键路径上的总时差都为零。</li>
 </ul>
 </li>
-<li>自由时差&#x2F;自由浮动时间 FS Free Slack&#x2F;Free Float<ul>
+<li>自由时差/自由浮动时间 FS Free Slack/Free Float<ul>
 <li>一个活动在不延误紧接活动的最早开始时间的情况下可以被延误的时间。</li>
 <li>等于紧后活动的最早开始时间减当前活动的最早结束时间。</li>
 </ul>
@@ -3391,57 +2773,11 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <h3 id="C4-成本管理"><a href="#C4-成本管理" class="headerlink" title="C4 成本管理"></a>C4 成本管理</h3><h4 id="C42-功能点评估"><a href="#C42-功能点评估" class="headerlink" title="C42 功能点评估"></a>C42 功能点评估</h4><ul>
 <li><p>功能点评估</p>
 <ul>
-<li><img src="..\..\..\..\pictures\SPM\64.功能点评估.jpg" alt="64.功能点评估"  />
+<li><p><img src="..\..\..\..\pictures\SPM\64.功能点评估.jpg" alt="64.功能点评估"  /></p>
 </li>
 <li><p>评估标准</p>
 <ul>
-<li><table>
-<thead>
-<tr>
-<th>标准</th>
-<th>功能点类型</th>
-<th>应用范围</th>
-<th>操作难度</th>
-<th>现状</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>IFPUG 标准</td>
-<td>五种功能点：ILF、EIF、EI、EO、EQ。</td>
-<td>适用于所有项目，尤其适用于 MIS 类项目。</td>
-<td>适中。<br />IFPUG 功能点标准基于明确的规则约束，因而能保证软件规模评估结果的客观性和一致性。因为 IFPUG 是目前应用最普遍的功能点度量方法，因而有较多的资源可以借鉴和参考，例如 IFPUG 功能点相关的书籍、标准、文章、论坛、从业人员等资源都可以方便地得到。</td>
-<td>应用最广泛的一种标准。</td>
-</tr>
-<tr>
-<td>MarkII 标准</td>
-<td>一种功能点：逻辑事务。</td>
-<td>适用于所有项目，尤其适用于 MIS 类项目。</td>
-<td>简单。<br />MarkII 功能点标准操作简单，只需进行简单的加权计算即可。但标准缺乏对基本元素的识别规则，例如对数据元素、逻辑事务仅采用举例的方式加以说明，实际操作过程中可能会出现歧义，度量结果的一致性不强。</td>
-<td>主要在英国使用。</td>
-</tr>
-<tr>
-<td>NESMA 标准</td>
-<td>五种功能<br/>点：ILF、<br/>EIF、EI、<br/>EO、EQ。</td>
-<td>适用于所有项目，尤其适用于 MIS 类项目。</td>
-<td>适中。<br />NESMA 标准对 IFPUG 标准作了最“忠实”的借鉴，但也作了一些有别于 IFPUG 的规定，例如对代码数据进行度量、对隐含查询不予考虑，这些规定尽管在实际操作中有其合理的一面，但是却破坏了 IPFUG 规则的完整性和一致性。</td>
-<td>主要在荷兰使用。</td>
-</tr>
-<tr>
-<td>COSMIC 标准</td>
-<td>四种功能类型：进入、离开、读、写。</td>
-<td>适用于所有项目，尤其适用于实时类应用。</td>
-<td>较高。<br />COSMIC 借鉴了 IFPUG 功能点标准中基于规则约束的实践，但引入了分层（Layer）概念，在评估功能规模时需要考虑软件的技术因素，从而减弱了软件功能点对业务人员透明的优势。</td>
-<td>主要在加和欧部分国家使用。</td>
-</tr>
-<tr>
-<td>FISMA 标准</td>
-<td>七种功能类型</td>
-<td>适用于所有项目，要求了解被度量应用的技术实现方式。</td>
-<td>很高。<br />FISMA 强调采用“服务”替代“功能”，因而更能反映软件的特性。但其功能分类的数量繁多，并且每种服务都采用不同数值的加权系数，因而操作很困难。</td>
-<td>主要在芬兰使用。</td>
-</tr>
-</tbody></table>
-</li>
+<li>| 标准        | 功能点类型                                        | 应用范围                                           | 操作难度                                                     | 现状                       |<br>| —————- | ————————————————————————- | ————————————————————————— | —————————————————————————————— | ————————————— |<br>| IFPUG 标准  | 五种功能点：ILF、EIF、EI、EO、EQ。                | 适用于所有项目，尤其适用于 MIS 类项目。            | 适中。<br />IFPUG 功能点标准基于明确的规则约束，因而能保证软件规模评估结果的客观性和一致性。因为 IFPUG 是目前应用最普遍的功能点度量方法，因而有较多的资源可以借鉴和参考，例如 IFPUG 功能点相关的书籍、标准、文章、论坛、从业人员等资源都可以方便地得到。 | 应用最广泛的一种标准。     |<br>| MarkII 标准 | 一种功能点：逻辑事务。                            | 适用于所有项目，尤其适用于 MIS 类项目。            | 简单。<br />MarkII 功能点标准操作简单，只需进行简单的加权计算即可。但标准缺乏对基本元素的识别规则，例如对数据元素、逻辑事务仅采用举例的方式加以说明，实际操作过程中可能会出现歧义，度量结果的一致性不强。 | 主要在英国使用。           |<br>| NESMA 标准  | 五种功能<br/>点：ILF、<br/>EIF、EI、<br/>EO、EQ。 | 适用于所有项目，尤其适用于 MIS 类项目。            | 适中。<br />NESMA 标准对 IFPUG 标准作了最“忠实”的借鉴，但也作了一些有别于 IFPUG 的规定，例如对代码数据进行度量、对隐含查询不予考虑，这些规定尽管在实际操作中有其合理的一面，但是却破坏了 IPFUG 规则的完整性和一致性。 | 主要在荷兰使用。           |<br>| COSMIC 标准 | 四种功能类型：进入、离开、读、写。                | 适用于所有项目，尤其适用于实时类应用。             | 较高。<br />COSMIC 借鉴了 IFPUG 功能点标准中基于规则约束的实践，但引入了分层（Layer）概念，在评估功能规模时需要考虑软件的技术因素，从而减弱了软件功能点对业务人员透明的优势。 | 主要在加和欧部分国家使用。 |<br>| FISMA 标准  | 七种功能类型                                      | 适用于所有项目，要求了解被度量应用的技术实现方式。 | 很高。<br />FISMA 强调采用“服务”替代“功能”，因而更能反映软件的特性。但其功能分类的数量繁多，并且每种服务都采用不同数值的加权系数，因而操作很困难。 | 主要在芬兰使用。           |</li>
 </ul>
 </li>
 <li><p>IFPUG</p>
