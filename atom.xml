@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-04T16:48:53.109Z</updated>
+  <updated>2023-03-04T16:58:22.957Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,136 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Algorithm-Set</title>
+    <link href="http://example.com/2023/03/05/Algorithm-Set/"/>
+    <id>http://example.com/2023/03/05/Algorithm-Set/</id>
+    <published>2023-03-04T16:57:57.000Z</published>
+    <updated>2023-03-04T16:58:22.957Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;技巧&quot;&gt;&lt;a href=&quot;#技巧&quot; class=&quot;headerlink&quot; title=&quot;技巧&quot;&gt;&lt;/a&gt;技巧&lt;/h1&gt;&lt;h2 id=&quot;题型技巧&quot;&gt;&lt;a href=&quot;#题型技巧&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Note" scheme="http://example.com/categories/Note/"/>
+    
+    
+    <category term="Algorithm" scheme="http://example.com/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AcWing-Grammer_Basic</title>
+    <link href="http://example.com/2023/03/05/AcWing-Grammer-Basic/"/>
+    <id>http://example.com/2023/03/05/AcWing-Grammer-Basic/</id>
+    <published>2023-03-04T16:56:55.000Z</published>
+    <updated>2023-03-04T16:57:26.203Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;AcWing-语法基础&quot;&gt;&lt;a href=&quot;#AcWing-语法基础&quot; class=&quot;headerlink&quot; title=&quot;AcWing 语法基础&quot;&gt;&lt;/a&gt;AcWing 语法基础&lt;/h1&gt;&lt;h2 id=&quot;第一讲-变量、输入输出、表达式和顺序语句&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Note" scheme="http://example.com/categories/Note/"/>
+    
+    
+    <category term="Algorithm" scheme="http://example.com/tags/Algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>周总结-第一周</title>
+    <link href="http://example.com/2023/03/05/Week-Record01/"/>
+    <id>http://example.com/2023/03/05/Week-Record01/</id>
+    <published>2023-03-04T16:54:44.000Z</published>
+    <updated>2023-03-04T16:55:44.868Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="Record" scheme="http://example.com/categories/Record/"/>
+    
+    
+    <category term="Week-Record" scheme="http://example.com/tags/Week-Record/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构（邓俊辉）</title>
+    <link href="http://example.com/2023/03/05/DJH-DS/"/>
+    <id>http://example.com/2023/03/05/DJH-DS/</id>
+    <published>2023-03-04T16:52:44.000Z</published>
+    <updated>2023-03-04T16:53:29.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;数据结构（邓俊辉）&quot;&gt;&lt;a href=&quot;#数据结构（邓俊辉）&quot; class=&quot;headerlink&quot; title=&quot;数据结构（邓俊辉）&quot;&gt;&lt;/a&gt;数据结构（邓俊辉）&lt;/h1&gt;&lt;h2 id=&quot;第一章-绪论&quot;&gt;&lt;a href=&quot;#第一章-绪论&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Note" scheme="http://example.com/categories/Note/"/>
+    
+    
+    <category term="DS" scheme="http://example.com/tags/DS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>吴恩达机器学习</title>
+    <link href="http://example.com/2023/03/05/Ed-ML/"/>
+    <id>http://example.com/2023/03/05/Ed-ML/</id>
+    <published>2023-03-04T16:50:50.000Z</published>
+    <updated>2023-03-04T16:51:58.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;吴恩达机器学习&quot;&gt;&lt;a href=&quot;#吴恩达机器学习&quot; class=&quot;headerlink&quot; title=&quot;吴恩达机器学习&quot;&gt;&lt;/a&gt;吴恩达机器学习&lt;/h1&gt;&lt;h2 id=&quot;一、引言（Introduction）&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Note" scheme="http://example.com/categories/Note/"/>
+    
+    
+    <category term="ML" scheme="http://example.com/tags/ML/"/>
+    
+  </entry>
+  
+  <entry>
     <title>高等数学</title>
     <link href="http://example.com/2023/03/05/Ad-Math/"/>
     <id>http://example.com/2023/03/05/Ad-Math/</id>
     <published>2023-03-04T16:36:17.000Z</published>
-    <updated>2023-03-04T16:48:53.109Z</updated>
+    <updated>2023-03-04T16:52:18.995Z</updated>
     
     
       

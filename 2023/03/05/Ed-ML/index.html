@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+  
+
+    <head>
+      <meta charset="utf-8" />
+        
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>吴恩达机器学习 |  Think And Write</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/jl.svg" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      
+<link rel="stylesheet" href="/css/fonts/remixicon.css">
+
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
+       
+ 
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+
+      <!-- mermaid -->
+      
+      <script src="https://cdn.staticfile.org/mermaid/8.14.0/mermaid.min.js"></script>
+      
+      <style>
+        .swal2-styled.swal2-confirm {
+          font-size: 1.6rem;
+        }
+      </style>
+    <link rel="alternate" href="/atom.xml" title="Think And Write" type="application/atom+xml">
+</head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-Ed-ML"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  吴恩达机器学习
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2023/03/05/Ed-ML/" class="article-date">
+  <time datetime="2023-03-04T16:50:50.000Z" itemprop="datePublished">2023-03-05</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Note/">Note</a>
+  </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">1.9k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">8 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="吴恩达机器学习"><a href="#吴恩达机器学习" class="headerlink" title="吴恩达机器学习"></a>吴恩达机器学习</h1><h2 id="一、引言（Introduction）"><a href="#一、引言（Introduction）" class="headerlink" title="一、引言（Introduction）"></a>一、引言（Introduction）</h2><h3 id="1-1-Welcome-欢迎"><a href="#1-1-Welcome-欢迎" class="headerlink" title="1.1 Welcome 欢迎"></a>1.1 Welcome 欢迎</h3><ul>
+<li>广泛的应用：生物、医疗、互联网、工程等。</li>
+</ul>
+<h3 id="1-2-What-is-Machine-Learning-机器学习是什么"><a href="#1-2-What-is-Machine-Learning-机器学习是什么" class="headerlink" title="1.2 What is Machine Learning 机器学习是什么"></a>1.2 What is Machine Learning 机器学习是什么</h3><ul>
+<li><p>在特定编程的情况下，基于计算机学习能力的领域。</p>
+</li>
+<li><p>一个程序被认为能从经验 $E$ 中学习，解决任务 $T$，达到性能度量值 $P$，当且仅当，有了经验 $E$ 后，经过 $P$ 评判，程序在处理 $T$ 时的性能有所提升。</p>
+</li>
+</ul>
+<h3 id="1-3-Supervised-Learning-监督学习"><a href="#1-3-Supervised-Learning-监督学习" class="headerlink" title="1.3 Supervised Learning 监督学习"></a>1.3 Supervised Learning 监督学习</h3><ul>
+<li>监督学习是指给学习算法一个数据集，这个数据集由“正确答案”组成，然后运用学习算法，算出更多的正确答案。</li>
+<li>回归 regression：设法预测连续值的属性</li>
+<li>分类 Classification：设法推测离散值的属性</li>
+</ul>
+<h3 id="1-4-Unsupervised-Learning-无监督学习"><a href="#1-4-Unsupervised-Learning-无监督学习" class="headerlink" title="1.4 Unsupervised Learning 无监督学习"></a>1.4 Unsupervised Learning 无监督学习</h3><ul>
+<li>无监督学习不事先告诉算法多余的信息，通过算法运用得到数据的不同类别。</li>
+<li>聚类 Clustering</li>
+<li>鸡尾酒算法 Cocktail party problem<ul>
+<li><code>[W, s, v] = svd((repmat(sum(x.*x, 1), size(x, 1), 1).*x)*x&#39;);</code></li>
+</ul>
+</li>
+<li>Octave</li>
+</ul>
+<h2 id="二、单变量线性回归（Linear-Regression-with-One-Variable-Univariate-Linear-Regression）"><a href="#二、单变量线性回归（Linear-Regression-with-One-Variable-Univariate-Linear-Regression）" class="headerlink" title="二、单变量线性回归（Linear Regression with One Variable/Univariate Linear Regression）"></a>二、单变量线性回归（Linear Regression with One Variable/Univariate Linear Regression）</h2><h3 id="2-1-模型描述-Model-Representation"><a href="#2-1-模型描述-Model-Representation" class="headerlink" title="2.1 模型描述 Model Representation"></a>2.1 模型描述 Model Representation</h3><ul>
+<li><p>训练集 Training Set</p>
+</li>
+<li><p>符号说明</p>
+<ul>
+<li>$m$：训练集中实例的数量</li>
+<li>$x$：特征/输入变量</li>
+<li>$y$：目标变量/输出变量</li>
+<li>$(x, y)$：训练集中的实例</li>
+<li>$(x^{(i)}, y^{(i)})$：第 $i$ 个观察实例</li>
+</ul>
+</li>
+<li><p>监督学习算法的工作方式</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">flowchart LR</span><br><span class="line">	t(Training Set)</span><br><span class="line">	l(Learning Algorithm)</span><br><span class="line">	h(h)</span><br><span class="line">	</span><br><span class="line">	subgraph training</span><br><span class="line">		t --&gt; l --&gt; h</span><br><span class="line">	end</span><br><span class="line">	</span><br><span class="line">	subgraph estimate</span><br><span class="line">		x --&gt; h --&gt; estimated_value</span><br><span class="line">	end</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>$h$ 代表假设函数 hypothesis</p>
+</li>
+<li><p>一种可能的表达方式：$h_\theta(x) = \theta_0 + \theta_1 x$</p>
+</li>
+<li>只有一个特征/输入变量的回归问题叫单变量线性回归问题。</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-2-代价函数-Cost-Function"><a href="#2-2-代价函数-Cost-Function" class="headerlink" title="2.2 代价函数 Cost Function"></a>2.2 代价函数 Cost Function</h3><ul>
+<li><p>回归问题的本质就是求出假设函数 $h_\theta(x)$（又作 $h(x)$），因此需要确定参数（Parameters）$\theta_0$ 和 $\theta_1$。</p>
+</li>
+<li><p>对于 $h_{\theta}(x) = \theta_0 + \theta_1 x$</p>
+<ul>
+<li><p>建模误差（Modeling Error）：$h_{\theta}(x^{(i)}) - y^{(i)}$</p>
+<ul>
+<li>表示模型所预测的值与训练集中的实际值之间的差距。</li>
+</ul>
+</li>
+<li><p>代价函数（Cost Function/Squared Error Function 平方误差函数）：$J(\theta_0, \theta_1)$</p>
+<ul>
+<li>定义在整个训练集上，表示所有样本误差的平均。</li>
+</ul>
+</li>
+<li><p>选择参数使得建模误差的平方和最小，即使得代价函数</p>
+<script type="math/tex; mode=display">
+J(\theta_0, \theta_1) = \frac{1}{2m} \sum^m_{i = 1} (h_{\theta}(x^{(i)}) - y^{(i)})^2</script><p>最小。</p>
+<blockquote>
+<p>这里 $m$ 作为分母表示消除样本数量对 $J$ 的影响，而 $2m$ 是为了抵消之后对 $J$ 关于 $\theta$ 求偏导时多出的 $2$，便于计算。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-3-代价函数的直观理解-Cost-Function-Intuition-Ⅰ"><a href="#2-3-代价函数的直观理解-Cost-Function-Intuition-Ⅰ" class="headerlink" title="2.3 代价函数的直观理解 Cost Function - Intuition Ⅰ"></a>2.3 代价函数的直观理解 Cost Function - Intuition Ⅰ</h3><ul>
+<li><p>一元变量下的假设函数与代价函数</p>
+<p><img src="D:\Documents\Typora\机器学习\ML\01.假设函数与代价函数（一元）.png" alt="01.假设函数与代价函数（一元）"></p>
+</li>
+</ul>
+<h3 id="2-4-代价函数的直观理解-Cost-Function-Intuition-Ⅱ"><a href="#2-4-代价函数的直观理解-Cost-Function-Intuition-Ⅱ" class="headerlink" title="2.4 代价函数的直观理解 Cost Function - Intuition Ⅱ"></a>2.4 代价函数的直观理解 Cost Function - Intuition Ⅱ</h3><ul>
+<li><p>二元变量下的代价函数</p>
+<p><img src="D:\Documents\Typora\机器学习\ML\02.代价函数（二元）.png" alt="02.代价函数（二元）"></p>
+</li>
+<li><p>二元变量下的假设函数与代价函数</p>
+<p><img src="D:\Documents\Typora\机器学习\ML\03.假设函数与代价函数（二元）.png" alt="03.假设函数与代价函数（二元）"></p>
+</li>
+</ul>
+<h3 id="2-5-梯度下降-Gradient-Descent"><a href="#2-5-梯度下降-Gradient-Descent" class="headerlink" title="2.5 梯度下降 Gradient Descent"></a>2.5 梯度下降 Gradient Descent</h3><ul>
+<li><p>梯度下降算法</p>
+<ul>
+<li><p>目的：求函数最小值</p>
+</li>
+<li><p>思想：开始时选择一个随机参数的组合 $(\theta_0, \theta_1, \cdots, \theta_n)$，计算代价函数，然后寻找下一个能让代价函数值下降最多的参数组合。反复上面步骤直到找到一个局部最小值（Local Minimum），由于没有遍历所有的函数组合，不能确定得到的局部最小值是否是全局最小值（Global Minimum）。</p>
+</li>
+<li><p>批量梯度下降（Batch Gradient Descent）算法公式</p>
+<script type="math/tex; mode=display">
+\begin{equation*}
+    \begin{split}
+        & \text{repeat until convergence} ~ \{ \\
+            & ~~~~~~~~ \theta_j := \theta_j - \alpha \frac{\partial}{\partial \theta_j} J(\theta_0, \theta_1) ~~~~ (for ~ j = 0 ~ and ~ j = 1) \\
+        & \}
+    \end{split}
+\end{equation*}</script><ul>
+<li><p>$\alpha$ 为学习率（Learning Rate），它决定代价函数沿下降程度最大的方向向下迈出的步长有多大。</p>
+</li>
+<li><p>梯度下降强调同步更新（Simultaneous Update），即</p>
+<script type="math/tex; mode=display">
+\begin{equation*}
+    \begin{split}
+        & temp0 := \theta_0 - \alpha \frac{\partial}{\partial \theta_0} J (\theta_0, \theta_1) \\
+        & temp1 := \theta_1 - \alpha \frac{\partial}{\partial \theta_1} j (\theta_0, \theta_1) \\
+        & \theta_0 := temp0 \\
+        & \theta_1 := temp1
+    \end{split}
+\end{equation*}</script></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-6-梯度下降的直观理解-Gradient-Descent-Intuition"><a href="#2-6-梯度下降的直观理解-Gradient-Descent-Intuition" class="headerlink" title="2.6 梯度下降的直观理解 Gradient Descent Intuition"></a>2.6 梯度下降的直观理解 Gradient Descent Intuition</h3><ul>
+<li><p>一元变量下的梯度下降过程就是不断的通过减一个值或加一个值，使得 $\theta$ 逐渐接近局部最优解。而当 $\alpha$ 值合理时，由于偏导数正负的不同，梯度下降会自动向最优解方向进行。</p>
+<p><img src="D:\Documents\Typora\机器学习\ML\04.梯度下降（一元）.png" alt="04.梯度下降（一元）"></p>
+</li>
+<li><p>二元变量下的梯度下降过程就是不断寻找下降最快的“路”，不同的初始值可能导致不同的局部最优解。</p>
+<p><img src="D:\Documents\Typora\机器学习\ML\05.梯度下降（二元）.png" alt="05.梯度下降（二元）"></p>
+<p><img src="D:\Documents\Typora\机器学习\ML\06.梯度下降（二元）.png" alt="06.梯度下降（二元）"></p>
+</li>
+<li><p>$\alpha$ 值过小或过大，会导致 $\theta$ 值下降过慢或者不能收敛。</p>
+<p><img src="D:\Documents\Typora\机器学习\ML\07.学习率过小或过大.png" alt="06.学习率过小或过大"></p>
+</li>
+<li><p>初始点为局部最优点，偏导数为 $0$，不会再下降。</p>
+<p><img src="D:\Documents\Typora\机器学习\ML\08.初始点为局部最低点.png" alt="07.初始点为局部最低点"></p>
+</li>
+<li><p>随着梯度下降的进行，其变化幅度由于偏导数值的变化，会自动变小。</p>
+<p><img src="D:\Documents\Typora\机器学习\ML\09.梯度下降变化幅度.png" alt="09.梯度下降变化幅度"></p>
+</li>
+</ul>
+<h3 id="2-7-线性回归的梯度下降-Gradient-Descent-For-Linear-Regression"><a href="#2-7-线性回归的梯度下降-Gradient-Descent-For-Linear-Regression" class="headerlink" title="2.7 线性回归的梯度下降 Gradient Descent For Linear Regression"></a>2.7 线性回归的梯度下降 Gradient Descent For Linear Regression</h3><ul>
+<li><p>梯度下降与线性回归</p>
+<ul>
+<li><p>偏导</p>
+<script type="math/tex; mode=display">
+\begin{align}
+    \frac{\partial}{\partial \theta_j} J(\theta_0, \theta_1)
+    & = \frac{\partial}{\partial \theta_j} \frac{1}{2m} \sum^m_{i = 1} (h_{\theta}(x^{(i)}) - y^{(i)})^2 \\
+    & = \frac{\partial}{\partial \theta} \frac{1}{2m} \sum^m_{i = 1} (\theta_0 + \theta_1 x^{(i)} - y^{(i)})^2 \\
+    j = 0: & \frac{\partial}{\partial \theta_0} J(\theta_0, \theta_1) = \frac{1}{m} \sum^m_{i = 1} (h_{\theta} (x^{(i)}) - y^{(i)}) \\
+    j = 1: & \frac{\partial}{\partial \theta_1} J(\theta_0, \theta_1) = \frac{1}{m} \sum^m_{i = 1} (h_{\theta} (x^{(i)}) - y^{(i)}) \cdot x^{(i)} \\
+\end{align}</script></li>
+<li><p>算法</p>
+<script type="math/tex; mode=display">
+\begin{align}
+    & \text{repeat until convergence} ~ \{ \\[2ex]
+        & ~~~~~~~~ \theta_0 := \theta_0 - \alpha \frac{1}{m} \sum^m_{i = 1} (h_{\theta} (x^{(i)}) - y^{(i)}) \\
+        & ~~~~~~~~ \theta_1 := \theta_1 - \alpha \frac{1}{m} \sum^m_{i = 1} (h_{\theta} (x^{(i)}) - y^{(i)}) \cdot x^{(i)} \\[2ex]
+    & \}
+\end{align} \\</script></li>
+<li><p>凸函数：一个弓形函数，没有局部最优解，只有一个全局最优解。对于线性回归的代价函数，是一个凸函数，即总会收敛到一个局部最优解。</p>
+</li>
+<li><p>批量梯度下降（Batch Gradient Descent）：每一步下降都遍历整个训练集的样本。</p>
+</li>
+<li><p>在数据量较大的情况下，相比正规方程组（Normal Equations）的方法，梯度下降法更加适用。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-8-接下来的内容-What’s-Next"><a href="#2-8-接下来的内容-What’s-Next" class="headerlink" title="2.8 接下来的内容 What’s Next"></a>2.8 接下来的内容 What’s Next</h3><h2 id="三、线性代数回顾（Linear-Algebra-Review）"><a href="#三、线性代数回顾（Linear-Algebra-Review）" class="headerlink" title="三、线性代数回顾（Linear Algebra Review）"></a>三、线性代数回顾（Linear Algebra Review）</h2><h3 id="3-1-矩阵和向量-Matrices-and-Vectors"><a href="#3-1-矩阵和向量-Matrices-and-Vectors" class="headerlink" title="3.1 矩阵和向量 Matrices and Vectors"></a>3.1 矩阵和向量 Matrices and Vectors</h3><ul>
+<li><p>矩阵 Matrix</p>
+<ul>
+<li>矩阵的维数（Dimension of Matrix）：$raws \times columns$</li>
+<li>表示：$\R^{r \times c}$</li>
+<li>元素（Matrix Elements）：$A_{ij}$</li>
+</ul>
+</li>
+<li><p>向量 Vector：一个 $n \times 1$ 的矩阵</p>
+<ul>
+<li>表示 $\R^{n}$</li>
+<li>元素：$A_i$</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-2-加法和标量乘法-Addition-and-Scalar-Multiplication"><a href="#3-2-加法和标量乘法-Addition-and-Scalar-Multiplication" class="headerlink" title="3.2 加法和标量乘法 Addition and Scalar Multiplication"></a>3.2 加法和标量乘法 Addition and Scalar Multiplication</h3><ul>
+<li>矩阵加法：维度相等时对应相加</li>
+<li>矩阵标乘：每个元素分别相乘</li>
+</ul>
+<h3 id="3-3-矩阵向量乘法-Matrix-Vector-Multiplication"><a href="#3-3-矩阵向量乘法-Matrix-Vector-Multiplication" class="headerlink" title="3.3 矩阵向量乘法 Matrix Vector Multiplication"></a>3.3 矩阵向量乘法 Matrix Vector Multiplication</h3><ul>
+<li>$m \times n$ 的矩阵乘以 $n \times 1$ 的向量，得到 $m \times 1$ 的向量。</li>
+</ul>
+<h3 id="3-4-矩阵乘法-Matrix-Matrix-Multiplication"><a href="#3-4-矩阵乘法-Matrix-Matrix-Multiplication" class="headerlink" title="3.4 矩阵乘法 Matrix Matrix Multiplication"></a>3.4 矩阵乘法 Matrix Matrix Multiplication</h3><ul>
+<li>$m \times n$ 矩阵乘以 $n \times o$ 矩阵，得到 $m \times o$ 矩阵。</li>
+</ul>
+<h3 id="3-5-矩阵乘法的性质-Matrix-Multiplication-Properties"><a href="#3-5-矩阵乘法的性质-Matrix-Multiplication-Properties" class="headerlink" title="3.5 矩阵乘法的性质 Matrix Multiplication Properties"></a>3.5 矩阵乘法的性质 Matrix Multiplication Properties</h3><ul>
+<li><p>矩阵乘法不满足交换律：$A \times B \neq B \times A$</p>
+</li>
+<li><p>矩阵乘法满足结合律：$A \times (B \times C) = (A \times B) \times C$</p>
+</li>
+<li><p>单位矩阵：一个方阵，通常用 $I$ 或者 $E$ 表示，从左上角到右下角的对角线（称为主对角线）上的元素均为 $1$，其他元素均为 $0$。</p>
+<ul>
+<li>对于单位矩阵，有<script type="math/tex; mode=display">
+AA^{-1} = A^{-1}A = I \\
+AI = IA = A \\
+(A_{m \times n} \cdot I_{n \times n} = I_{m \times m} \cdot A_{m \times n} = A)</script></li>
+</ul>
+</li>
+</ul>
+<h3 id="3-6-逆、转置-Inverse-and-Transpose"><a href="#3-6-逆、转置-Inverse-and-Transpose" class="headerlink" title="3.6 逆、转置 Inverse and Transpose"></a>3.6 逆、转置 Inverse and Transpose</h3><ul>
+<li><p>矩阵的逆：设矩阵 $A$ 是一个 $m \times m$ 的方阵，如果有逆矩阵，则：$AA^{-1} = A^{-1}A = I$。</p>
+<ul>
+<li>不存在逆矩阵的矩阵叫奇异（Singular）矩阵或退化（Degenerate）矩阵。</li>
+</ul>
+</li>
+<li><p>矩阵的转置：设 $A$ 为 $m \times n$ 阶矩阵，第 $i$ 行 $j$ 列的元素是 $a(i, j)$，即：$A = a(i, j)$。定义 $A$ 的转置为一个 $n \times m$ 阶矩阵 $B$，满足 $B = a(j, i)$，即 $b(i, j) = a(j, i)$，其中 $B$ 的第 $i$ 行第 $j$ 列元素是 $A$ 的第 $j$ 行第 $i$ 列元素，记 $A^T = B$ 或 $A’ = B$。</p>
+<ul>
+<li>基本性质<script type="math/tex; mode=display">
+(A \pm B)^T = A^T \pm B^T (A \times B)^T = B^T \times A^T (A^T)^T = A (K A)^T = K A^T</script></li>
+</ul>
+</li>
+</ul>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2023/03/05/Ed-ML/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ML/" rel="tag">ML</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+      <a href="/2023/03/05/DJH-DS/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            数据结构（邓俊辉）
+          
+        </div>
+      </a>
+    
+    
+      <a href="/2023/03/05/Ad-Math/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">高等数学</div>
+      </a>
+    
+  </nav>
+
+  
+   
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.css">
+
+
+<script src="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.js"></script>
+
+
+<script src="https://cdn.staticfile.org/blueimp-md5/2.19.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: 'a7ac41f6d4e6def7061a',
+    clientSecret: 'b69502ba84f117e64c4cf12953cb6e0d7a46310a',
+    repo: 'iseventy-seven.github.io',
+    owner: 'iseventy-seven',
+    admin: ['iseventy-seven'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+  
+   
+    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
+    <div id="twikoo" class="twikoo"></div>
+    <script>
+        twikoo.init({
+            envId: ""
+        })
+    </script>
+ 
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2023
+        <i class="ri-heart-fill heart_icon"></i> i seventy-seven
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>    
+    </main>
+    <div class="float_btns">
+      <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+    </div>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/zz.svg" alt="Think And Write"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-3.6.0.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js"></script>
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/config/TeX-AMS-MML_HTMLorMML-full.js"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
+ 
+<script src="/js/clickBoom2.js"></script>
+ 
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+ 
+<script src="/js/dz.js"></script>
+ 
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    
+
+  </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="//cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
+
+</html>
