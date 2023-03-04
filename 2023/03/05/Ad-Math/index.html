@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>te |  Think And Write</title>
+      <title>高等数学 |  Think And Write</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/jl.svg" />
@@ -59,7 +59,7 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-te"
+  id="post-Ad-Math"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -70,7 +70,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  te
+  高等数学
 </h1>
  
 
@@ -78,15 +78,19 @@
     </header>
      
     <div class="article-meta">
-      <a href="/2023/03/03/te/" class="article-date">
-  <time datetime="2023-03-03T15:53:16.000Z" itemprop="datePublished">2023-03-03</time>
-</a>   
+      <a href="/2023/03/05/Ad-Math/" class="article-date">
+  <time datetime="2023-03-04T16:36:17.000Z" itemprop="datePublished">2023-03-05</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Note/">Note</a>
+  </div>
+  
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">6.4k</span>
+            <span class="post-count">4.6k</span>
         </span>
     </span>
 
@@ -95,7 +99,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">31 分钟</span>
+            <span class="post-count">21 分钟</span>
         </span>
     </span>
 </div>
@@ -285,23 +289,19 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 <p>​        如果 $\lim\limits_{n \to \infty} x_n$ 和 $\lim\limits_{n \to \infty} y_n$ 存在，则（1）$\lim\limits_{n \to \infty} (x_n \pm y_n)$ 存在，且 $\lim\limits_{n \to \infty} (x_n \pm y_n) = \lim\limits_{n \to \infty} x_n + \lim\limits_{n \to \infty} y_n$；（2）$\lim\limits_{n \to \infty} (x_n y_n)$ 存在，且 $\lim\limits_{n \to \infty} (x_n y_n) = \lim\limits_{n \to \infty} x_n \cdot \lim\limits_{n \to \infty} y_n$；（3）如果 $\lim\limits_{n \to \infty} y_n \neq 0$，则 $\lim\limits_{n \to \infty} \dfrac{x_n}{y_n}$ 存在，且 $\lim\limits_{n \to \infty} \dfrac{x_n}{y_n} = \dfrac{\lim\limits_{n \to \infty} x_n}{\lim\limits_{n \to \infty} y_n}$。</p>
 <p><strong>证</strong>    （1）设 $\lim\limits_{n \to \infty} x_n = A, \lim\limits_{n \to \infty} y_n = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - A ~ \rvert &lt; \varepsilon, \lvert ~ y_n - B ~ \rvert &lt; \varepsilon$。这时，有</p>
 <script type="math/tex; mode=display">
-\begin{equation*}
-    \begin{split}
-        \lvert ~ x_n + y_n - (A + B) ~ \rvert
-            & = \lvert ~ x_n - A + y_n - B ~ \rvert \\
-            & \leqslant \lvert ~ x_n - A ~ \rvert + \lvert ~ y_n - B ~ \rvert < 2 \varepsilon.
-    \end{split}
-\end{equation*}</script><p>于是</p>
+\begin{align}
+    \lvert ~ x_n + y_n - (A + B) ~ \rvert
+        & = \lvert ~ x_n - A + y_n - B ~ \rvert \\
+        & \leqslant \lvert ~ x_n - A ~ \rvert + \lvert ~ y_n - B ~ \rvert < 2 \varepsilon.
+\end{align}</script><p>于是</p>
 <script type="math/tex; mode=display">
 \lim\limits_{n \to \infty} (x_n + y_n) = A + B.</script><p>​        （2）设 $\lim\limits_{n \to \infty} x_n = A, \lim\limits_{n \to \infty} y_n = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - A ~ \rvert &lt; \varepsilon, \lvert ~ y_n - B ~ \rvert &lt; \varepsilon$。再由收敛数列的有界性，对于任意的 $n$，存在 $M &gt; 0$，使得 $\lvert ~ x_n ~ \rvert &lt; M$。这时，有</p>
 <script type="math/tex; mode=display">
-\begin{equation*}
-    \begin{split}
-        \lvert ~ x_n y_n - A B ~ \rvert
-            & = \lvert ~ x_n y_n - x_n B + x_n B - A B ~ \rvert \\
-            & \leqslant \lvert ~ x_n y_n - x_n B ~ \rvert + \lvert ~ x_n B - A B ~ \rvert < \varepsilon (M + \lvert ~ B ~ \rvert).
-    \end{split}
-\end{equation*}</script><p>于是</p>
+\begin{align}
+    \lvert ~ x_n y_n - A B ~ \rvert
+        & = \lvert ~ x_n y_n - x_n B + x_n B - A B ~ \rvert \\
+        & \leqslant \lvert ~ x_n y_n - x_n B ~ \rvert + \lvert ~ x_n B - A B ~ \rvert < \varepsilon (M + \lvert ~ B ~ \rvert).
+\end{align}</script><p>于是</p>
 <script type="math/tex; mode=display">
 \lim\limits_{n \to \infty} x_n y_n = AB.</script><p>​        （3）设 $\lim\limits_{n \to \infty} x_n = A, \lim\limits_{n \to \infty} y_n = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在正整数 $N$，当 $n &gt; N$ 时，有 $\lvert ~ x_n - A ~ \rvert &lt; \varepsilon, \lvert ~ y_n - B ~ \rvert &lt; \varepsilon$。再由收敛数列的有界性，对于任意的 $n$，存在 $M &gt; 0$，使得 $\lvert ~ x_n ~ \rvert &lt; M$。对于 $\lvert ~ y_n - B ~ \rvert &lt; \varepsilon$，由绝对值不等式可知</p>
 <script type="math/tex; mode=display">
@@ -312,121 +312,17 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
 \lvert ~ y_n ~ \rvert > \frac{\lvert ~ B ~ \rvert}{2} > 0, ~ y_n \neq 0</script><blockquote>
 <p><strong>注</strong>    这里的 $y_n \neq 0$ 是在 $n &gt; N, \lim\limits_{n \to \infty} y_n \neq 0$ 条件下的取值，也可以说当 $n \to \infty$ 时，$y_n \neq 0$。同时也要注意，趋于无穷大时的取值和极限值是不同的，将取值比作一条线，那么极限值可以看作它的渐近线（并不是，因为有重合的情况），但是可以将其视为一样的，由此可以推断 $\lim\limits_{n \to \infty} y_n \neq 0 \Rightarrow y_n \neq 0 ~ (n &gt; N)$。</p>
 </blockquote>
-<p>这时，有</p>
-<script type="math/tex; mode=display">
-\begin{equation*}
-  \begin{split}
-    \lvert ~ x_n + y_n - (A + B) ~ \rvert
-      & = \lvert ~ x_n - A + y_n - B ~ \rvert \\
-      & \leqslant \lvert ~ x_n - A ~ \rvert + \lvert ~ y_n - B ~ \rvert < 2 \varepsilon.
-  \end{split}
-\end{equation*}</script><p>于是</p>
-<script type="math/tex; mode=display">
-\lim\limits_{n \to \infty} \frac{x_n}{y_n} = \frac{A}{B}.</script><blockquote>
-<p><strong>注</strong>    因为 $\{y_n\}$ 有极限的充分条件是 $\varepsilon$ 可取任意值，因此 $y_n$ 的取值应该满足各种 $\varepsilon$ 情况下的取值集合，即对所有取值集合求并集，所以可以确定 $y_n \neq 0$。</p>
-</blockquote>
-</li>
+<p>这时，有<br>$$<br>\begin{align}</p>
+<pre><code>\lvert ~ \frac&#123;x_n&#125;&#123;y_n&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert
+    &amp; = \lvert ~ \frac&#123;x_n&#125;&#123;y_n&#125; - \frac&#123;x_n&#125;&#123;B&#125; + \frac&#123;x_n&#125;&#123;B&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert \\
+    &amp; \leqslant \lvert ~ \frac&#123;x_n&#125;&#123;y_n&#125; - \frac&#123;x_n&#125;&#123;B&#125; ~ \rvert + \lvert ~ \frac&#123;x_n&#125;&#123;B&#125; - \frac&#123;A&#125;&#123;B&#125; ~ \rvert \\
+    &amp; = \lvert ~ x_n ~ \rvert \lvert ~ \frac&#123;1&#125;&#123;y_n&#125; - \frac&#123;1&#125;&#123;B&#125; ~ \rvert + \lvert ~ \frac&#123;1&#125;&#123;B&#125; ~ \rvert \lvert ~ x_n - A ~ \rvert \\
+    &amp; = \lvert ~ x_n ~ \rvert \frac&#123;\lvert ~ y_n - B ~ \rvert&#125;&#123;\lvert ~ y_n ~ \rvert \lvert ~ B ~ \rvert&#125; + \frac&#123;1&#125;&#123;\lvert ~ B ~ \rvert&#125; \lvert ~ x_n - A ~ \rvert \\
+    &amp; &lt; M \frac&#123;\varepsilon&#125;&#123;\lvert ~ y_n ~ \rvert \lvert ~ B ~ \rvert&#125; + \frac&#123;\varepsilon&#125;&#123;\lvert ~ B ~ \rvert&#125; \\
+    &amp; &lt; M \frac&#123;2 \varepsilon&#125;
+</code></pre></li>
 </ul>
-<h4 id="1-4-2-函数极限的运算法则"><a href="#1-4-2-函数极限的运算法则" class="headerlink" title="1.4.2 函数极限的运算法则"></a>1.4.2 函数极限的运算法则</h4><blockquote>
-<p><strong>注</strong>    数列收敛，函数有极限。</p>
-</blockquote>
-<ul>
-<li><p><strong>定理 1.9</strong> — 函数极限的运算法则</p>
-<p>​        设 $\lim\limits_{x \to x_0} f(x)$ 和 $\lim\limits_{x \to x_0} g(x)$ 存在，则</p>
-<p>（1）$\lim\limits_{x \to x_0} (f(x) \pm g(x))$ 存在，且 $\lim\limits_{x \to x_0} (f(x) \pm g(x)) = \lim\limits_{x \to x_0} f(x) \pm \lim\limits_{x \to x_0} g(x)$；</p>
-<p>（2）$\lim\limits_{x \to x_0} (f(x) g(x))$ 存在，且 $\lim\limits_{x \to x_0} (f(x) g(x)) = \lim\limits_{x \to x_0} f(x) \cdot \lim\limits_{x \to x_0} g(x)$，特别地，$\lim\limits_{x \to x_0} (f(x))^2 = (\lim\limits_{x \to x_0} f(x))^2$；</p>
-<p>（3）若 $\lim\limits_{x \to x_0} g(x) \neq 0$，则 $\lim\limits_{x \to x_0} \dfrac{f(x)}{g(x)}$ 存在，且 $\lim\limits_{x \to x_0} \dfrac{f(x)}{g(x)} = \dfrac{\lim\limits_{x \to x_0} f(x)}{\lim\limits_{x \to x_0} g(x)}$。</p>
-<p><strong>证</strong>    （1）设 $\lim\limits_{x \to x_0} f(x) = A, \lim\limits_{x \to x_0} g(x) = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在 $0 &lt; \delta \leqslant \delta_0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon, \lvert ~ g(x) - B ~ \rvert &lt; \varepsilon$。这时，有</p>
-<script type="math/tex; mode=display">
-\begin{equation*}
-    \begin{split}
-        \lvert ~ f(x) + g(x) - (A + B) ~ \rvert
-            & = \lvert ~ f(x) - A + g(x) - B ~ \rvert \\
-            & \leqslant \lvert ~ f(x) - A ~ \rvert + \lvert ~ g(x) - B ~ \rvert < 2 \varepsilon.
-    \end{split}
-\end{equation*}</script><p>于是</p>
-<script type="math/tex; mode=display">
-\lim\limits_{x \to x_0} (f(x) + g(x)) = A + B.</script><p>​        （2）设 $\lim\limits_{x \to x_0} f(x) = A, \lim\limits_{x \to x_0} g(x) = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在 $0 &lt; \delta \leqslant \delta_0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon, \lvert ~ g(x) - B ~ \rvert &lt; \varepsilon$。再由函数极限的局部有界性，存在 $\delta &gt; 0$ 且 $M &gt; 0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) ~ \rvert \leqslant M$。这时，有</p>
-<script type="math/tex; mode=display">
-\begin{equation*}
-    \begin{split}
-        \lvert ~ f(x) g(x) - A B ~ \rvert
-            & = \lvert ~ f(x) g(x) - f(x) B + f(x) B - A B ~ \rvert \\
-            & \leqslant \lvert ~ f(x) g(x) - f(x) B ~ \rvert + \lvert ~ f(x) B - A B ~ \rvert < \varepsilon (M + \lvert ~ B ~ \rvert).
-    \end{split}
-\end{equation*}</script><p>于是</p>
-<script type="math/tex; mode=display">
-\lim\limits_{x \to x_0} f(x) g(x) = AB.</script><blockquote>
-<p><strong>注</strong>    由于自变量趋于有限值的极限原本就是在某个去心邻域 $\mathring{U} (x, \delta_0)$ 内定义的，因此局部有界性也适用于整个区间。</p>
-</blockquote>
-<p>（3）设 $\lim\limits_{x \to x_0} f(x) = A, \lim\limits_{x \to x_0} g(x) = B$。由极限的定义，$\forall ~ \varepsilon &gt; 0$，存在 $0 &lt; \delta \leqslant \delta_0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) - A ~ \rvert &lt; \varepsilon, \lvert ~ g(x) - B ~ \rvert &lt; \varepsilon$。再由函数极限的局部有界性，存在 $\delta &gt; 0$ 且 $M &gt; 0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ 时，$\lvert ~ f(x) ~ \rvert \leqslant M$。对于 $\lvert ~ g(x) - B ~ \rvert &lt; \varepsilon$，由绝对值不等式可知</p>
-<script type="math/tex; mode=display">
-\lvert ~ B ~ \rvert - \lvert ~ g(x) ~ \rvert \leqslant \lvert ~ g(x) - B ~ \rvert < \varepsilon,</script><p>则</p>
-<script type="math/tex; mode=display">
-\lvert ~ g(x) ~ \rvert > \lvert ~ B ~ \rvert - \varepsilon,</script><p>因为 $\lim\limits_{x \to x_0} g(x) = B \neq 0$，取 $\varepsilon = \dfrac{\lvert ~ B ~ \rvert}{2} &gt; 0$，即</p>
-<script type="math/tex; mode=display">
-\lvert ~ g(x) ~ \rvert > \frac{\lvert ~ B ~ \rvert}{2} > 0, ~ g(x) \neq 0</script><blockquote>
-<p><strong>注</strong>    这里的 $g(x) \neq 0$，是在 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta, \lim\limits_{x \to x_0} g(x) \neq 0$ 条件下的取值，也可以说当 $x \to x_0$ 时，$g(x) \neq 0$。同前述观点可以推断 $\lim\limits_{x \to x_0} g(x) \neq 0 \Rightarrow g(x) \neq 0 ~ (0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta)$。</p>
-</blockquote>
-<p>这时，有</p>
-<script type="math/tex; mode=display">
-\begin{equation*}
-    \begin{split}
-        \lvert ~ \frac{f(x)}{g(x)} - \frac{A}{B} ~ \rvert
-            & = \lvert ~ \frac{f(x)}{g(x)} - \frac{f(x)}{B} + \frac{f(x)}{B} - \frac{A}{B} ~ \rvert \\
-            & \leqslant \lvert ~ \frac{f(x)}{g(x)} - \frac{f(x)}{B} ~ \rvert + \lvert ~ \frac{f(x)}{B} - \frac{A}{B} ~ \rvert \\
-            & = \lvert ~ f(x) ~ \rvert \lvert ~ \frac{1}{g(x)} - \frac{1}{B} ~ \rvert + \lvert ~ \frac{1}{B} ~ \rvert \lvert ~ f(x) - A ~ \rvert \\
-            & = \lvert ~ f(x) ~ \rvert \frac{\lvert ~ g(x) - B ~ \rvert}{\lvert ~ g(x) ~ \rvert \lvert ~ B ~ \rvert} + \frac{1}{\lvert ~ B ~ \rvert} \lvert ~ f(x) - A ~ \rvert \\
-            & < M \frac{\varepsilon}{\lvert ~ g(x) ~ \rvert \lvert ~ B ~ \rvert} + \frac{\varepsilon}{\lvert ~ B ~ \rvert} \\
-    \end{split}
-\end{equation*}</script><p>于是</p>
-<script type="math/tex; mode=display">
-\lim\limits_{x \to x_0} \frac{f(x)}{g(x)} = \frac{A}{B}.</script></li>
-<li><p><strong>定理 1.10</strong> — 复合函数极限的计算公式</p>
-<p>​        如果 $\lim\limits_{x \to x_0} f(x)$ 存在，$\lim\limits_{t \to t_0} g(t) = x_0$，且存在 $\delta_0 &gt; 0$，当 $t \in \mathring{U} (t_0, \delta_0)$ 时，$g(t) \neq x_0$，则 $\lim\limits_{t \to t_0} f(g(t))$ 存在，并且有 $\lim\limits_{t \to t_0} f(g(t)) = \lim\limits_{x \to x_0} f(x)$。</p>
-<p><strong>证</strong>    设 $\lim\limits_{x \to x_0} f(x) = A$，由极限的定义知，$\forall ~ \varepsilon &gt; 0$，存在 $\eta &gt; 0$，当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \eta$ 时，</p>
-<script type="math/tex; mode=display">
-\lvert ~ f(x) - A ~ \rvert < \varepsilon.</script><p>再由 $\lim\limits_{t \to t_0} g(t) = x_0$ 时，对上述的 $\eta$，存在 $\delta_{\eta} &gt; 0$，当 $0 &lt; \lvert ~ t - t_0 ~ \rvert &lt; \delta_{\eta}$ 时，</p>
-<script type="math/tex; mode=display">
-\lvert ~ g(t) - x_0 ~ \rvert < \eta.</script><p>由已知，$t \in \mathring{U} (t_0, \delta_0)$ 时，$g(t) \neq x_0$。取 $\delta = \min \{\delta_0, \delta_{\eta}\}$，则当 $0 &lt; \lvert ~ t - t_0 ~ \rvert &lt; \delta$ 时，有</p>
-<script type="math/tex; mode=display">
-0 < \lvert ~ g(t) - x_0 ~ \rvert < \eta.</script><p>从而有 $\lvert ~ f(g(t)) - A ~ \rvert &lt; \varepsilon$。</p>
-<p>​        即证 $\lim\limits_{t \to t_0} f(g(x)) = A$，则 $\lim\limits_{t \to t_0} f(g(t)) = \lim\limits_{x \to x_0} f(x)$。</p>
-</li>
-</ul>
-<h3 id="1-5-单调有界原理和两个重要极限"><a href="#1-5-单调有界原理和两个重要极限" class="headerlink" title="1.5 单调有界原理和两个重要极限"></a>1.5 单调有界原理和两个重要极限</h3><h4 id="1-5-1-单调有界原理"><a href="#1-5-1-单调有界原理" class="headerlink" title="1.5.1 单调有界原理"></a>1.5.1 单调有界原理</h4><ul>
-<li><p><strong>定理 1.11</strong>    </p>
-<p>​        如果 $\lvert ~ x_n ~ \rvert$ 为单调有界数列，则 $\lim\limits_{n \to \infty} x_n$ 存在。</p>
-<p><strong>证</strong>    从几何上看，由于单调数列的点 $x_n$ 只能向一个方向移动，所以只有两种可能，或者点 $x_n$ 沿数轴移向无穷远；或者点 $x_n$ 无限趋于某一个定点，即数列 $\{x_n\}$ 趋于一个定数。但数列 $\{x_n\}$ 有界，因此，只能出现第二种情形。</p>
-</li>
-</ul>
-<h4 id="1-5-2-两个重要极限"><a href="#1-5-2-两个重要极限" class="headerlink" title="1.5.2 两个重要极限"></a>1.5.2 两个重要极限</h4><h4 id="1-5-3-极限计算的例题"><a href="#1-5-3-极限计算的例题" class="headerlink" title="1.5.3 极限计算的例题"></a>1.5.3 极限计算的例题</h4><h3 id="1-6-无穷小与无穷大"><a href="#1-6-无穷小与无穷大" class="headerlink" title="1.6 无穷小与无穷大"></a>1.6 无穷小与无穷大</h3><h4 id="1-6-1-无穷小"><a href="#1-6-1-无穷小" class="headerlink" title="1.6.1 无穷小"></a>1.6.1 无穷小</h4><ul>
-<li><p><strong>定义 1.23</strong></p>
-<p>​        在自变量的某个变化过程中，极限为 $0$ 的变量称为<strong>无穷小</strong>。</p>
-</li>
-<li><p><strong>定理 1.12</strong></p>
-<p>​        在自变量的同一变化过程中，函数 $f(x)$ 的极限为 $A$ 的充分必要条件是 $f(x) = A + \alpha$，其中 $\alpha$ 是自变量的同一变化过程中的无穷小。</p>
-<p><strong>证</strong>    对于自变量趋近于有限值时，充分性：</p>
-<p>​        因为 $\lim\limits_{x \to x_0} f(x) = A, \lim\limits_{x \to x_0} \alpha = 0$，所以 $\lim\limits_{x \to x_0} \alpha = \lim\limits_{x \to x_0} f(x) - A = \lim\limits_{x \to x_0} (f(x) - A) = 0$，所以 $\lim\limits_{x \to x_0} \alpha = \lim\limits_{x \to x_0} (f(x) - A)$，即 $f(x) = A + \alpha$。</p>
-<p>​        必要性：</p>
-<p>​        因为 $f(x) = A + \alpha, \lim\limits_{x \to x_0} \alpha = 0$，所以 $\lim\limits_{x \to x_0} a = \lim\limits_{x \to x_0} (f(x) - A) = \lim\limits_{x \to x_0} f(x) - A = 0$，所以 $\lim\limits_{x \to x_0} f(x) - A = 0$，即 $\lim\limits_{x \to x_0} f(x) = A$。</p>
-</li>
-</ul>
-<h4 id="1-6-2-无穷大"><a href="#1-6-2-无穷大" class="headerlink" title="1.6.2 无穷大"></a>1.6.2 无穷大</h4><ul>
-<li><p><strong>定义 1.24</strong></p>
-<p>​        设函数 $f(x)$ 在 $x_0$ 的某个去心邻域 $\mathring{U} (x_0, \delta_0)$ 内有定义（或存在 $X_0 &gt; 0$，当 $\lvert ~ x ~ \rvert &gt; X_0$ 时函数 $f(x)$ 有定义）。如果对于任意给定的 $M &gt; 0$ （无论多么大），总存在 $0 &lt; \delta &lt; \delta_0$ （或存在 $X &gt; X_0 &gt; 0$），当 $0 &lt; \lvert ~ x - x_0 ~ \rvert &lt; \delta$ （或 $\lvert ~ x ~ \rvert &gt; X$）时，恒有 $\lvert ~ f(x) ~ \rvert &gt; M$，则称 $f(x)$ 为 $x \to x_0$ （或 $x \to \infty$）时的无穷大。记为 $f(x) \to \infty$ （$x \to x_0$ 或 $x \to \infty$），有时也记为 $\lim\limits_{x \to x_0} f(x) = \infty$ （或 $\lim\limits_{x \to \infty} f(x) = \infty$）。</p>
-</li>
-</ul>
-<h4 id="1-6-3-无穷小的运算"><a href="#1-6-3-无穷小的运算" class="headerlink" title="1.6.3 无穷小的运算"></a>1.6.3 无穷小的运算</h4><ul>
-<li><p><strong>定理 1.13</strong></p>
-<p>​        两个无穷小的和、差仍为无穷小。</p>
-<p><strong>证</strong>    设 $\alpha_1, \alpha_2$ 为无穷小，则有 $\lim\limits_{x \to x_0} \alpha_1 = 0, \lim\limits_{x \to x_0} \alpha_2 = 0$，再由极限运算法则，$\lim\limits_{x \to x_0} (\alpha_1 \pm \alpha_2) = \lim\limits_{x \to x_0} \alpha_1 \pm \lim\limits_{x \to x_0} \alpha_2$，得 $\lim\limits_{x \to x_0} (\alpha_1 \pm \alpha_2) = 0$，即证。</p>
-</li>
-<li><p><strong>定理 1.14</strong></p>
-<p>​        有界函数与无穷小的乘积仍为无穷小。</p>
-</li>
-</ul>
-<h4 id="1-6-4-无穷小的比较"><a href="#1-6-4-无穷小的比较" class="headerlink" title="1.6.4 无穷小的比较"></a>1.6.4 无穷小的比较</h4><h3 id="1-7-函数的连续性"><a href="#1-7-函数的连续性" class="headerlink" title="1.7 函数的连续性"></a>1.7 函数的连续性</h3><h4 id="1-7-1-函数的连续性"><a href="#1-7-1-函数的连续性" class="headerlink" title="1.7.1 函数的连续性"></a>1.7.1 函数的连续性</h4><h4 id="1-7-2-连续函数的运算性质"><a href="#1-7-2-连续函数的运算性质" class="headerlink" title="1.7.2 连续函数的运算性质"></a>1.7.2 连续函数的运算性质</h4><h4 id="1-7-3-函数的间断点"><a href="#1-7-3-函数的间断点" class="headerlink" title="1.7.3 函数的间断点"></a>1.7.3 函数的间断点</h4><h3 id="1-8-闭区间上连续函数的性质"><a href="#1-8-闭区间上连续函数的性质" class="headerlink" title="1.8 闭区间上连续函数的性质"></a>1.8 闭区间上连续函数的性质</h3> 
+ 
       <!-- reward -->
       
     </div>
@@ -490,30 +386,23 @@ a - \varepsilon < x_n \leqslant z_n \leqslant y_n < a + \varepsilon,</script><p>
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2023/03/03/te/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2023/03/05/Ad-Math/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Ad-Math/" rel="tag">Ad-Math</a></li></ul>
+
     </footer>
   </div>
 
    
   <nav class="article-nav">
     
-      <a href="/2023/03/05/Ad-Math/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            高等数学
-          
-        </div>
-      </a>
     
-    
-      <a href="/2023/02/25/SPM-Note/" class="article-nav-link">
+      <a href="/2023/03/03/te/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">东北大学 SPM 笔记</div>
+        <div class="article-nav-title">te</div>
       </a>
     
   </nav>
