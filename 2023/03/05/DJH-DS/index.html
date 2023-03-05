@@ -106,6 +106,12 @@
  
     </div>
       
+    <div class="tocbot"></div>
+
+
+
+
+  
     <div class="article-entry" itemprop="articleBody">
        
   <h1 id="数据结构（邓俊辉）"><a href="#数据结构（邓俊辉）" class="headerlink" title="数据结构（邓俊辉）"></a>数据结构（邓俊辉）</h1><h2 id="第一章-绪论"><a href="#第一章-绪论" class="headerlink" title="第一章 绪论"></a>第一章 绪论</h2><h3 id="01-A1-计算：工具"><a href="#01-A1-计算：工具" class="headerlink" title="01-A1 计算：工具"></a>01-A1 计算：工具</h3><blockquote>
@@ -1270,6 +1276,22 @@ T(n) = O(2^n)</script></li>
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
 <link

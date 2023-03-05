@@ -106,6 +106,12 @@
  
     </div>
       
+    <div class="tocbot"></div>
+
+
+
+
+  
     <div class="article-entry" itemprop="articleBody">
        
   <h1 id="AcWing-语法基础"><a href="#AcWing-语法基础" class="headerlink" title="AcWing 语法基础"></a>AcWing 语法基础</h1><h2 id="第一讲-变量、输入输出、表达式和顺序语句"><a href="#第一讲-变量、输入输出、表达式和顺序语句" class="headerlink" title="第一讲 变量、输入输出、表达式和顺序语句"></a>第一讲 变量、输入输出、表达式和顺序语句</h2><h3 id="基本代码"><a href="#基本代码" class="headerlink" title="基本代码"></a>基本代码</h3><ul>
@@ -498,6 +504,22 @@ return 0; // 返回值
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
 
 <script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
 <link
