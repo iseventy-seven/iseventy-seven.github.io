@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 
-<html lang="en">
+<html lang="zh-CN">
   
 
     <head>
@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title> Hexo</title>
+      <title> Think And Write</title>
   <meta name="generator" content="hexo-theme-ayer">
       
       <link rel="shortcut icon" href="/favicon.ico" />
@@ -36,6 +36,8 @@
 
       <!-- mermaid -->
       
+      <script src="https://cdn.staticfile.org/mermaid/8.14.0/mermaid.min.js"></script>
+      
       <style>
         .swal2-styled.swal2-confirm {
           font-size: 1.6rem;
@@ -50,21 +52,19 @@
   <div id="app">
     
       
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
     <main class="content on">
       
 <section class="cover">
-    
-      
-      <a class="forkMe" href="https://github.com/Shen-Yu/hexo-theme-ayer"
-        target="_blank"><img width="149" height="149" src="/images/forkme.png"
-          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
     
   <div class="cover-frame">
     <div class="bg-box">
       <img src="/images/cover1.jpg" alt="image frame" />
     </div>
     <div class="cover-inner text-center text-white">
-      <h1><a href="/">Hexo</a></h1>
+      <h1><a href="/">Think And Write</a></h1>
       <div id="subtitle-box">
         
         <span id="subtitle"></span>
@@ -90,7 +90,7 @@
   <script>
     try {
       var typed = new Typed("#subtitle", {
-        strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
+        strings: ['晓望云泥景，晚抱枫零秋。', '寒风又抹北国色，墨点竞开枫零秋。', '残阳只影，影落溪南。'],
         startDelay: 0,
         typeSpeed: 200,
         loop: true,
@@ -105,64 +105,6 @@
 <div id="main">
   <section class="outer">
   
-  <ul class="ads">
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://curl.qcloud.com/kvO7hb43">
-                <img src="https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg" width="300" alt="云服务器限时秒杀">
-            </a>
-        </li>
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=8630075">
-                <img src="https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png" width="300" alt="vultr优惠vps">
-            </a>
-        </li>
-    
-</ul>
-  
-  
-  
-
-<div class="notice" style="margin-top:50px">
-    <i class="ri-heart-fill"></i>
-    <div class="notice-content" id="broad"></div>
-</div>
-<script type="text/javascript">
-    fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("broad").innerHTML = data.hitokoto;
-        })
-        .catch(console.error)
-</script>
-
-<style>
-    .notice {
-        padding: 20px;
-        border: 1px dashed #e6e6e6;
-        color: #969696;
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        background: #fbfbfb50;
-        border-radius: 10px;
-    }
-
-    .notice i {
-        float: left;
-        color: #999;
-        font-size: 16px;
-        padding-right: 10px;
-        vertical-align: middle;
-        margin-top: -2px;
-    }
-
-    .notice-content {
-        display: initial;
-        vertical-align: middle;
-    }
-</style>
   
   <article class="articles">
     
@@ -194,27 +136,7 @@
   <time datetime="2023-04-06T10:53:44.371Z" itemprop="datePublished">2023-04-06</time>
 </a>    
     </div>
-      
-    <div class="article-entry" itemprop="articleBody">
        
-  <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
- 
-      <!-- reward -->
-      
-    </div>
-    
 
     <!-- copyright -->
     
@@ -241,8 +163,8 @@
     <ul>
       <li>
         Copyrights &copy;
-        2015-2023
-        <i class="ri-heart-fill heart_icon"></i> John Doe
+        2023
+        <i class="ri-heart-fill heart_icon"></i> i seventy-seven
       </li>
     </ul>
     <ul>
@@ -255,9 +177,9 @@
         
         
         <span>
-  <span><i class="ri-user-3-fill"></i>Visitors:<span id="busuanzi_value_site_uv"></span></span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
   <span class="division">|</span>
-  <span><i class="ri-eye-fill"></i>Views:<span id="busuanzi_value_page_pv"></span></span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
 </span>
         
       </li>
@@ -294,7 +216,7 @@
 <nav class="navbar">
   
   <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="Hexo"></a>
+    <a href="/"><img src="/images/ayer-side.svg" alt="Think And Write"></a>
   </div>
   
   <ul class="nav nav-main">
@@ -316,19 +238,11 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
-    </li>
-    
-    <li class="nav-item">
       <a class="nav-item-link" href="/friends">友链</a>
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">关于我</a>
+      <a class="nav-item-link" href="/about">关于</a>
     </li>
     
   </ul>
@@ -337,7 +251,7 @@
   <ul class="nav">
     <li class="nav-item">
       
-      <a class="nav-item-link nav-item-search"  title="Search">
+      <a class="nav-item-link nav-item-search"  title="搜索">
         <i class="ri-search-line"></i>
       </a>
       
@@ -364,16 +278,6 @@
   <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
   <div class="reward-box">
     
-    <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.jpg">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.jpg">
-      <span class="reward-type">微信</span>
-    </div>
     
   </div>
 </div>
@@ -501,6 +405,30 @@
     viewer_init()
 </script> 
 <!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js"></script>
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/config/TeX-AMS-MML_HTMLorMML-full.js"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
 
 <!-- Katex -->
 
@@ -513,7 +441,9 @@
 <!-- ClickBoom1 -->
 
 <!-- ClickBoom2 -->
-
+ 
+<script src="/js/clickBoom2.js"></script>
+ 
 <!-- CodeCopy -->
  
 <link rel="stylesheet" href="/css/clipboard.css">
@@ -573,7 +503,9 @@
 </script>
  
 <!-- CanvasBackground -->
-
+ 
+<script src="/js/dz.js"></script>
+ 
 <script>
   if (window.mermaid) {
     mermaid.initialize({ theme: "forest" });
