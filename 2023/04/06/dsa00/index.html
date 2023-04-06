@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+
+
+<html lang="zh-CN">
+  
+
+    <head>
+      <meta charset="utf-8" />
+        
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1"
+      />
+      <title>dsa00 |  Think And Write</title>
+  <meta name="generator" content="hexo-theme-ayer">
+      
+      <link rel="shortcut icon" href="/favicon.ico" />
+       
+<link rel="stylesheet" href="/dist/main.css">
+
+      
+<link rel="stylesheet" href="/css/fonts/remixicon.css">
+
+      
+<link rel="stylesheet" href="/css/custom.css">
+ 
+      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
+       
+ 
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+
+      <!-- mermaid -->
+      
+      <script src="https://cdn.staticfile.org/mermaid/8.14.0/mermaid.min.js"></script>
+      
+      <style>
+        .swal2-styled.swal2-confirm {
+          font-size: 1.6rem;
+        }
+      </style>
+    </head>
+  </html>
+</html>
+
+
+<body>
+  <div id="app">
+    
+      
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
+    <main class="content on">
+      <section class="outer">
+  <article
+  id="post-dsa00"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  dsa00
+</h1>
+ 
+
+      
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2023/04/06/dsa00/" class="article-date">
+  <time datetime="2023-04-06T11:10:40.000Z" itemprop="datePublished">2023-04-06</time>
+</a> 
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Note/">Note</a>
+  </div>
+  
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">8.2k</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">39 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+    <div class="tocbot"></div>
+
+
+
+
+  
+    <div class="article-entry" itemprop="articleBody">
+       
+  <h1 id="数据结构（邓俊辉）"><a href="#数据结构（邓俊辉）" class="headerlink" title="数据结构（邓俊辉）"></a>数据结构（邓俊辉）</h1><h2 id="第一章-绪论"><a href="#第一章-绪论" class="headerlink" title="第一章 绪论"></a>第一章 绪论</h2><h3 id="01-A1-计算：工具"><a href="#01-A1-计算：工具" class="headerlink" title="01-A1 计算：工具"></a>01-A1 计算：工具</h3><blockquote>
+<p>01.Intro.A1.Computation.Tools</p>
+</blockquote>
+<ul>
+<li><p>以计算为核心</p>
+<blockquote>
+<p>Computer Science -&gt; Computing Science</p>
+</blockquote>
+<ul>
+<li>以计算为研究对象<ul>
+<li>探究计算规律、计算技巧</li>
+</ul>
+</li>
+<li>以计算为研究目标<ul>
+<li>实现高效计算、低耗计算</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>计算工具</p>
+<ul>
+<li><p>绳索计算机</p>
+<img src="D:\Documents\Typora\数据结构\DS\01.绳索计算机.png" alt="01.绳索计算机" style="zoom:33%;" />
+</li>
+<li><p>尺规计算机</p>
+<img src="D:\Documents\Typora\数据结构\DS\02.尺规计算机.png" alt="02.尺规计算机" style="zoom:33%;" /></li>
+</ul>
+</li>
+</ul>
+<h3 id="01-A2-计算：算法"><a href="#01-A2-计算：算法" class="headerlink" title="01-A2 计算：算法"></a>01-A2 计算：算法</h3><blockquote>
+<p>01.Intro.A2.Computation.Algorithm</p>
+</blockquote>
+<ul>
+<li><p>概念</p>
+<ul>
+<li><p>**$计算 &#x3D; 信息处理$**：即借助某种工具，遵照一定规则，以明确而机械的形式进行</p>
+</li>
+<li><p><strong>$计算模型 &#x3D; 计算机 &#x3D; 信息处理工具$</strong></p>
+</li>
+<li><p><strong>算法：即特定计算模型下，解决特定问题的指令序列</strong></p>
+<ul>
+<li><p>输入：问题</p>
+</li>
+<li><p>输出：答案</p>
+</li>
+<li><p>正确性：算法可以解决问题</p>
+</li>
+<li><p>确定性：算法每一步都确定</p>
+</li>
+<li><p>可行性：算法每一步都可行</p>
+</li>
+<li><p>有穷性：算法经有穷次操作</p>
+<blockquote>
+<p>一个算法满足确定性与可行性，当且仅当它可以通过程序设计语言精确地描述。</p>
+<p>证明有穷性和正确性，即找出算法过程的不变性与单调性（随着算法推进，问题有效规模不断递减）。</p>
+<p>鲁棒性（Robustness）：算法要尽可能充分地应对各种退化（Degeneracy）情况。</p>
+<p>重用性、可计算性（Computability）、难解性（Intractability）</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p><strong>$程序 \not&#x3D; 算法$</strong></p>
+</li>
+</ul>
+</li>
+<li><p>算法优劣</p>
+<ul>
+<li>正确：符合语法，能够编译运行</li>
+<li>健壮：正常退出，辨别非法输入</li>
+<li>可读：正确命名，结构化与注释</li>
+<li><strong>效率：速度较快，存储空间较少</strong><ul>
+<li>$Algorithm + Data Structures &#x3D; Programs$</li>
+<li>$(Algorithm + Data Structures) \times Efficiency &#x3D; Computing$</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-B1-计算模型：统一尺度"><a href="#01-B1-计算模型：统一尺度" class="headerlink" title="01-B1 计算模型：统一尺度"></a>01-B1 计算模型：统一尺度</h3><blockquote>
+<p>01.Intro.B1.Computational_Models.Measure</p>
+</blockquote>
+<ul>
+<li>算法分析<ul>
+<li>正确性</li>
+<li>时间与空间成本<ul>
+<li>往往与<strong>实例</strong>的规模相关</li>
+</ul>
+</li>
+<li>依托于理想的平台或模型</li>
+</ul>
+</li>
+<li>定义<ul>
+<li>性能测度建模：$T_A(P) &#x3D; 算法 ~ A ~ 求解问题实例 ~ P ~ 的计算成本$</li>
+<li>考虑问题规模：$T_A(n) &#x3D; 用算法 ~ A ~ 求解某一问题规模为 ~ n ~ 的实例，所需的计算成本$</li>
+<li><strong>考虑最坏情况</strong>：$T(n) &#x3D; \max{~ T(P) ~ \vert ~ \lvert P \rvert &#x3D; n ~}$</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-B2-计算模型：图灵机"><a href="#01-B2-计算模型：图灵机" class="headerlink" title="01-B2 计算模型：图灵机"></a>01-B2 计算模型：图灵机</h3><blockquote>
+<p>01.Intro.B2.Computational_Models.Turing_Machine</p>
+</blockquote>
+<ul>
+<li>TM：Turing Machine<ul>
+<li>Tape<ul>
+<li>无限长的一条纸带，依次均匀地划分为单元格</li>
+<li>每个单元格中标注一个字符，默认为 <code>#</code></li>
+</ul>
+</li>
+<li>Alphabet<ul>
+<li>单元格中的字符种类有限，均来自于一个字符表</li>
+</ul>
+</li>
+<li>Head<ul>
+<li>头&#x2F;读写头</li>
+<li>总是对准某一单元格</li>
+<li>可以读取或改写单元格中的字符</li>
+<li>每经过一个节拍，可移至左侧或右侧的邻格</li>
+</ul>
+</li>
+<li>State<ul>
+<li>TM 总是处于有限状态中的一种</li>
+<li>每经过一个节拍，可以按照相应规则转向另一种状态</li>
+</ul>
+</li>
+<li>Transition Function<ul>
+<li><code>q</code>：当前状态</li>
+<li><code>c</code>：当前单元格中的字符</li>
+<li><code>d</code>：要改写成的目标字符</li>
+<li><code>L/R</code>：转向左侧&#x2F;右侧邻格</li>
+<li><code>p</code>：要改变的目标状态</li>
+<li>转入特定状态 <code>h</code> 时，停机</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>TM：Increase<ul>
+<li>功能<ul>
+<li>将二进制非负整数加一</li>
+</ul>
+</li>
+<li>算法<ul>
+<li>全 <code>1</code> 的后缀翻转为全 <code>0</code></li>
+<li>原最低位的 <code>0</code> 或 <code>#</code> 翻转为 <code>1</code></li>
+</ul>
+</li>
+<li>指令<ul>
+<li><code>(&lt;, 1, 0, L, &lt;) // 左行, 1-&gt;0</code></li>
+<li><code>(&lt;, 0, 1, R, &gt;) // 掉头, 0-&gt;1</code></li>
+<li><code>(&lt;, #, 1, R, &gt;)</code></li>
+<li><code>(&gt;, 0, 0, R, &gt;) // 右行</code></li>
+<li><code>(&gt;, #, #, L, h) // 复位</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>以<strong>接口</strong>的形式强调<strong>规范</strong></li>
+</ul>
+<h3 id="01-B3-计算模型：RAM"><a href="#01-B3-计算模型：RAM" class="headerlink" title="01-B3 计算模型：RAM"></a>01-B3 计算模型：RAM</h3><blockquote>
+<p>01.Intro.B3.Computational_Models.RAM</p>
+</blockquote>
+<ul>
+<li><p>RAM：Random Access Machine</p>
+<ul>
+<li>无限个寄存器顺序编号</li>
+<li>基本操作：每一步仅需常数时间<ul>
+<li><code>R[i] &lt;- c</code>：常数赋值</li>
+<li><code>R[i] &lt;- R[j]</code>：数值复制</li>
+<li><code>R[i] &lt;- R[R[j]]</code>：数值复制（间接取址）</li>
+<li><code>R[R[i]] &lt;- R[j]</code></li>
+<li><code>R[i] &lt;- R[j] + R[k]</code>：加</li>
+<li><code>R[i] &lt;- R[j] - R[k]</code>：减</li>
+<li><code>IF R[i] = 0 GOTO 1</code>：条件语句，判 0</li>
+<li><code>IF R[i] &gt; 0 GOTO 1</code>：条件语句，判正</li>
+<li><code>GOTO 1</code>：转向</li>
+<li><code>STOP</code>：终止</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>计算工具的简化与抽象</strong></p>
+<ul>
+<li>便于独立于具体平台，评判算法效率</li>
+<li>计算模型<ul>
+<li>算法运行时间 $\varpropto$ 算法需要执行的基本操作次数</li>
+<li><strong>$T(n) &#x3D; 算法为求解规模为 ~ n ~ 的问题，所需执行的基本操作次数$</strong></li>
+<li><strong>为度量算法性能提供了精确的尺度</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>RAM：Floor</p>
+<ul>
+<li><p>功能</p>
+<ul>
+<li>向下取整的除法<br>$$<br>\begin{equation*}<br>\begin{split}<br>    \lfloor \frac{c}{d} \rfloor<br>    &amp; &#x3D; \max{x ~ \vert ~ d \cdot x \leqslant c} \<br>    &amp; &#x3D; \max{x ~ \vert ~ d \cdot x \leqslant c}<br>    , ~ 0 \leqslant c, 0 &lt; d<br>\end{split}<br>\end{equation*}<br>$$</li>
+</ul>
+</li>
+<li><p>算法：反复从 <code>R[0] = 1 + c</code> 中减去 <code>R[1] = d</code>，统计在下溢之前所做的减法次数</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">R[3] &lt;- 1 // increment</span><br><span class="line">R[0] &lt;- R[0] + R[3] // c++</span><br><span class="line">R[0] &lt;- R[0] - R[1] // c -= d</span><br><span class="line">R[2] &lt;- R[2] + R[3] // x++</span><br><span class="line">IF R[0] &gt; 0 GOTO 2 // if c &gt; 0 goto 2</span><br><span class="line">R[0] &lt;- R[2] - R[3] // else x--</span><br><span class="line">STOP // return R[0] = x</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h3 id="01-C1-渐进复杂度：大-O-记号"><a href="#01-C1-渐进复杂度：大-O-记号" class="headerlink" title="01-C1 渐进复杂度：大 $O$ 记号"></a>01-C1 渐进复杂度：大 $O$ 记号</h3><blockquote>
+<p>01.Intro.C1.Asymptotic_Complexity.Big_O</p>
+</blockquote>
+<ul>
+<li><p>渐进分析：问题规模足够大后，计算成本如何增长</p>
+<ul>
+<li><p>大 $O$ 记号</p>
+<ul>
+<li>对于 $T(n) &#x3D; O(f(n))$，$\exists c &gt; 0$，当 $n &gt;&gt; 2$ 后，有 $T(n) &lt; c \cdot f(n)$<ul>
+<li>常系数可忽略：$O(c \times f(n)) &#x3D; O(f(n))$</li>
+<li>低次项可忽略：$O(n^a + n^b) &#x3D; O(n^a), a \geqslant b &gt; 0$</li>
+<li>$O(f(n))$ 是对 $T(n)$ 的悲观估计</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>大 $\Omega$ 记号</p>
+<ul>
+<li>对于 $T(n) &#x3D; \Omega(f(n))$，$\exists  c &gt; 0$，当 $n &gt;&gt; 2$ 后，有 $T(n) &gt; c \cdot f(n)$<ul>
+<li>$\Omega(f(n))$ 是对 $T(n)$ 的乐观估计</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>$\Theta$ 记号</p>
+<ul>
+<li><p>对于 $T(n) &#x3D; \Theta(f(n))$，$\exists c_1 &gt; \exists c_2 &gt; 0$，当 $n &gt;&gt; 2$ 后，有 $c_1 \cdot f(n) &gt; T(n) &gt; c_2 \cdot f(n)$</p>
+<blockquote>
+<p>对于规模为 $n$ 的任何输入，算法的运行时间 $T(n)$ 都与 $\Theta(f(n))$ 同阶。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-C2-渐进复杂度：多项式"><a href="#01-C2-渐进复杂度：多项式" class="headerlink" title="01-C2 渐进复杂度：多项式"></a>01-C2 渐进复杂度：多项式</h3><blockquote>
+<p>01.Intro.C2.Asymptotic_Complexity.Polynomial</p>
+</blockquote>
+<ul>
+<li><p>高效解</p>
+<ul>
+<li>$O(1)$：常数（constant function）<ul>
+<li>效率最高</li>
+</ul>
+</li>
+<li>$O(\log^c n)$：对数多项式（ploy-log function）<ul>
+<li>忽视常底数：$\forall a, b &gt; 0, \log_a n &#x3D; \log_ab \cdot \log_b n &#x3D; \Theta(\log_b n)$</li>
+<li>忽视常次数幂：$\forall c &gt; 0, \log n^c &#x3D; c \cdot \log n &#x3D; \Theta(\log n)$</li>
+<li>$\exists c &gt; 0, \log n &#x3D; O(n^c)$</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>有效解</p>
+<ul>
+<li>$O(n^c)$：多项式（polynomial function）<ul>
+<li>一般地：$a_k n^k + a_{k - 1} n^{k - 1} + \cdots + a_1 n + a_0 &#x3D; O(n^k), a_k &gt; 0$</li>
+<li>所有 $O(n)$ 类函数均为线性（linear function）的</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-C3-渐进复杂度：指数"><a href="#01-C3-渐进复杂度：指数" class="headerlink" title="01-C3 渐进复杂度：指数"></a>01-C3 渐进复杂度：指数</h3><blockquote>
+<p>01.Intro.C3.Asymptotic_Complexity.Exponential</p>
+</blockquote>
+<ul>
+<li>难解<ul>
+<li>$O(a^n)$：指数（exponential function）<ul>
+<li>$\forall c &gt; 1, n^c &#x3D; O(2^n)$</li>
+<li>从 $O(n^c)$ 到 $O(2^n)$ 是<strong>有效算法</strong>到<strong>无效算法</strong>的分水岭</li>
+<li>2-Subset 问题：$S$ 包含 $n$ 个正整数，$\sum S &#x3D; 2m$，$S$ 是否有子集 $T$，满足 $\sum T &#x3D; m$？<ul>
+<li>2-Subset is NP-complete. (Non-deterministic Polynomial)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-C4-渐进复杂度：层级划分"><a href="#01-C4-渐进复杂度：层级划分" class="headerlink" title="01-C4 渐进复杂度：层级划分"></a>01-C4 渐进复杂度：层级划分</h3><blockquote>
+<p>01.Intro.C4.Asymptotic_Complexity.Complexity_Class</p>
+</blockquote>
+<ul>
+<li>增长速度<ul>
+<li>$2^n &gt; n^3 &gt; n^2 &gt; n \log n &gt; n &gt; \sqrt{n} &gt; \log{n} &gt; 1$</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-D1-复杂度分析：级数"><a href="#01-D1-复杂度分析：级数" class="headerlink" title="01-D1 复杂度分析：级数"></a>01-D1 复杂度分析：级数</h3><blockquote>
+<p>01.Intro.D1.Complexity_Analysis.Series</p>
+</blockquote>
+<ul>
+<li>算法分析<ul>
+<li>主要任务<ul>
+<li>正确性（不变性 $\times$ 单调性）+ 复杂度</li>
+</ul>
+</li>
+<li>主要方法<ul>
+<li>迭代：级数求和</li>
+<li>递归：递归跟踪 + 递推方程</li>
+<li>猜测 + 验证</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>级数<ul>
+<li>算术级数：与<strong>末项平方</strong>同阶<ul>
+<li>$T(n) &#x3D; 1 + 2 + \cdots + n &#x3D; n (n + 1) &#x2F; 2 &#x3D; O(n^2)$</li>
+</ul>
+</li>
+<li>幂方级数：比幂次高出<strong>一阶</strong><ul>
+<li>$\sum^n_{k&#x3D;0} k^d \approx \int^n_0 x^{d + 1} {\rm d} x &#x3D; \frac{1}{d + 1} x ^{d + 1} \vert^n_0 &#x3D; \frac{1}{d + 1} n^{d + 1} &#x3D; O(n^{d + 1})$</li>
+<li>$T_2(n) &#x3D; 1^2 + 2^2 + 3^2 + \cdots + n^2 &#x3D; \frac{n (n + 1) (2n + 1)}{6} &#x3D; O(n^3)$</li>
+<li>$T_3(n) &#x3D; 1^3 + 2^3 + 3^3 + \cdots + n^3 &#x3D; \frac{n^2 (n + 1)^2}{4} &#x3D; O(n^4)$</li>
+<li>$T_4(n) &#x3D; 1^4 + 2^4 + 3^4 + \cdots + n^4 &#x3D; \frac{n (n + 1) (2n + 1) (3n^2 + 3n - 1)}{30} &#x3D; O(n^5)$</li>
+</ul>
+</li>
+<li>几何级数（$a &gt; 1$）：与<strong>末项</strong>同阶<ul>
+<li>$T_a(n) &#x3D; \sum\limits_{k &#x3D; 0}^n a^k &#x3D; a^0 + a^1 + \cdots + a^n &#x3D; \frac{a^{n + 1} - 1}{a - 1} &#x3D; O(a^n), ~ 1 &lt; a$</li>
+<li>$T_2(n) &#x3D; 1 + 2 + 4 + \cdots + 2^n &#x3D; 2^{n + 1} - 1 &#x3D; O(2^{n + 1}) &#x3D; O(2^n)$</li>
+</ul>
+</li>
+<li>收敛级数<ul>
+<li>$\sum\limits_{k &#x3D; 2}^n \dfrac{1}{(k - 1) \cdot k} &#x3D; \dfrac{1}{1 \cdot 2} + \dfrac{1}{2 \cdot 3} + \dfrac{1}{3 \cdot 4} + \cdots + \dfrac{1}{(n - 1) \cdot (n)} &#x3D; 1 - \dfrac{1}{n} &#x3D; O(1)$</li>
+<li>$\sum\limits_{k &#x3D; 1}{n} \dfrac{1}{k^2} &#x3D; 1 + \dfrac{1}{2^2} + \cdots + \dfrac{1}{n^2} &lt; 1 + \dfrac{1}{2^2} + \cdots &#x3D; \dfrac{\pi^2}{6} &#x3D; O(1)$</li>
+<li>$\sum\limits_{k &#x3D; power} \dfrac{1}{k - 1} &#x3D; \dfrac{1}{3} + \dfrac{1}{7} + \dfrac{1}{8} + \dfrac{1}{15} + \dfrac{1}{24} + \dfrac{1}{26} + \dfrac{1}{31} + \dfrac{1}{35} + \cdots &#x3D; 1 &#x3D; O(1)$</li>
+<li>$(1 - \lambda) \cdot [1 + 2 \lambda + 3 \lambda^2 + 4 \lambda^3 + \cdots] &#x3D; \dfrac{1}{1 - \lambda} &#x3D; O(1), 0 &lt; \lambda &lt; 1$，几何分布<ul>
+<li>投掷硬币，正面概率为 $\lambda$，不断投掷直到第一次出现反面</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>调和级数<ul>
+<li>$h(n) &#x3D; \sum\limits_{k &#x3D; 1}^n \dfrac{1}{k} &#x3D; 1 + \dfrac{1}{2} + \dfrac{1}{3} + \cdots + \dfrac{1}{n} &#x3D; \Theta(\log n)$</li>
+</ul>
+</li>
+<li>对数级数<ul>
+<li>$\sum\limits_{k &#x3D; 1}^n \ln k &#x3D; \log 1 + \log 2 + \log 3 + \cdots + \log n &#x3D; \log (n!) &#x3D; \Theta(n \log n)$</li>
+</ul>
+</li>
+<li>对数 + 线性 + 指数<ul>
+<li>$\sum\limits_{k &#x3D; 1}^n k \cdot \log k &#x3D; O(n^2 \log n)$</li>
+<li>$\sum\limits_{k &#x3D; 1}^n k \cdot 2^k &#x3D; O(n \cdot 2^n)$</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-D2-复杂度分析：迭代"><a href="#01-D2-复杂度分析：迭代" class="headerlink" title="01-D2 复杂度分析：迭代"></a>01-D2 复杂度分析：迭代</h3><blockquote>
+<p>01.Intro.D2.Complexity_Analysis.Iteration</p>
+</blockquote>
+<ul>
+<li><p>循环与级数</p>
+<ul>
+<li><p>第一类</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n; j++) &#123;</span><br><span class="line">        <span class="built_in">Operqation</span>(i, j);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>算术级数：$\sum^{n - 1}_{i &#x3D; 0} n &#x3D; n + n + \cdots + n &#x3D; n * n &#x3D; O(n^2)$</p>
+</li>
+<li><p>抽象做正方形</p>
+<img src="D:\Documents\Typora\数据结构\DS\03.循环-级数1.png" alt="03.循环-级数1" style="zoom: 33%;" />
+
+<blockquote>
+<p>对于 $n + n + \cdots + n$，等价于 $n * 1 + n * 1 + \cdots + n * 1$，也就是 $n \times n$ 的元素全为 $1$ 的矩阵。这里的抽象过程，其实是将矩阵的每个元素都看成单位面积为 1 的小正方形，由此离散的点可转化为连续的图形，而求其和就是求整个拼成的大图形中，有多少个小正方形，由于小正方形面积为 1，因此大正方形的面积即为小正方形数量，即 $\sum &#x3D; \frac{S}{1} &#x3D; S$。</p>
+<p>对于上述式子，最终抽象为边长为 $n$ 的正方形。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>第二类</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; i; j++) &#123;</span><br><span class="line">        <span class="built_in">Operation</span>(i, j);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>算术级数：$\sum^{n - 1}_{i &#x3D; 0} i &#x3D; 0 + 1 + \cdots + (n - 1) &#x3D; \frac{n(n - 1)}{2} &#x3D; O(n^2)$</p>
+</li>
+<li><p>抽象做三角形</p>
+<img src="D:\Documents\Typora\数据结构\DS\04.循环-级数2.png" alt="04.循环-级数2" style="zoom:33%;" />
+
+<blockquote>
+<p>同理，上述式子可抽象做底边长为 $n - 1$，高为 $n$ 的直角三角形。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>第三类</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; i; j += x) &#123;</span><br><span class="line">        <span class="built_in">Operation</span>(i, j);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>算术级数：$\sum &#x3D; \frac{n(n - 1)}{2x} &#x3D; O(n^2)$</p>
+</li>
+<li><p>抽象做底边更短的三角形</p>
+<img src="D:\Documents\Typora\数据结构\DS\05.循环-级数3.png" alt="05.循环-级数3" style="zoom:33%;" />
+
+<blockquote>
+<p>同理，上述式子可抽象做底边长为 $\frac{n - 1}{x}$，高为 $n$ 的直角三角形。</p>
+<p>这里是将原式近似看作内循环每次步长为 $\dfrac{1}{x}$，因此等效为底边长 $\dfrac{n - 1}{x}$ 的三角形。对于实际情况来说，这段代码执行次数应为 $1 \cdot x + 2 \cdot x + \cdots + \dfrac{n}{x} \cdot x + m \cdot (\dfrac{n}{x} + 1) &#x3D; x \cdot \dfrac{\dfrac{n}{x} \cdot (\dfrac{n}{x} + 1)}{2} + m \cdot (\dfrac{n}{x} + 1) &#x3D; \dfrac{n \cdot (n + x + 2m) + 2mx}{2x}$，其中 $m$ 为 $\dfrac{n}{x}$ 的余项。可以看出近似结果与真实结果都为 $O(n^2)$，它们的差值为 $\dfrac{2m + n}{2} + \dfrac{n(2m + 1)}{2x}$。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>第四类</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i &lt;&lt;= <span class="number">1</span>) &#123; <span class="comment">// 左移一位，等效于乘 2</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; i; j++) &#123;</span><br><span class="line">        <span class="built_in">Operation</span>(i, j);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>几何级数：$1 + 2 + 4 + \cdots + 2^{\lfloor \log_2 (n - 1) \rfloor} &#x3D; \sum^{\lfloor \log_2 (n - 1) \rfloor}_{k &#x3D; 0} 2^k, (k &#x3D; \log_2 i) &#x3D; 2^{\lceil \log_2 n \rceil} - 1 &#x3D; O(n)$</p>
+</li>
+<li><p>抽象做缺一块单位面积正方形的长方形</p>
+<img src="D:\Documents\Typora\数据结构\DS\06.循环-级数4.png" alt="06.循环-级数4" style="zoom:33%;" />
+
+<blockquote>
+<p>同理，上述式子可抽象做面积为 $2^{\lfloor \log_2 (n - 1) \rfloor}$ 的两个长方形拼成的图形挖去中间面积为 $1$ 的正方形后的图形。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>第五类</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt;= n; i++) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">1</span>; j &lt; i; j += j) &#123;</span><br><span class="line">        <span class="built_in">Operation</span>(i, j);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>几何级数：$0 + 0 + 1 + 2 * 2 + 3 * 4 + 4 * 8 + \cdots &#x3D; 0 + \sum^n_{k &#x3D; 1} \lceil \log_2 k \rceil &#x3D; \sum_{k &#x3D; 0 \cdots \log n} (k * 2^{k - 1}) &#x3D; O(\log n * 2^{\log n}) &#x3D; O(n \log n)$</p>
+</li>
+<li><p>进行如下抽象</p>
+<img src="D:\Documents\Typora\数据结构\DS\07.循环-级数5.png" alt="07.循环-级数5" style="zoom:33%;" /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>取非极端元素</p>
+<ul>
+<li><p>问题：给定整数子集 $S$，$lvert ~ S ~ \rvert &#x3D; n \geqslant 3$，找出元素 $a \in S$，$a \neq \max(S)$ 且 $a \neq \min(S)$。</p>
+</li>
+<li><p>算法：从 $S$ 中任取三个元素 ${x, y, z}$，由于 $S$ 是集合，故三者必互异。确定并排除其中的最小、最大者，输出剩下的元素。</p>
+<ul>
+<li><p>特点：无论输入规模 $n$ 多大，该算法需要的执行时间都不变。</p>
+</li>
+<li><p>$T(n) &#x3D; 常数 &#x3D; O(1) &#x3D; \Omega(1) &#x3D; \Theta(1)$</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>起泡排序</p>
+<ul>
+<li><p>问题：给定 $n$ 个整数，将它们按（非降序）序排列。</p>
+</li>
+<li><p>分析：有序&#x2F;无序序列中，任意&#x2F;总有一堆相邻元素顺序&#x2F;逆序（逆序紧邻对）。</p>
+</li>
+<li><p>算法：一次比较每一对相邻元素，如有必要，交换之。若整趟扫描都没有进行交换，则排序完成；否则，再做一趟扫描交换。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">bubblesort</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">bool</span> sorted = <span class="literal">false</span>; sorted = !sorted; n--) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (A[i<span class="number">-1</span>] &gt; A[i]) &#123;</span><br><span class="line">                <span class="built_in">swap</span>(A[i - <span class="number">1</span>], A[i]);</span><br><span class="line">                sorted = <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>不变性：经 $k$ 轮扫描交换后，最大的 $k$ 个元素必然就位。</p>
+</li>
+<li><p>单调性：经 $k$ 轮扫描交换后，问题规模缩减至 $n - k$。</p>
+</li>
+<li><p>正确性：经至多 $n$ 趟扫描后，算法必然终止，且能给出正确解答。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-D3-复杂度分析：封底估算"><a href="#01-D3-复杂度分析：封底估算" class="headerlink" title="01-D3 复杂度分析：封底估算"></a>01-D3 复杂度分析：封底估算</h3><blockquote>
+<p>01.Intro.D3.Complexity_Analysis.Back_of_Envelope</p>
+</blockquote>
+<ul>
+<li>Back-Of-The-Envelope Calculation 封底估算<ul>
+<li>$1 天 &#x3D; 24 ~ hr \times 60 ~ min \times 60 ~ sec \approx 25 \times 4000 &#x3D; 10^5 ~ sec$</li>
+<li>$1 生 \approx 1 世纪 &#x3D; 100 ~ yr \times 365 &#x3D; 3 \times 10^4 ~ day &#x3D; 3 \times 10^9 ~sec$</li>
+<li>$为祖国健康工作五十年 \approx 1.6 \times 10^9 ~ sec$</li>
+<li>$三生三世 \approx 300 ~ yr &#x3D; 10^{10} &#x3D; (1 ~ googel)^{\frac{1}{10}} ~ sec$</li>
+<li>$宇宙大爆炸至今 &#x3D; 10^{21} &#x3D; 10 \times (10^{10})^2 ~ sec$</li>
+<li>普通 PC：$1 秒 10^9 ~ flops$</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-E1-迭代与递归：减而治之"><a href="#01-E1-迭代与递归：减而治之" class="headerlink" title="01-E1 迭代与递归：减而治之"></a>01-E1 迭代与递归：减而治之</h3><blockquote>
+<p>01.Intro.E1.Iteration+Recursion.Decrease_and_Conquer</p>
+</blockquote>
+<ul>
+<li><p>数组求和：迭代</p>
+<ul>
+<li><p>问题：计算任意 $n$ 个整数之和</p>
+</li>
+<li><p>算法：逐一取出每个元素，累加之</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">SumI</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> sum = <span class="number">0</span>; <span class="comment">// O(1)</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123; <span class="comment">// O(n)</span></span><br><span class="line">        sum += A[i]; <span class="comment">// O(1)</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> sum; <span class="comment">// O(1)</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>$T(n) &#x3D; 1 + n * 1 + 1 &#x3D; n + 2 &#x3D; O(n) &#x3D; \Omega (n) &#x3D; \Theta (n)$</p>
+</li>
+<li><p>空间复杂度：$O(1)$</p>
+<ul>
+<li>除了输入本身所占的空间之外，所需要的另加的用于计算所必须的空间的总量。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>减而治之（Decrease-and-Conquer）</p>
+<ul>
+<li><p>为求解一个大规模的问题，可以将其划分为两个子问题：其一平凡，另一规模缩减（单调性），且形式与原问题相似，分别求解子问题，由子问题的解，得到原问题的解。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">graph</span><br><span class="line">	a(原问题)</span><br><span class="line">	b(&quot;子问题（问题规模小于原问题）&quot;)</span><br><span class="line">	c(&quot;子问题（单一问题）&quot;)</span><br><span class="line">	</span><br><span class="line">	a -- 缩减 --&gt; b</span><br><span class="line">	a -- 平凡 --&gt; c</span><br><span class="line">	b -- 治 --&gt; b</span><br><span class="line">	b -- 合 --&gt; a</span><br><span class="line">	c -- 治 --&gt; c</span><br><span class="line">	c -- 合 --&gt; a</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>数组求和：线性递归</p>
+<ul>
+<li><p>算法</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">sum</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> (n &lt; <span class="number">1</span>) ? <span class="number">0</span> : <span class="built_in">sum</span>(A, n - <span class="number">1</span>) + A[n - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>递归跟踪</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">graph</span><br><span class="line">	a(&quot;main()&quot;)</span><br><span class="line">	b(&quot;sum(A, n)&quot;)</span><br><span class="line">	c(&quot;sum(A, n - 1)&quot;)</span><br><span class="line">	d(&quot;sum(A, n - 2)&quot;)</span><br><span class="line">	e(&quot;sum(A, 2)&quot;)</span><br><span class="line">	f(&quot;sum(A, 1)&quot;)</span><br><span class="line">	g(&quot;sum(A, 0)&quot;)</span><br><span class="line">	</span><br><span class="line">	a --&gt; b --&gt; c --&gt; d</span><br><span class="line">	d -. recursive calls ..-&gt; e</span><br><span class="line">	e --&gt; f --&gt; g</span><br><span class="line">	g --&gt; f --&gt; e</span><br><span class="line">	e -.-&gt; d</span><br><span class="line">	d --&gt; c --&gt; b --&gt; a</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>$T(n) &#x3D; O(1) \times (n + 1) &#x3D; O(n)$</li>
+</ul>
+</li>
+<li><p>递推方程</p>
+<ul>
+<li><p>为求解 <code>sum(A, n)</code>，需递归求解规模为 $n - 1$ 的问题 <code>sum(A, n - 1)</code>，再累加上 <code>A[n - 1]</code>，其中递归基为 <code>sum(A, 0)</code>。</p>
+<blockquote>
+<p><strong>注</strong>	”递归基“是递归函数的一种平凡情况，在问题规模缩减到递归基对应的问题规模时，停止递归。由于可能还会进行其它操作，不一定直接返回函数，换句话说，递归是方法，函数是方法的载体和表现形式，递归的开始与结束和函数的调用与返回没有关系。</p>
+</blockquote>
+<p>$$<br>T(n) &#x3D; T(n - 1) + O(1), ~ T(0) &#x3D; O(1) \\</p>
+<p>\begin{equation*}<br>\begin{split}<br>    T(n) - n<br>        &amp; &#x3D; T(n - 1) - (n - 1) &#x3D; \cdots \<br>        &amp; &#x3D; T(2) - 2 \<br>        &amp; &#x3D; T(1) - 1 \<br>        &amp; &#x3D; T(0) \<br>\end{split}<br>\end{equation*} \\</p>
+<p>T(n) &#x3D; O(1) + n &#x3D; O(n)<br>$$</p>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>例如：若 $A &#x3D; {1, 2, 3, 4, 5}$，则 $\text{sum}(1, 2, 3, 4, 5) &#x3D; \text{sum}(1, 2, 3, 4) + 5 &#x3D; \cdots$，则 $T(4) &#x3D; T(3) + O(1) &#x3D; (T(2) + O(1)) + O(1) &#x3D; \cdots &#x3D; 5O(1)$。符合公式。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>递归跟踪（Recursion Trace）</p>
+<ul>
+<li>每个递归实例累计所需时间（调用语句本身计入对应的子实例）即算法执行时间。</li>
+<li>特点：直观形象，但仅适用于简明的递归模式。</li>
+</ul>
+</li>
+<li><p>递推方程</p>
+<ul>
+<li>特点：间接抽象，更适用于复杂的递归模式。</li>
+</ul>
+</li>
+<li><p>数组倒置</p>
+<ul>
+<li><p>问题：任给数组 $A[0, n)$，将其前后颠倒</p>
+</li>
+<li><p>算法</p>
+<ul>
+<li><p>递归版（$O(n)$）</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">reverse</span><span class="params">(<span class="type">int</span>* A, <span class="type">int</span> lo, <span class="type">int</span> hi)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> (lo &lt; hi) &#123;</span><br><span class="line">        <span class="built_in">swap</span>(A[lo], A[hi]);</span><br><span class="line">        <span class="built_in">reverse</span>(A, lo + <span class="number">1</span>, hi - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>迭代版（$O(n)$）</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">reverse</span><span class="params">(<span class="type">int</span>* A, <span class="type">int</span> lo, <span class="type">int</span> hi)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    next:</span><br><span class="line">    	<span class="keyword">if</span> (lo &lt; hi) &#123;</span><br><span class="line">        	<span class="built_in">swap</span>(A[lo], A[hi]);</span><br><span class="line">        </span><br><span class="line">        	lo++;</span><br><span class="line">        	hi--;</span><br><span class="line">        </span><br><span class="line">        	<span class="keyword">goto</span> next;</span><br><span class="line">    	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">reverse</span><span class="params">(<span class="type">int</span>* A, <span class="type">int</span> lo, <span class="type">int</span> hi)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (lo &lt; hi) &#123;</span><br><span class="line">        <span class="built_in">swap</span>(A[lo++], A[hi--]);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-E2-迭代与递归：分而治之"><a href="#01-E2-迭代与递归：分而治之" class="headerlink" title="01-E2 迭代与递归：分而治之"></a>01-E2 迭代与递归：分而治之</h3><blockquote>
+<p>01.Intro.E2.Iteration+Recursion.Divide_and_Conquer</p>
+</blockquote>
+<ul>
+<li><p>分而治之（Divide-and-Conquer）</p>
+<ul>
+<li><p>为求接一个大规模的问题，可以将其划分为若干（通常两个）子问题，规模大体相当，分别求解子问题，由子问题的解，得到原问题的解。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">graph</span><br><span class="line">	a(原问题)</span><br><span class="line">	b(子问题)</span><br><span class="line">	c(子问题)</span><br><span class="line">	</span><br><span class="line">	a -- 分 --&gt; b &amp; c</span><br><span class="line">	b -- 治 --&gt; b</span><br><span class="line">	c -- 治 --&gt; c</span><br><span class="line">	b -- 合 --&gt; a</span><br><span class="line">	c -- 合 --&gt; a</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>数组求和：二分递归</p>
+<ul>
+<li><p>算法</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">sum</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> lo, <span class="type">int</span> hi)</span> </span>&#123; <span class="comment">// [lo, hi)</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> (hi - lo &lt; <span class="number">2</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> A[lo];</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> mi = (lo + hi) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">sum</span>(A, lo, mi) + <span class="built_in">sum</span>(A, mi, hi);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>递归跟踪</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">graph</span><br><span class="line">	a(&quot;sum(0, n - 1)&quot;)</span><br><span class="line">	b(&quot;sum(0, (n - 1) / 2)&quot;)</span><br><span class="line">	c(&quot;sum((n - 1) / 2, n - 1)&quot;)</span><br><span class="line">	d(&quot;sum(0, (n - 1) / 4&quot;)</span><br><span class="line">	e(&quot;sum((n - 1) / 4, (n - 1) / 2)&quot;)</span><br><span class="line">	f(&quot;sum((n -  1) / 2), (3 * (n - 1)) / 2&quot;)</span><br><span class="line">	g(&quot;sum((3 * (n - 1)) / 2, n - 1)&quot;)</span><br><span class="line">	h(&quot;sum(0, 0)&quot;)</span><br><span class="line">	i(&quot;sum(1, 1)&quot;)</span><br><span class="line">	j(&quot;sum(2, 2)&quot;)</span><br><span class="line">	k(&quot;sum(3, 3)&quot;)</span><br><span class="line">	l(&quot;sum(n - 4, n - 4)&quot;)</span><br><span class="line">	m(&quot;sum(n - 3, n - 3)&quot;)</span><br><span class="line">	n(&quot;sum(n - 2, n - 2)&quot;)</span><br><span class="line">	o(&quot;sum(n - 1, n - 1)&quot;)</span><br><span class="line">	</span><br><span class="line">	a --&gt; b &amp; c</span><br><span class="line">    b --&gt; d &amp; e</span><br><span class="line">    c --&gt; f &amp; g</span><br><span class="line">    d -.-&gt; h &amp; i</span><br><span class="line">    e -.-&gt; j &amp; k</span><br><span class="line">    f -.-&gt; l &amp; m</span><br><span class="line">    g -.-&gt; n &amp; o</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>$T(n) &#x3D; O(1) \times (2^0 + 2^1 + 2^2 + \cdots + 2^{\log n}) &#x3D; O(1) \times (2^{1 + \log n} - 1) &#x3D; O(n)$</li>
+</ul>
+</li>
+<li><p>递推方程</p>
+<ul>
+<li><p>为求解 <code>sum(A, lo, hi)</code>，需递归求解 <code>sum(A, lo, mi)</code> 和 <code>sum(A, mi, hi)</code>，进而将子问题的解累加，其中递归基为 <code>sum(A, k, k + 1)</code>。<br>$$<br>T(n) &#x3D; 2 \times T(\frac{n}{2}) + O(1), ~ T(1) &#x3D; O(1) \\</p>
+<p>\begin{equation*}<br>\begin{split}<br>    T(n) + 1<br>        &amp; &#x3D; 2 \times (T(\frac{n}{2}) + 1) \<br>        &amp; &#x3D; 2^2 \times (T(\frac{n}{2^2}) + 1)h &#x3D; \cdots \<br>        &amp; &#x3D; 2^{\log n} \times (T(1) + 1) \<br>        &amp; &#x3D; 2n<br>\end{split}<br>\end{equation*} \\</p>
+<p>T(n) &#x3D; 2n - O(1) &#x3D; O(n)<br>$$</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>例如：若 $A &#x3D; {1, 2, 3, 4, 5}$，则 $\text{sum}(1, 2, 3, 4, 5) &#x3D; \text{sum}(1, 2, 3) + \text{sum}(4, 5) &#x3D; \cdots$，则 $T(5) &#x3D; T(3) + T(2) + O(1) &#x3D; \cdots &#x3D; 9(O(1))$。符合公式。</p>
+</blockquote>
+</li>
+<li><p>大师定理&#x2F;主定理（Master Theorem）</p>
+<ul>
+<li>分治策略对应的递推式，通常（尽管不总是）形如：$T(n) &#x3D; a \cdot T(\frac{n}{b}) + O(f(n))$，即原问题被分为 $a$ 个规模均为 $\frac{n}{b}$ 的子任务，任务的划分、解的合并耗时 $f(n)$。</li>
+<li>求解（比较 $n^{\log_b{a}}$ 与 $f(x)$，若他们之间有明显的大小关系，则取大的作为 $T(n)$）<ul>
+<li>若 $f(x) &#x3D; O(n^{\log_b{a} - \varepsilon})$，则 $T(n) &#x3D; \Theta(n^{\log_b{a}})$</li>
+<li>若 $f(n) &#x3D; \Theta(n^{\log_b{a}} \cdot \log^k n)$，则 $T(n) &#x3D; \Theta(n^{\log_b{a}} \cdot \log^{k + 1} n)$</li>
+<li>若 $f(x) &#x3D; \Omega(n^{\log_b{a} + \varepsilon})$，则 $T(n) &#x3D; \Theta(f(n))$</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-E3-迭代与递归：总和最大区段"><a href="#01-E3-迭代与递归：总和最大区段" class="headerlink" title="01-E3 迭代与递归：总和最大区段"></a>01-E3 迭代与递归：总和最大区段</h3><blockquote>
+<p>01.Intro.E3.Iteration+Recursion.Greatest_Slice</p>
+</blockquote>
+<ul>
+<li><p>总和最大区段</p>
+<ul>
+<li><p>问题：从整数序列中，找出总和最大的区段（有多个时，短者、靠后者优先）。</p>
+</li>
+<li><p>蛮力策略（$O(n^3)$）</p>
+<ul>
+<li><p>实现</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">gs_BF</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> gs = A[<span class="number">0</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = i; j &lt; n; j++) &#123; <span class="comment">// 枚举所有 O(n^2) 个区段</span></span><br><span class="line">            <span class="type">int</span> s = <span class="number">0</span>;</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> k = i; k &lt;= j; k++) &#123; <span class="comment">// 对区段求和</span></span><br><span class="line">                s += A[k];</span><br><span class="line">            &#125;</span><br><span class="line">            </span><br><span class="line">            <span class="keyword">if</span> (gs &lt; s) &#123; <span class="comment">// 择优更新</span></span><br><span class="line">                gs = s;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> gs;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>递增策略（$O(n^2)$）</p>
+<ul>
+<li><p>实现</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">gs_IC</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> gs = A[<span class="number">0</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123; <span class="comment">// 枚举所有起始于 i 的区间</span></span><br><span class="line">        <span class="type">int</span> s = <span class="number">0</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = i; j &lt; n; j++) &#123; <span class="comment">// 枚举所有终止于 j 的区间</span></span><br><span class="line">            s += A[j]; <span class="comment">// 递增地求和</span></span><br><span class="line">            </span><br><span class="line">            <span class="keyword">if</span> (gs &lt; s) &#123; <span class="comment">// 实时更新</span></span><br><span class="line">                gs = s;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> gs;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>分治策略（$O(n \cdot \log n)$）</p>
+<p>- </p>
+<ul>
+<li><p>实现</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">gs_DC</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> lo, <span class="type">int</span> hi)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> (hi - lo &lt; <span class="number">2</span>) &#123; <span class="comment">// 递归基</span></span><br><span class="line">        <span class="keyword">return</span> A[lo];</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> mi = (lo + hi) / <span class="number">2</span>; <span class="comment">// 中点切分</span></span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> gsL = A[mi - <span class="number">1</span>], sL = <span class="number">0</span>, i = mi; <span class="comment">// 枚举</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (lo &lt; i--) &#123; <span class="comment">// 所有 [i, mi) 类区段</span></span><br><span class="line">        <span class="keyword">if</span> (gsL &lt; (sL += A[i])) &#123; <span class="comment">// 更新</span></span><br><span class="line">            gsL = sL;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> gsR = A[mi], sR = <span class="number">0</span>, j = mi - <span class="number">1</span>; <span class="comment">// 枚举</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (++j &lt; hi) &#123; <span class="comment">// 所有 [mi, j) 类区段</span></span><br><span class="line">        <span class="keyword">if</span> (gsR &lt; (sR += A[j])) &#123; <span class="comment">// 更新</span></span><br><span class="line">            gsR = sR; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">max</span>(gsL + gsR, <span class="built_in">max</span>(<span class="built_in">gs_DC</span>(A, lo, mi), <span class="built_in">gs_DC</span>(A, mi, hi)));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-F1-动态规划：记忆法"><a href="#01-F1-动态规划：记忆法" class="headerlink" title="01-F1 动态规划：记忆法"></a>01-F1 动态规划：记忆法</h3><blockquote>
+<p>01.Intro.F1.Dynamic_Programming.Memoization</p>
+</blockquote>
+<ul>
+<li><p>动态规划</p>
+<ul>
+<li>设计一个好的算法，就是通过递归，找出算法的本质，并给出一个初步的解之后，再将其等效的转化为迭代形式。</li>
+</ul>
+</li>
+<li><p>$fib(n)$：递归</p>
+<ul>
+<li><p>算法：$fib(n) &#x3D; fib(n - 1) + fib(n - 2): {0, 1, 1, 2, 3, 5, 8, \cdots}$</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">fib</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> (<span class="number">2</span> &gt; n) ? n : <span class="built_in">fib</span>(n - <span class="number">1</span>) + <span class="built_in">fib</span>(n - <span class="number">2</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>递推方程<br>$$<br>T(0) &#x3D; T(1) &#x3D; 1; ~ T(n) &#x3D; T(n - 1) + T(n - 2) + 1, n &gt; 1 \\</p>
+<p>\begin{align}<br>S(n) &amp; &#x3D; \frac{T(n) + 1}{2} \[2ex]<br>S(0) &amp; &#x3D; 1 &#x3D; fib(1), S(1) &#x3D; 1 &#x3D; fib(2) \[2ex]<br>S(n) &amp; &#x3D; S(n - 1) + S(n - 2) &#x3D; fib(n + 1) \[2ex]<br>fib(n + 1) &amp; &#x3D; O(\Phi^n), \Phi &#x3D; \frac{1 + \sqrt{5}}{2} &#x3D; 1.61803\cdots \[2ex]<br>T(n) &#x3D; 2 * S(n) - 1 &amp; &#x3D; 2 * fib(n + 1) - 1 &#x3D; O(fib(n + 1)) &#x3D; O(\Phi^n) \[2ex]<br>\end{align} \[2ex]</p>
+<p>T(n) &#x3D; O(2^n)<br>$$</p>
+<blockquote>
+<p>斐波那契数列的通项公式为 $F_n &#x3D; \dfrac{1}{\sqrt{5}}\left( \left( \dfrac{1 + \sqrt{5}}{2} \right)^n - \left( \dfrac{1 - \sqrt{5}}{2} \right)^n \right)$</p>
+<p>例如：若求斐波那契第 $5$ 项，则 $f(5) &#x3D; f(4) + f(3) &#x3D; (f(3) + f(2)) + (f(2) + f(1)) &#x3D; \cdots &#x3D; 8$，则 $T(5) &#x3D; T(4) + T(3) + O(1) &#x3D; (T(3) + T(2) + O(1)) + (T(2) + T(1) + O(1)) + O(1) &#x3D; \cdots &#x3D; 15O(1)$。符合公式。</p>
+<p>对于 $T(n) &#x3D; T(n - 1) + T(n - 2) + 1$ 中的 $1$，一方面，可以理解为递归次数（问题规模&#x2F;计算成本）$T(n)$ 为递归次数 $T(n - 1)$ 加上递归次数 $T(n - 2)$ 再加上自己递归了一次；另一方面，可以理解为 $T(n)$ 等于 $T(n - 1) + T(n - 2)$，再加上自己的复杂度 $O(1)$。这解释了”调用语句本身计入对应的子实例“，即在调用的时候将其看作一个整体，在进入调用函数后，计算它的时间成本。</p>
+</blockquote>
+</li>
+<li><p>封底估算<br>$$<br>\begin{align}<br>\Phi^{36} &#x3D; 2^{25}, ~ &amp; \Phi^{43} &#x3D; 2^{30} &#x3D; 10^9 ~ flo &#x3D; 1 ~ sec \<br>\Phi^{5} &#x3D; 10, ~ &amp; \Phi^{67} &#x3D; 10^{14} ~ flo &#x3D; 10^5 ~ sec &#x3D; 1 ~ day \<br>&amp; \Phi^{92} &#x3D; 10^{19} ~ flo &#x3D; 10^{10} ~ sec &#x3D; 10^5 ~ day &#x3D; 3 ~ century<br>\end{align}<br>$$</p>
+</li>
+<li><p>递归跟踪</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">graph</span><br><span class="line">	a(&quot;f(n)&quot;)</span><br><span class="line">	b(&quot;f(n - 1)&quot;)</span><br><span class="line">	c(&quot;f(n - 2)&quot;)</span><br><span class="line">	d(&quot;f(3)&quot;)</span><br><span class="line">	e(&quot;f(2)&quot;)</span><br><span class="line">	f(&quot;f(2)&quot;)</span><br><span class="line">	g(&quot;f(1)&quot;)</span><br><span class="line">	h(&quot;f(2)&quot;)</span><br><span class="line">	i(&quot;f(1)&quot;)</span><br><span class="line">	j(&quot;f(1)&quot;)</span><br><span class="line">	k(&quot;f(0)&quot;)</span><br><span class="line">	l(&quot;f(1)&quot;)</span><br><span class="line">	m(&quot;f(0)&quot;)</span><br><span class="line">	o(&quot;f(1)&quot;)</span><br><span class="line">	p(&quot;f(0)&quot;)</span><br><span class="line">	</span><br><span class="line">	a --&gt; b &amp; c</span><br><span class="line">	b .-&gt; d &amp; e</span><br><span class="line">	c .-&gt; f &amp; g</span><br><span class="line">	d --&gt; h &amp; i</span><br><span class="line">	e --&gt; j &amp; k</span><br><span class="line">	f --&gt; l &amp; m</span><br><span class="line">	h --&gt; o &amp; p</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>递归实例被大量重复地调用</li>
+<li>空间复杂度 $O(n)$</li>
+</ul>
+</li>
+<li><p>在只能一次上一阶或两阶的情况下，上到某层台阶有多少种走法。</p>
+<ul>
+<li>可以考虑为，上到第 $n$ 阶的前一步有可能在第 $n - 1$ 阶，通过上一阶的方式到第 $n$ 阶；有可能在第 $n - 2$ 阶，通过上两阶的方式到第 $n$ 阶。因此只需要统计到达第 $n - 1$ 阶有多少种走法，到达第 $n - 2$ 阶有多少种走法，将其相加即可。同理，可递归推断，直到上一阶是第零阶。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>$fib(n)$：迭代</p>
+<ul>
+<li><p>算法（记忆 Memorization）：将已计算过实例的结果制表备查。</p>
+</li>
+<li><p>算法（动态规划 Dynamic Programming）：颠倒计算方向，由自顶而下递归，改为自底而上递归。</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">fib</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    f = <span class="number">0</span>, g = <span class="number">1</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (<span class="number">0</span> &lt; n--) &#123;</span><br><span class="line">        g += f, f = g - f;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> g;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>时间复杂度 $O(n)$，空间复杂度 $O(1)$</p>
+<blockquote>
+<p>最大栈深度为 $n$，由于栈调用后会释放，也就是最多占用 $n$ 个栈空间，所以空间复杂度为 $O(n)$。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="01-F2-动态规划：最长公共子序列"><a href="#01-F2-动态规划：最长公共子序列" class="headerlink" title="01-F2 动态规划：最长公共子序列"></a>01-F2 动态规划：最长公共子序列</h3><blockquote>
+<p>01.Intro.F2.Dynamic_Programming.Lcs</p>
+</blockquote>
+<ul>
+<li><p>LCS</p>
+<ul>
+<li>子序列（Subsequence）：由序列中若干字符，按原相对次序构成。</li>
+<li>最长公共子序列（Longest Common Subsequence）：两个序列公共子序列中的最长者，可能有多个或有歧义。</li>
+</ul>
+</li>
+<li><p>LCS：递归</p>
+<ul>
+<li><p>对于序列 $A[0, n]$ 和 $B[0, m]$，$\text{LCS}(A, B)$ 有三种情况</p>
+<ul>
+<li>若 $n &#x3D; -1$ 或 $m &#x3D; -1$，则取作空序列 $(\text{“”})$。即递归基。</li>
+<li>若 $A[n] &#x3D; \text{‘X’} &#x3D; B[m]$，则取作 $\text{LCS}(A[0, n), B[0, m)) + \text{‘X’}$。即减而治之。</li>
+<li>若 $A[n] \neq B[m]$，则在 $\text{LCS}(A[0, n], B[0, m))$ 与 $\text{LCS}(A[0, n), B[0, m])$ 中取更长者。即分而治之。</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">string <span class="title">LCS</span><span class="params">(string A, string B)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> (A.<span class="built_in">size</span>() == <span class="number">0</span> || B.<span class="built_in">size</span>() == <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (A.<span class="built_in">back</span>() == B.<span class="built_in">back</span>()) &#123;</span><br><span class="line">        <span class="type">char</span> c = A.<span class="built_in">back</span>();</span><br><span class="line">        </span><br><span class="line">        A.<span class="built_in">pop_back</span>(), B.<span class="built_in">pop_back</span>();</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">LCS</span>(A, B) + c;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">        string a = <span class="built_in">LCS</span>(A, B.<span class="built_in">substr</span>(<span class="number">0</span>, B.<span class="built_in">size</span>() - <span class="number">1</span>)), b = <span class="built_in">LCS</span>(A.<span class="built_in">substr</span>(<span class="number">0</span>, A.<span class="built_in">size</span>() - <span class="number">1</span>), B);</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> a.<span class="built_in">size</span>() &gt; b.<span class="built_in">size</span>() ? a : b;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>单调性：无论如何，每经过一次比对，原问题的规模必可减小。</p>
+</li>
+<li><p>最好情况下，只需要 $O(n + m)$ 时间。</p>
+</li>
+<li><h1 id="由于在第二种情况下，递归过程有大量雷同，最坏情况下，-text-LCS-A-0-a-B-0-B-出现的次数为-begin-pmatrix-n-m-a-b-n-a-end-pmatrix"><a href="#由于在第二种情况下，递归过程有大量雷同，最坏情况下，-text-LCS-A-0-a-B-0-B-出现的次数为-begin-pmatrix-n-m-a-b-n-a-end-pmatrix" class="headerlink" title="由于在第二种情况下，递归过程有大量雷同，最坏情况下，$\text{LCS}(A[0, a], B[0, B])$ 出现的次数为$$\begin{pmatrix}    n + m - a - b \    n - a\end{pmatrix}"></a>由于在第二种情况下，递归过程有大量雷同，最坏情况下，$\text{LCS}(A[0, a], B[0, B])$ 出现的次数为<br>$$<br>\begin{pmatrix}<br>    n + m - a - b \<br>    n - a<br>\end{pmatrix}</h1><h1 id="begin-pmatrix-n-m-a-b-m-b-end-pmatrix-特别地，-text-LCS-A-0-B-0-的次数为-begin-pmatrix-n-m-n-end-pmatrix"><a href="#begin-pmatrix-n-m-a-b-m-b-end-pmatrix-特别地，-text-LCS-A-0-B-0-的次数为-begin-pmatrix-n-m-n-end-pmatrix" class="headerlink" title="\begin{pmatrix}    n + m - a - b \    m - b\end{pmatrix}$$特别地，$\text{LCS}(A[0], B[0])$ 的次数为$$\begin{pmatrix}    n + m \    n\end{pmatrix}"></a>\begin{pmatrix}<br>    n + m - a - b \<br>    m - b<br>\end{pmatrix}<br>$$<br>特别地，$\text{LCS}(A[0], B[0])$ 的次数为<br>$$<br>\begin{pmatrix}<br>    n + m \<br>    n<br>\end{pmatrix}</h1><p>\begin{pmatrix}<br>n + m \<br>m<br>\end{pmatrix}<br>$$<br>当 $n &#x3D; m$ 时，为 $O(2^n)$。</p>
+<blockquote>
+<p>算法可以可视化的想象为一张表（假设两个序列分别为 $A &#x3D; \text{“abc”}, B &#x3D; \text{“def”}$）</p>
+<table>
+<thead>
+<tr>
+<th>$\text{LCS}(\text{“”}, \text{“”})$</th>
+<th>$\text{LCS}(\text{“a”}, \text{“”})$</th>
+<th>$\text{LCS}(\text{“ab”}, \text{“”})$</th>
+<th>$\text{LCS}(\text{“abc”}, \text{“”})$</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$\text{LCS}(\text{“”}, \text{“d”})$</td>
+<td>$\text{LCS}(\text{“a”}, \text{“d”})$</td>
+<td>$\text{LCS}(\text{“ab”}, \text{“d”})$</td>
+<td>$\text{LCS}(\text{“abc”}, \text{“d”})$</td>
+</tr>
+<tr>
+<td>$\text{LCS}(\text{“”}, \text{“de”})$</td>
+<td>$\text{LCS}(\text{“a”}, \text{“de”})$</td>
+<td>$\text{LCS}(\text{“ab”}, \text{“de”})$</td>
+<td>$\text{LCS}(\text{“abc”}, \text{“de”})$</td>
+</tr>
+<tr>
+<td>$\text{LCS}(\text{“”}, \text{“def”})$</td>
+<td>$\text{LCS}(\text{“a”}, \text{“def”})$</td>
+<td>$\text{LCS}(\text{“ab”}, \text{“def”})$</td>
+<td>$\text{LCS}(\text{“abc”}, \text{“def”})$</td>
+</tr>
+</tbody></table>
+<p>从最后一行最后一列开始，算法的每次递归，都是选择向上和向左走一步，第一行第一列为递归基。</p>
+<p>最好的情况下，算法每次都只向左上走，则至多需要 $O(\min{(n, m)})$ 时间。</p>
+<p>最坏的情况下，算法每次都向上和向左走，则每一个递归实例出现的次数可以看作起点到终点的所有通路数量。</p>
+<p>进而问题简化为，坐标系上原点开始某一点结束，每次只能水平或竖直行动一个单位，一共有多少种走法。对于此问题，可以看作 $x + y$ 步操作中任取 $x$ 步操作向水平走或任取 $y$ 步操作向竖直走，有多少种取法。因为不关心水平走操作之间的顺序，因此这是一个组合问题，解为 $C_{x + y}^x$ 或 $C_{x + y}^y$。</p>
+<p>同理，对于本算法而言，最坏情况下某个递归实例出现次数为 $C_{n + m}^n$ 或 $C_{n + m}^m$。</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>LCS：迭代</p>
+<ul>
+<li><p>递归算法会出现大量重复的递归实例，但递归实例一共只有 $n \times m$ 种，采用动态规划策略，$O(n * m)$ 的时间即可计算出所有子问题。</p>
+</li>
+<li><p>将所有子问题假想为一张表，从 $\text{LCS}(A[0], B[0])$ 出发，以此计算出所有项的结果。对于每个单元格，如果对应的元素相同，则取值为左上方单元格的值加一；如果不同，取大的值。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>$x_1$</th>
+<th>$x_2$</th>
+<th>$x_3$</th>
+<th>$x_4$</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>$y_1$</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>$y_2$</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>$y_3$</td>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">string <span class="title">LCS</span><span class="params">(string A, string B)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> lenA = A.<span class="built_in">size</span>() + <span class="number">1</span>, lenB = B.<span class="built_in">size</span>() + <span class="number">1</span>;</span><br><span class="line">    string lcs[lenA][lenB];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; lenA; i++) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; lenB; j++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (i == <span class="number">0</span> || j == <span class="number">0</span>) &#123;</span><br><span class="line">                lcs[i][j] = <span class="string">&quot;&quot;</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">if</span> (A[i - <span class="number">1</span>] == B[j - <span class="number">1</span>]) &#123;</span><br><span class="line">                    lcs[i][j] = lcs[i - <span class="number">1</span>][j - <span class="number">1</span>] + A[i - <span class="number">1</span>];</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span> &#123;</span><br><span class="line">                    lcs[i][j - <span class="number">1</span>].<span class="built_in">size</span>() &gt; lcs[i - <span class="number">1</span>][j].<span class="built_in">size</span>() ? lcs[i][j] = lcs[i][j - <span class="number">1</span>] : lcs[i][j] = lcs[i - <span class="number">1</span>][j];</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> lcs[lenA - <span class="number">1</span>][lenB - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>递归：设计算法，证明可行；动态规划：消除重复，提高效率。</p>
+</li>
+</ul>
+<h3 id="01-XA1-局限：缓存"><a href="#01-XA1-局限：缓存" class="headerlink" title="01-XA1 局限：缓存"></a>01-XA1 局限：缓存</h3><blockquote>
+<p>01.Intro.XA1.Confine.Cache</p>
+</blockquote>
+<ul>
+<li><p>就地循环移位：仅用 $O(1)$ 辅助空间，将数组 $A[0, n)$ 中的元素向左循环移动 $k$ 个单元。</p>
+<ul>
+<li><p>算法</p>
+<ul>
+<li><p>移位函数（$O(\dfrac{n}{\text{GCD(n, k)}})$）</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">shift</span><span class="params">(<span class="type">int</span>* A, <span class="type">int</span> n, <span class="type">int</span> s, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> b = A[s];</span><br><span class="line">    <span class="type">int</span> i = s, j = (s + k) % n;</span><br><span class="line">    <span class="type">int</span> mov = <span class="number">0</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (s != j) &#123;</span><br><span class="line">        A[i] = A[j];</span><br><span class="line">        i = j;</span><br><span class="line">        j = (j + k) % n;</span><br><span class="line">        mov++;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    A[i] = b;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> mov + <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>GCD：Greatest Common Divisor，最大公约数。</p>
+<p>对于此算法，$n$ 代表序列的长度，$k$ 代表移了多少位。而它们的最大公约数 $g &#x3D; \text{GCD}(n, k)$，可以从两方面来理解，对于 $n$ 而言，表示需要进入循环的最小次数，即需要进行 $\dfrac{n}{g}$ 次循环，可以完成移位；对于 $k$ 而言，表示最小需要移位多少次才能回到起点，即从某点出发，移 $\dfrac{k}{g} + 1$ 次，回到起点，也即循环内部执行的次数。</p>
+<p>从代码推导时间复杂度：</p>
+<p>设从某一点出发，经过 $x$ 次移位，回到起点。这个过程可以等效为，将 $n$ 延长至原先的 $t$ 倍时，$(t \cdot n) ~ \text{mod} ~ k &#x3D; 0$。对于 $x$ 有 $x &#x3D; \dfrac{t \cdot n}{k}$。因此，经过一轮移位后，将有 $x$ 个元素被移至正确位置，那么，设一共需要进行 $y$ 轮循环，所有的元素都移至正确的位置。对于 $y$ 有 $y &#x3D; \dfrac{n}{x}$。联立两式，有 $y &#x3D; \dfrac{k}{t}$。因此，可以得到 $\dfrac{n}{y} &#x3D; x, \dfrac{k}{y} &#x3D; t$，也即 $n ~ \text{mod} ~ y &#x3D; 0, k ~ \text{mod} ~ y &#x3D; 0$，即 $y$ 是 $n$ 和 $k$ 的公约数。</p>
+<p>由于存在关系 $(t \cdot n) ~ \text{mod} ~ k &#x3D; 0$，那么存在设 $t_0$ 是 $t$ 由 $1$ 开始以 $1$ 为步长递增时，第一个满足关系的值，那么可知 $t$ 的取值集合 ${t_n}$ 有 ${t_n} &#x3D; n \cdot t_0, n \in N^+$。因为程序执行时，每移一次位，都会判断是否回到起点，因此找到的移位次数 $x$ 一定是最小的，也即 $t \cdot \dfrac{n}{k}$ 是最小的，由于 $n, k$ 是确定值，则对应于 $x_{min}$ 的 $t$ 为 $t_{min}$，并且 $t_{min} &#x3D; \min{t_n} &#x3D; t_0$。根据 $x &#x3D; \dfrac{n}{y}, t &#x3D; \dfrac{k}{y}$，同时使 $x &#x3D; x_{min}, t &#x3D; t_{min}$ 的 $y$ 值，一定是 $x$ 和 $t$ 公约数中最大的，即程序找到的 $y$ 为最大公约数 $g$。</p>
+<p>此时，</p>
+<p><code>shift</code> 函数的时间复杂度为 $O(x) &#x3D; O(\dfrac{n}{g})$。</p>
+<p><code>shift0</code> 函数的时间复杂度为 $O(k \times x) &#x3D; O(k \times \dfrac{n}{g})$，因为每次只移动一位，$k &#x3D; 1, t &#x3D; 1$，则 $g &#x3D; 1$，$O &#x3D; O(k \times n)$。</p>
+<p><code>shift1</code> 函数中，观察可知每次调用 <code>shift</code> 函数后，$mov$ 的值为 $x \cdot i, ~ i &#x3D; 1, 2, \cdots$，$i$ 表示当前已经执行 $i$ 轮移位。因此，循环结束的条件为 $mov &#x3D; x \cdot i \geqslant n$，即 $i \geqslant \dfrac{n}{x} &#x3D; y$，$i$ 取最小值，$i_{min} &#x3D; y$，即循环结束时，已经进行 $y$ 轮移位，符合 $y$ 的定义，说明程序能够完成任务。此时，时间复杂度为 $O(xy) &#x3D; O(\dfrac{n}{g} \cdot g) &#x3D; O(n)$。</p>
+</blockquote>
+</li>
+<li><p>蛮力版（$O(n \times k)$）</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">shift0</span><span class="params">(<span class="type">int</span>* A, <span class="type">int</span> n, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span> (k--) &#123;</span><br><span class="line">        <span class="built_in">shift</span>(A, n, <span class="number">0</span>, <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>迭代版（$O(n)$）</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">shift1</span><span class="params">(<span class="type">int</span>* A, <span class="type">int</span> n, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> s = <span class="number">0</span>, mov = <span class="number">0</span>; mov &lt; n; s++) &#123; <span class="comment">// O(g)</span></span><br><span class="line">        mov += <span class="built_in">shift</span>(A, n, s, k);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>倒置版（$O(3n)$）</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">shift2</span><span class="params">(<span class="type">int</span>* A, <span class="type">int</span> n, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="built_in">reverse</span>(A, k); <span class="comment">// O(3k / 2)</span></span><br><span class="line">    <span class="built_in">reverse</span>(A + k, n - k); <span class="comment">// O(3(n - k) / 2)</span></span><br><span class="line">    <span class="built_in">reverse</span>(A, n); <span class="comment">// O(3n / 2)</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><code>reverse(A, n)</code> 函数执行时，需要对 $\dfrac{n}{2}$ 对数据进行操作，并且对于每一对数据，交换值需要 $3$ 次操作，因此共需要 $\dfrac{3n}{2}$ 次操作。</p>
+</blockquote>
+<ul>
+<li>这个版本效率最高，因为 <code>reverse()</code> 的操作是在连续的数据上。</li>
+<li>根据 Cache 缓存机制，注意数据访问次序。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+ 
+      <!-- reward -->
+      
+    </div>
+    
+
+    <!-- copyright -->
+    
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>版权声明： </strong>
+          
+          本博客所有文章除特别声明外，著作权归作者所有。转载请注明出处！
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
+<div class="share-btn">
+      <span class="share-sns share-outer">
+        <i class="ri-share-forward-line"></i>
+        分享
+      </span>
+      <div class="share-wrap">
+        <i class="arrow"></i>
+        <div class="share-icons">
+          
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="ri-weibo-fill"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="ri-wechat-fill"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="ri-qq-fill"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="ri-douban-line"></i>
+          </a>
+          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a> -->
+          
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="ri-twitter-fill"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="ri-google-fill"></i>
+          </a>
+        </div>
+      </div>
+</div>
+
+<div class="wx-share-modal">
+    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2023/04/06/dsa00/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div id="share-mask"></div>  
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DSA/" rel="tag">DSA</a></li></ul>
+
+    </footer>
+  </div>
+
+   
+  <nav class="article-nav">
+    
+    
+      <a href="/2023/04/06/math/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">高等数学</div>
+      </a>
+    
+  </nav>
+
+  
+   
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.css">
+
+
+<script src="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.js"></script>
+
+
+<script src="https://cdn.staticfile.org/blueimp-md5/2.19.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: 'a7ac41f6d4e6def7061a',
+    clientSecret: 'b69502ba84f117e64c4cf12953cb6e0d7a46310a',
+    repo: 'iseventy-seven.github.io',
+    owner: 'iseventy-seven',
+    admin: ['iseventy-seven'],
+    // id: location.pathname,      // Ensure uniqueness and length less than 50
+    id: md5(location.pathname),
+    distractionFreeMode: false,  // Facebook-like distraction free mode
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
+
+  
+   
+    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
+    <div id="twikoo" class="twikoo"></div>
+    <script>
+        twikoo.init({
+            envId: ""
+        })
+    </script>
+ 
+</article>
+
+</section>
+      <footer class="footer">
+  <div class="outer">
+    <ul>
+      <li>
+        Copyrights &copy;
+        2023
+        <i class="ri-heart-fill heart_icon"></i> i seventy-seven
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+      </li>
+    </ul>
+    <ul>
+      <li>
+        
+        
+        <span>
+  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
+  <span class="division">|</span>
+  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
+</span>
+        
+      </li>
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
+      <li>
+        <!-- cnzz统计 -->
+        
+        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
+        
+      </li>
+    </ul>
+  </div>
+</footer>    
+    </main>
+    <div class="float_btns">
+      <div class="totop" id="totop">
+  <i class="ri-arrow-up-line"></i>
+</div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
+    </div>
+    <aside class="sidebar on">
+      <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="/"><img src="/images/ayer-side.svg" alt="Think And Write"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/categories">分类</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/tags">标签</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/friends">友链</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/about">关于</a>
+    </li>
+    
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      
+      <a class="nav-item-link nav-item-search"  title="搜索">
+        <i class="ri-search-line"></i>
+      </a>
+      
+      
+      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
+        <i class="ri-rss-line"></i>
+      </a>
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+    </aside>
+    <div id="mask"></div>
+
+<!-- #reward -->
+<div id="reward">
+  <span class="close"><i class="ri-close-line"></i></span>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <div class="reward-box">
+    
+    
+  </div>
+</div>
+    
+<script src="/js/jquery-3.6.0.min.js"></script>
+ 
+<script src="/js/lazyload.min.js"></script>
+
+<!-- Tocbot -->
+ 
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: ".tocbot",
+    contentSelector: ".article-entry",
+    headingSelector: "h1, h2, h3, h4, h5, h6",
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: "main",
+    positionFixedSelector: ".tocbot",
+    positionFixedClass: "is-position-fixed",
+    fixedSidebarOffset: "auto",
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
+/>
+<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
+
+<script src="/dist/main.js"></script>
+
+<!-- ImageViewer -->
+ <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+<script>
+    function viewer_init() {
+        let pswpElement = document.querySelectorAll('.pswp')[0];
+        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
+
+        $imgArr.forEach(($em, i) => {
+            $em.onclick = () => {
+                // slider展开状态
+                // todo: 这样不好，后面改成状态
+                if (document.querySelector('.left-col.show')) return
+                let items = []
+                $imgArr.forEach(($em2, i2) => {
+                    let img = $em2.getAttribute('data-idx', i2)
+                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
+                    let title = $em2.getAttribute('alt')
+                    // 获得原图尺寸
+                    const image = new Image()
+                    image.src = src
+                    items.push({
+                        src: src,
+                        w: image.width || $em2.width,
+                        h: image.height || $em2.height,
+                        title: title
+                    })
+                })
+                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
+                    index: parseInt(i)
+                });
+                gallery.init()
+            }
+        })
+    }
+    viewer_init()
+</script> 
+<!-- MathJax -->
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/MathJax.js"></script>
+<script src="https://cdn.staticfile.org/mathjax/2.7.7/config/TeX-AMS-MML_HTMLorMML-full.js"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true,
+  };
+</script>
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+ 
+<script src="/js/busuanzi-2.3.pure.min.js"></script>
+ 
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
+ 
+<script src="/js/clickBoom2.js"></script>
+ 
+<!-- CodeCopy -->
+ 
+<link rel="stylesheet" href="/css/clipboard.css">
+ <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+ 
+<!-- CanvasBackground -->
+ 
+<script src="/js/dz.js"></script>
+ 
+<script>
+  if (window.mermaid) {
+    mermaid.initialize({ theme: "forest" });
+  }
+</script>
+
+
+    
+    
+
+  </div>
+</body>
+
+</html>
