@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>未央夸夸机</title>
+        <link rel="icon" type="image/png" href="https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/7.png"> <!-- 添加浏览器图标 -->
+        <style>
+            body::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image:
+                        url('https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/9.png'), /* Replace with your image URLs */
+                        url('https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/10.png'),
+                        url('https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/8.png'),
+                        url('https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/11.png');
+                background-size: calc(50%) calc(50%); /* Adjust size */
+                background-repeat: no-repeat;
+                background-position: 0 0, 100% 0, 0 100%, 100% 100%; /* Position the images */
+                z-index: -1;
+            }
+            .bubble {
+                width: 200px;
+                height: 100px;
+                border-radius: 5px;
+                padding: 10px;
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-size: 100% 100%; /* Make the background image fully cover the bubble */
+            }
+            .bubble span {
+                color: black; /* Adjust text color to ensure readability */
+                font-weight: bold; /* Make text bold */
+                font-size: 1.2em; /* Increase font size */
+                z-index: 2; /* Ensure text is above the background image */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+        </div>
+        <script type="text/javascript">
+            var container = document.getElementById('container');
+            var bubbles = [];
+            var maxBubbles = 5; // Maximum number of bubbles
+            var sentences = ['央奶奶一级棒', '央奶奶超聪明', '央奶奶最温柔', '央奶奶好善良', '央奶奶很体贴', '央奶奶很坚强', '央奶奶好勇敢', '央奶奶超努力']; // Array of sentences
+            var images = [
+                'https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/1.png',
+                'https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/2.png',
+                'https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/3.png',
+                'https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/4.png',
+                'https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/5.png',
+                'https://weiyang001.oss-cn-beijing.aliyuncs.com/weiyang/6.png']; // Array of image URLs
+
+            setInterval(function() {
+                var attempts = 0;
+                var sentence = sentences[Math.floor(Math.random() * sentences.length)]; // Select a random sentence
+                // Ensure the sentence is not already in use
+                while (bubbles.some(bubble => bubble.textContent === sentence)) {
+                    if (++attempts > 10) {
+                        break;
+                    }
+                    sentence = sentences[Math.floor(Math.random() * sentences.length)];
+                }
+
+                var bubble = document.createElement('div');
+                bubble.className = 'bubble';
+                bubble.style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')'; // Randomly select a background image
+                bubble.style.left = Math.random() * (window.innerWidth - 200) + 'px'; // 200 is the width of the bubble
+                bubble.style.top = Math.random() * (window.innerHeight - 100) + 'px'; // 100 is the height of the bubble
+
+                var text = document.createElement('span');
+                text.textContent = sentence;
+                bubble.appendChild(text);
+
+                container.appendChild(bubble);
+                bubbles.push(bubble);
+
+                if (bubbles.length > maxBubbles) {
+                    var oldestBubble = bubbles.shift();
+                    container.removeChild(oldestBubble);
+                }
+            }, 3000); // this will repeat every 3 seconds
+        </script>
+    </body>
+</html>
